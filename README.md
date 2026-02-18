@@ -2,7 +2,7 @@
 
 Este workspace contiene la configuración para la simulación y control de robots utilizando ROS2 Humble con MoveIt!2, nav2, aerostack2, Slamtoolbox y Gazebo.
 
-![ROS2 Workspace Poster](./assets/workspace_poster.png)
+![ROS2 Workspace Poster](./assets/Poster.png)
 
 ## Requisitos Previos
 
@@ -71,7 +71,7 @@ roros2 launch turtlesim multisim.launch.py
 
 Deberías ver Gazebo y RViz funcionando correctamente con el robot UR3:
 
-![ROS2 Test - Gazebo y RViz](./assets/ros2_test_gazebo_rviz.png)
+![ROS2 Test - Gazebo y RViz](./assets/tests.png)
 
 Si no hay errores, ROS2 está funcionando correctamente.
 
