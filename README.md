@@ -11,26 +11,28 @@ Este workspace contiene la configuración para la simulación y control de robot
 - Mínimo 40GB de espacio en disco
 - GPU opcional (pero recomendada para Gazebo)
 
-## 1. Compilar la Imagen Docker
+## 1. Importar y compilar la imagen del Docker
 
-### Navegar al directorio del workspace
+### Importar el directorio de github
 
 ```bash
-mkdir ros2_ws
-cd ~/ros2_ws
+git clone https://github.com/davidredondo0/ROS2_COURSE.git
 ```
+
+Si no tienes git, ve al repositorio del curso en [github](https://github.com/davidredondo0/ROS2_COURSE), descargalo y extrae el  directorio.
 
 ### Construir la imagen Docker
 
-Ejecuta el siguiente comando para compilar la imagen Docker:
+Ejecuta el siguiente comando por terminal para compilar la imagen Docker:
 
 ```bash
 docker-compose build
 ```
+## NOTA: Si estas ejecutando el docker en windows, puedes abrir una terminal de powershell e ir al directorio donde has extraido lo que has descargado de github.
 
 Esto creará la imagen basada en `ubuntu:22.04` con ROS2 Humble preinstalado.
 
-**Tiempo estimado:** 15-30 minutos (depende de tu conexión y velocidad de tu PC)
+**Tiempo estimado:** 30-60 minutos (depende de tu conexión y velocidad de tu PC)
 
 ## 2. Inicializar el Contenedor
 
@@ -43,20 +45,18 @@ docker-compose up -d
 Esto inicia el contenedor en modo detached. Para entrar al contenedor:
 
 ```bash
-docker-compose exec ros2_ws bash
+docker-compose exec ros2 bash
 ```
 
 ### Opción B: Usando Docker directamente
 
 ```bash
-docker run -it --name ros2_humble --gpus all \
+docker run -it --name ros2 --gpus all \
   -v ~/ros2_ws:/home/ros2_ws \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  ros2_humble:latest bash
+  ros2:latest bash
 ```
-
-Nota: Reemplaza `ros2_humble:latest` con el nombre de tu imagen compilada.
 
 ## 3. Verificar que el Docker Funciona Correctamente
 
@@ -66,7 +66,7 @@ Una vez dentro del contenedor, ejecuta los siguientes comandos para verificar:
 
 ```bash
 source /opt/ros/humble/setup.bash
-roros2 launch turtlesim multisim.launch.py
+ros2 launch turtlesim multisim.launch.py
 ```
 
 Deberías ver algo asi:
@@ -75,11 +75,45 @@ Deberías ver algo asi:
 
 Si no hay errores, ROS2 está funcionando correctamente.
 
+**Nota Importante:** Si estás ejecutando este proyecto en **Windows** usando Docker Desktop, es necesario realizar una configuración adicional para ver las interfaces gráficas (GUI) de ROS 2.
+
+### 1. El Problema
+Docker en Windows se ejecuta sobre un subsistema Linux (WSL 2) que no tiene pantalla física. Por defecto, las aplicaciones gráficas intentarán abrirse y fallarán con errores como:
+> `qt.qpa.xcb: could not connect to display`
+
+Para solucionar esto, necesitamos instalar un **Servidor X** en Windows que reciba y muestre las ventanas que genera el contenedor.
+
+### 2. Instalación de VcXsrv
+1. Descarga e instala **VcXsrv Windows X Server** desde [SourceForge](https://sourceforge.net/projects/vcxsrv/).
+2. Una vez instalado, ejecuta el programa **XLaunch**.
+
+### 3. Configuración de XLaunch
+Cada vez que inicies XLaunch, debes configurarlo de la siguiente manera para permitir la conexión desde Docker:
+
+1.  **Display settings:** Selecciona "Multiple windows" → Siguiente.
+2.  **Client startup:** Selecciona "Start no client" → Siguiente.
+3.  **Extra settings:** **IMPORTANTE**, debes marcar la casilla:
+    * **Disable access control**
+    * *(Si no marcas esto, Windows bloqueará la conexión del contenedor y no verás nada).*
+4.  Finalizar configuración.
+
+### 4. Configuración del Docker Compose
+Asegúrate de que tu archivo `docker-compose.yaml` utiliza la dirección especial de red para conectar con el host de Windows.
+
+**En el `docker-compose.yaml`:**
+
+```yaml
+environment:
+  # Apunta al host de Windows (WSL 2)
+  - DISPLAY=host.docker.internal:0.0
+  # Soluciona problemas de renderizado en QT
+  - QT_X11_NO_MITSHM=1
+```
+
 ## 4. Compilar el Workspace
 
 ```bash
-colcon build --symlink-install \
-  --cmake-args -DCMAKE_BUILD_TYPE=Release
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
 **Explicación de las flags:**

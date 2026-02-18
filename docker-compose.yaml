@@ -6,13 +6,14 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: ros2_humble
-    privileged: true              # para acceso total (ej. dispositivos, etc.)
+    privileged: true              
     volumes:
-      - ./:/ros2_ws             # monta el directorio local del host
+      - ./:/ros2_ws             
     working_dir: /ros2_ws
     environment:
-      - DISPLAY=${DISPLAY}
+      # - DISPLAY=${DISPLAY}              # DESCOMENTAR EN CASO DE USAR LINUX
+      - DISPLAY=host.docker.internal:0.0  # DESCOMENTAR EN CASO DE USAR WINDOWS
       - QT_X11_NO_MITSHM=1
-    network_mode: host            # útil para ros2 discovery
+    network_mode: host            
     stdin_open: true
     tty: true
