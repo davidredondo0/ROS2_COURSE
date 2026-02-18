@@ -28,13 +28,13 @@ Ejecuta el siguiente comando por terminal para compilar la imagen Docker:
 ```bash
 docker-compose build
 ```
-## NOTA: Si estas ejecutando el docker en windows, puedes abrir una terminal de powershell e ir al directorio donde has extraido lo que has descargado de github.
+### NOTA: Si estas ejecutando el docker en windows, puedes abrir una terminal de powershell e ir al directorio donde has extraido lo que has descargado de github.
 
 Esto creará la imagen basada en `ubuntu:22.04` con ROS2 Humble preinstalado.
 
 **Tiempo estimado:** 30-60 minutos (depende de tu conexión y velocidad de tu PC)
 
-## NOTA: Si estás ejecutando este proyecto en **Windows** usando Docker Desktop, es necesario realizar una configuración adicional para ver las interfaces gráficas (GUI) de ROS 2.
+### NOTA: Si estás ejecutando este proyecto en **Windows** usando Docker Desktop, es necesario realizar una configuración adicional para ver las interfaces gráficas (GUI) de ROS 2.
 
 ### 1. El Problema
 Docker en Windows se ejecuta sobre un subsistema Linux (WSL 2) que no tiene pantalla física. Por defecto, las aplicaciones gráficas intentarán abrirse y fallarán con errores como:
@@ -106,6 +106,9 @@ Una vez dentro del contenedor, ejecuta los siguientes comandos para verificar:
 ### Verificar instalación de ROS2 Humble
 
 ```bash
+docker-compose down
+docker-compose up -d
+docker-compose esec ros2 bash
 source /opt/ros/humble/setup.bash
 ros2 launch turtlesim multisim.launch.py
 ```
@@ -118,7 +121,7 @@ Si no hay errores, ROS2 está funcionando correctamente.
 
 ### Verificar que funciona gazebo
 
-Gazebo es el simulador que usaremos, para ejecutarlo escribe el siguiente comando por la terminal.
+Gazebo es el simulador que usaremos, para ejecutarlo escribe el siguiente comando por la terminal del docker.
 
 ```bash
 gazebo
