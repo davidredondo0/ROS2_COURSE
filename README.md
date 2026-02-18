@@ -34,6 +34,41 @@ Esto creará la imagen basada en `ubuntu:22.04` con ROS2 Humble preinstalado.
 
 **Tiempo estimado:** 30-60 minutos (depende de tu conexión y velocidad de tu PC)
 
+## NOTA: Si estás ejecutando este proyecto en **Windows** usando Docker Desktop, es necesario realizar una configuración adicional para ver las interfaces gráficas (GUI) de ROS 2.
+
+### 1. El Problema
+Docker en Windows se ejecuta sobre un subsistema Linux (WSL 2) que no tiene pantalla física. Por defecto, las aplicaciones gráficas intentarán abrirse y fallarán con errores como:
+> `qt.qpa.xcb: could not connect to display`
+
+Para solucionar esto, necesitamos instalar un **Servidor X** en Windows que reciba y muestre las ventanas que genera el contenedor.
+
+### 2. Instalación de VcXsrv
+1. Descarga e instala **VcXsrv Windows X Server** desde [SourceForge](https://sourceforge.net/projects/vcxsrv/).
+2. Una vez instalado, ejecuta el programa **XLaunch**.
+
+### 3. Configuración de XLaunch
+Cada vez que inicies XLaunch, debes configurarlo de la siguiente manera para permitir la conexión desde Docker:
+
+1.  **Display settings:** Selecciona "Multiple windows" → Siguiente.
+2.  **Client startup:** Selecciona "Start no client" → Siguiente.
+3.  **Native opengl**: **DESMARCAR**
+4.  **Disable access control**: **MARCAR**
+5.  Finalizar configuración.
+
+
+### 4. Configuración del Docker Compose
+Asegúrate de que tu archivo `docker-compose.yaml` utiliza la dirección especial de red para conectar con el host de Windows.
+
+**En el `docker-compose.yaml`:**
+
+```yaml
+environment:
+  # Apunta al host de Windows (WSL 2)
+  - DISPLAY=host.docker.internal:0.0
+  # Soluciona problemas de renderizado en QT
+  - QT_X11_NO_MITSHM=1
+```
+
 ## 2. Inicializar el Contenedor
 
 ### Opción A: Usando docker-compose (Recomendado)
@@ -58,6 +93,12 @@ docker run -it --name ros2 --gpus all \
   ros2:latest bash
 ```
 
+### Para finalizar la ejecución del docker, realiza el siguiente comando
+
+```bash
+docker-compose down
+```
+
 ## 3. Verificar que el Docker Funciona Correctamente
 
 Una vez dentro del contenedor, ejecuta los siguientes comandos para verificar:
@@ -75,39 +116,12 @@ Deberías ver algo asi:
 
 Si no hay errores, ROS2 está funcionando correctamente.
 
-**Nota Importante:** Si estás ejecutando este proyecto en **Windows** usando Docker Desktop, es necesario realizar una configuración adicional para ver las interfaces gráficas (GUI) de ROS 2.
+### Verificar que funciona gazebo
 
-### 1. El Problema
-Docker en Windows se ejecuta sobre un subsistema Linux (WSL 2) que no tiene pantalla física. Por defecto, las aplicaciones gráficas intentarán abrirse y fallarán con errores como:
-> `qt.qpa.xcb: could not connect to display`
+Gazebo es el simulador que usaremos, para ejecutarlo escribe el siguiente comando por la terminal.
 
-Para solucionar esto, necesitamos instalar un **Servidor X** en Windows que reciba y muestre las ventanas que genera el contenedor.
-
-### 2. Instalación de VcXsrv
-1. Descarga e instala **VcXsrv Windows X Server** desde [SourceForge](https://sourceforge.net/projects/vcxsrv/).
-2. Una vez instalado, ejecuta el programa **XLaunch**.
-
-### 3. Configuración de XLaunch
-Cada vez que inicies XLaunch, debes configurarlo de la siguiente manera para permitir la conexión desde Docker:
-
-1.  **Display settings:** Selecciona "Multiple windows" → Siguiente.
-2.  **Client startup:** Selecciona "Start no client" → Siguiente.
-3.  **Extra settings:** **IMPORTANTE**, debes marcar la casilla:
-    * **Disable access control**
-    * *(Si no marcas esto, Windows bloqueará la conexión del contenedor y no verás nada).*
-4.  Finalizar configuración.
-
-### 4. Configuración del Docker Compose
-Asegúrate de que tu archivo `docker-compose.yaml` utiliza la dirección especial de red para conectar con el host de Windows.
-
-**En el `docker-compose.yaml`:**
-
-```yaml
-environment:
-  # Apunta al host de Windows (WSL 2)
-  - DISPLAY=host.docker.internal:0.0
-  # Soluciona problemas de renderizado en QT
-  - QT_X11_NO_MITSHM=1
+```bash
+gazebo
 ```
 
 ## 4. Compilar el Workspace

@@ -11,8 +11,8 @@ services:
       - ./:/ros2_ws             
     working_dir: /ros2_ws
     environment:
-      # - DISPLAY=${DISPLAY}              # DESCOMENTAR EN CASO DE USAR LINUX
-      - DISPLAY=host.docker.internal:0.0  # DESCOMENTAR EN CASO DE USAR WINDOWS
+      - DISPLAY=${DISPLAY}              # DESCOMENTAR EN CASO DE USAR LINUX
+      # - DISPLAY=host.docker.internal:0.0  # DESCOMENTAR EN CASO DE USAR WINDOWS
       - QT_X11_NO_MITSHM=1
     network_mode: host            
     stdin_open: true
