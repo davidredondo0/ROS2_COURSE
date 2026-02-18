@@ -69,7 +69,7 @@ source /opt/ros/humble/setup.bash
 roros2 launch turtlesim multisim.launch.py
 ```
 
-Deberías ver Gazebo y RViz funcionando correctamente con el robot UR3:
+Deberías ver algo asi:
 
 ![ROS2 Test - Gazebo y RViz](./assets/test.png)
 
