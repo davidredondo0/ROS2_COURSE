@@ -71,7 +71,7 @@ roros2 launch turtlesim multisim.launch.py
 
 Deberías ver Gazebo y RViz funcionando correctamente con el robot UR3:
 
-![ROS2 Test - Gazebo y RViz](./assets/tests.png)
+![ROS2 Test - Gazebo y RViz](./assets/test.png)
 
 Si no hay errores, ROS2 está funcionando correctamente.
 
