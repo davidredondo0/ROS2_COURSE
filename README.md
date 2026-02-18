@@ -19,7 +19,7 @@ Este workspace contiene la configuración para la simulación y control de robot
 git clone https://github.com/davidredondo0/ROS2_COURSE.git
 ```
 
-Si no tienes git, ve al repositorio del curso en [github](https://github.com/davidredondo0/ROS2_COURSE), descargalo y extrae el  directorio.
+Si no tienes git instalado en el PC, descarga el repositorio en formato zip y extraerlo.
 
 ### Construir la imagen Docker
 
