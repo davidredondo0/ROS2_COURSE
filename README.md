@@ -195,7 +195,7 @@ ros2_ws/
 - [IFRA-Cranfield GitHub](https://github.com/IFRA-Cranfield/)
 - [Aerostack2 Github](https://github.com/aerostack2)
 - [Inverted Pendulum](https://github.com/ros2-realtime-demo/pendulum)
-- [Turtlebot] (https://github.com/ROBOTIS-GIT/turtlebot3)
+- [Turtlebot](https://github.com/ROBOTIS-GIT/turtlebot3)
 
 ---
 
