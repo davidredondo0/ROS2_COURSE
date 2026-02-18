@@ -1,0 +1,18 @@
+controller_manager:
+  ros__parameters:
+
+    update_rate: 250 #Hz
+
+    hande_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+hande_controller:
+  ros__parameters:
+    joints:
+      - robotiq_hande_left_finger_joint
+      - robotiq_hande_right_finger_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

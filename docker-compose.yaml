@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ros2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ros2_humble
+    privileged: true              # para acceso total (ej. dispositivos, etc.)
+    volumes:
+      - ./:/ros2_ws             # monta el directorio local del host
+    working_dir: /ros2_ws
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    network_mode: host            # útil para ros2 discovery
+    stdin_open: true
+    tty: true

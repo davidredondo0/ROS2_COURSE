@@ -1,0 +1,92 @@
+import * from "grid.material"
+
+material Gazebo/Road
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.1 0.1 0.1 1.0
+      diffuse 0.8 0.8 0.8 1.0
+      specular 0.01 0.01 0.01 1.0 2.0
+
+      texture_unit
+      {
+        texture road1.jpg
+        filtering trilinear
+      }
+    }
+  }
+}
+
+material Gazebo/Grass
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.1 0.3 0.1 1.0
+      diffuse 0.2 0.5 0.2 1.0
+      specular 0.01 0.01 0.01 1.0 2.0
+    }
+    texture_unit
+      {
+        texture grass.jpg
+        filtering trilinear
+      }
+  }
+}
+
+
+vertex_program Gazebo/GaussianCameraNoiseVS glsl
+{
+  source camera_noise_gaussian_vs.glsl
+}
+
+fragment_program Gazebo/GaussianCameraNoiseFS glsl
+{
+  source camera_noise_gaussian_fs.glsl
+  default_params
+  {
+    param_named RT int 0
+    param_named mean float 0.0
+    param_named stddev float 1.0
+    param_named offsets float3 0.0 0.0 0.0
+  }
+}
+
+material Gazebo/GaussianCameraNoise
+{
+  technique
+  {
+    pass
+    {
+      vertex_program_ref Gazebo/GaussianCameraNoiseVS { }
+      fragment_program_ref Gazebo/GaussianCameraNoiseFS { }
+
+      texture_unit RT
+      {
+        tex_coord_set 0
+        tex_address_mode clamp
+        filtering linear linear linear
+      }
+    }
+  }
+}
+
+material Gazebo/PointCloud
+{
+   technique
+   {
+      pass
+      {
+         diffuse vertexcolour
+         specular vertexcolour
+         ambient vertexcolour
+         point_size 3
+         point_sprites off
+         point_size_attenuation off
+      }
+   }
+}
+

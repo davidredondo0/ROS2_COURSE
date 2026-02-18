@@ -1,0 +1,155 @@
+planning_plugin: ompl_interface/OMPLPlanner
+request_adapters: >-
+  default_planner_request_adapters/AddTimeOptimalParameterization
+  default_planner_request_adapters/ResolveConstraintFrames
+  default_planner_request_adapters/FixWorkspaceBounds
+  default_planner_request_adapters/FixStartStateBounds
+  default_planner_request_adapters/FixStartStateCollision
+  default_planner_request_adapters/FixStartStatePathConstraints
+planner_configs:
+  SBLkConfigDefault:
+    type: geometric::SBL
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+  ESTkConfigDefault:
+    type: geometric::EST
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+  LBKPIECEkConfigDefault:
+    type: geometric::LBKPIECE
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    border_fraction: 0.9  # Fraction of time spent selecting border (0.0,1.0)
+    min_valid_path_fraction: 0.5  # Accept partially valid moves above fraction.
+  BKPIECEkConfigDefault:
+    type: geometric::BKPIECE
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    border_fraction: 0.9  # Fraction of time spent selecting border (0.0,1.0)
+    failed_expansion_score_factor: 0.5  # When extending motion fails, scale score by factor.
+    min_valid_path_fraction: 0.5  # Accept partially valid moves above fraction.
+  KPIECEkConfigDefault:
+    type: geometric::KPIECE
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+    border_fraction: 0.9  # Fraction of time spent selecting border (0.0,1.0)
+    failed_expansion_score_factor: 0.5  # When extending motion fails, scale score by factor.
+    min_valid_path_fraction: 0.5  # Accept partially valid moves above fraction.
+  RRTkConfigDefault:
+    type: geometric::RRT
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+  RRTConnectkConfigDefault:
+    type: geometric::RRTConnect
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+  RRTstarkConfigDefault:
+    type: geometric::RRTstar
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+    delay_collision_checking: 1  # Stop collision checking as soon as C-free parent found.
+  TRRTkConfigDefault:
+    type: geometric::TRRT
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+    max_states_failed: 10  # when to switch to random expansion.
+    temp_change_factor: 2.0  # how much to decrease temp.
+    min_temperature: 10e-10  # lower limit of temp parameter.
+    init_temperature: 10e-6  # initial temperature.
+    frountier_threshold: 0.0  # dist new state to nearest neighbor to disqualify as frontier.
+    frountier_node_ratio: 0.1  # 1/10, or 1 nonfrontier for every 10 frontier.
+    k_constant: 0.0  # value used to normalize expression.
+  PRMkConfigDefault:
+    type: geometric::PRM
+    max_nearest_neighbors: 10  # use k nearest neighbors.
+  PRMstarkConfigDefault:
+    type: geometric::PRMstar
+  FMTkConfigDefault:
+    type: geometric::FMT
+    num_samples: 1000  # number of states that the planner should sample.
+    radius_multiplier: 1.1  # multiplier used for the nearest neighbors search radius.
+    nearest_k: 1  # use k nearest neighbors.
+    cache_cc: 1  # use collision checking cache.
+    heuristics: 0  # 0: default, 1: initial goal, 2: future goal, 3: combined
+    extended_fmt: 1  # use extended FMT
+  BFMTkConfigDefault:
+    type: geometric::BFMT
+    num_samples: 1000  # number of states that the planner should sample.
+    radius_multiplier: 1.0  # multiplier used for the nearest neighbors search radius.
+    nearest_k: 1  # use k nearest neighbors.
+    balanced: 0  # exploration strategy: 0: default, 1: greedy, 2: balanced
+    optimality: 1  # termination criteria: 0: default, 1: optimality
+    heuristics: 1  # 0: default, 1: initial goal, 2: future goal, 3: combined
+    cache_cc: 1  # use collision checking cache.
+    extended_fmt: 1  # use extended FMT
+  PDSTkConfigDefault:
+    type: geometric::PDST
+  STRIDEkConfigDefault:
+    type: geometric::STRIDE
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+    use_projected_distance: 0  # 0: default, 1: use projected distance
+    degree: 12  # degree of the goal region
+    max_degree: 12  # max degree of the goal region
+    min_degree: 12  # min degree of the goal region
+    max_pts_per_leaf: 6  # max points per leaf
+    min_pts_per_leaf: 6  # min points per leaf
+    min_valid_path_fraction: 0.5  # Accept partially valid moves above fraction.
+  BiTRRTkConfigDefault:
+    type: geometric::BiTRRT
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    temp_change_factor: 0.1  # how much to decrease temp.
+    init_temperature: 100  # initial temperature.
+    frountier_threshold: 0.0  # dist new state to nearest neighbor to disqualify as frontier.
+    frountier_node_ratio: 0.1  # 1/10, or 1 nonfrontier for every 10 frontier.
+    cost_threshold: 1e300  # the cost threshold. Any state with a cost higher than this will be discarded.
+  LBTRRTkConfigDefault:
+    type: geometric::LBTRRT
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+    epsilon: 0.4  # optimality approximation factor.
+  BiESTkConfigDefault:
+    type: geometric::BiEST
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+  ProjESTkConfigDefault:
+    type: geometric::ProjEST
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+    goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
+  LazyPRMkConfigDefault:
+    type: geometric::LazyPRM
+    range: 0.0  # Max motion added to tree. ==> maxDistance_default
+  LazyPRMstarkConfigDefault:
+    type: geometric::LazyPRMstar
+  SPARSkConfigDefault:
+    type: geometric::SPARS
+    stretch_factor: 3.0  # stretch factor.
+    sparse_delta_fraction: 0.25  # delta fraction.
+    dense_delta_fraction: 0.001  # delta fraction.
+    max_failures: 1000  # max failures.
+  SPARStwokConfigDefault:
+    type: geometric::SPARStwo
+    stretch_factor: 3.0  # stretch factor.
+    sparse_delta_fraction: 0.25  # delta fraction.
+    dense_delta_fraction: 0.001  # delta fraction.
+    max_failures: 1000  # max failures.
+ur3_arm:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - PDSTkConfigDefault
+    - STRIDEkConfigDefault
+    - BiTRRTkConfigDefault
+    - LBTRRTkConfigDefault
+    - BiESTkConfigDefault
+    - ProjESTkConfigDefault
+    - LazyPRMkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - SPARSkConfigDefault
+    - SPARStwokConfigDefault
