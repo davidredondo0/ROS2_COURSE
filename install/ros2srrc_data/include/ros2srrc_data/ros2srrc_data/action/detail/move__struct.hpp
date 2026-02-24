@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2srrc_data/rosidl_generator_cpp/ros2srrc_data/action/detail/move__struct.hpp

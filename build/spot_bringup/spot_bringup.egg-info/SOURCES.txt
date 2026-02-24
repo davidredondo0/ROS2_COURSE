@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/spot.rviz
+config/spot_bridge.yaml
+launch/spot.gazebo.launch.py
+resource/spot_bringup
+spot_bringup/__init__.py
+spot_bringup/pointcloud_transform.py
+spot_bringup/thermal_to_rgb.py
+spot_bringup.egg-info/PKG-INFO
+spot_bringup.egg-info/SOURCES.txt
+spot_bringup.egg-info/dependency_links.txt
+spot_bringup.egg-info/entry_points.txt
+spot_bringup.egg-info/requires.txt
+spot_bringup.egg-info/top_level.txt
+spot_bringup.egg-info/zip-safe

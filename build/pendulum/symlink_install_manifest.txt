@@ -1,0 +1,15 @@
+/ros2_ws/install/pendulum/share/ament_index/resource_index/package_run_dependencies/pendulum
+/ros2_ws/install/pendulum/share/ament_index/resource_index/parent_prefix_path/pendulum
+/ros2_ws/install/pendulum/share/pendulum/environment/ament_prefix_path.sh
+/ros2_ws/install/pendulum/share/pendulum/environment/ament_prefix_path.dsv
+/ros2_ws/install/pendulum/share/pendulum/environment/path.sh
+/ros2_ws/install/pendulum/share/pendulum/environment/path.dsv
+/ros2_ws/install/pendulum/share/pendulum/local_setup.bash
+/ros2_ws/install/pendulum/share/pendulum/local_setup.sh
+/ros2_ws/install/pendulum/share/pendulum/local_setup.zsh
+/ros2_ws/install/pendulum/share/pendulum/local_setup.dsv
+/ros2_ws/install/pendulum/share/pendulum/package.dsv
+/ros2_ws/install/pendulum/share/ament_index/resource_index/packages/pendulum
+/ros2_ws/install/pendulum/share/pendulum/cmake/pendulumConfig.cmake
+/ros2_ws/install/pendulum/share/pendulum/cmake/pendulumConfig-version.cmake
+/ros2_ws/install/pendulum/share/pendulum/package.xml

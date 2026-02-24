@@ -1,0 +1,4 @@
+/ros2_ws/install/pendulum_controller/lib/libpendulum_controller.so
+/ros2_ws/install/pendulum_controller/lib/pendulum_controller/pendulum_controller_exe
+/ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/export_pendulum_controllerExport.cmake
+/ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/export_pendulum_controllerExport-release.cmake

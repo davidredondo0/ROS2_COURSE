@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum_bringup/ament_cmake_core/pendulum_bringupConfig-version.cmake

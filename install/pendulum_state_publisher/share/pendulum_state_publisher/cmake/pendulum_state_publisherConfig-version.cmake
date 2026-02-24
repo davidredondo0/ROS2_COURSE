@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum_state_publisher/ament_cmake_core/pendulum_state_publisherConfig-version.cmake

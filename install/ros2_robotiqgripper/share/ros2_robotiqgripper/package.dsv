@@ -1,1 +1,11 @@
-/ros2_ws/build/ros2_robotiqgripper/ament_cmake_environment_hooks/package.dsv
+source;share/ros2_robotiqgripper/hook/cmake_prefix_path.ps1
+source;share/ros2_robotiqgripper/hook/cmake_prefix_path.dsv
+source;share/ros2_robotiqgripper/hook/cmake_prefix_path.sh
+source;share/ros2_robotiqgripper/hook/ld_library_path_lib.ps1
+source;share/ros2_robotiqgripper/hook/ld_library_path_lib.dsv
+source;share/ros2_robotiqgripper/hook/ld_library_path_lib.sh
+source;share/ros2_robotiqgripper/local_setup.bash
+source;share/ros2_robotiqgripper/local_setup.dsv
+source;share/ros2_robotiqgripper/local_setup.ps1
+source;share/ros2_robotiqgripper/local_setup.sh
+source;share/ros2_robotiqgripper/local_setup.zsh

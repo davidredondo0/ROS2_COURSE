@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/rosparam_shortcuts/example" "/ros2_ws/build/rosparam_shortcuts/node_parameters_example" "TARGETS" "rosparam_shortcuts_example" "rosparam_shortcuts_node_parameters_example" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin" "RUNTIME_DESTINATION" "lib/rosparam_shortcuts")

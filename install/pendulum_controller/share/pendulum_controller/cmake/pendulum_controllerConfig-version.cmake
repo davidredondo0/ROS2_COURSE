@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum_controller/ament_cmake_core/pendulum_controllerConfig-version.cmake

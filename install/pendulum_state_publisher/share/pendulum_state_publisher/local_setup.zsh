@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum_state_publisher/ament_cmake_environment_hooks/local_setup.zsh

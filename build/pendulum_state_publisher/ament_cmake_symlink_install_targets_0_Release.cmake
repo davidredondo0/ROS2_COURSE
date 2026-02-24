@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/pendulum_state_publisher/pendulum_state_publisher" "TARGETS" "pendulum_state_publisher" "DESTINATION" "lib/pendulum_state_publisher")

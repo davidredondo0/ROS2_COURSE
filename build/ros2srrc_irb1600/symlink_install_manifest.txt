@@ -1,0 +1,17 @@
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/config/configurations.yaml
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/urdf/irb1600.urdf.xacro
+/ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb1600
+/ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb1600
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/ament_prefix_path.sh
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/ament_prefix_path.dsv
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/path.sh
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/path.dsv
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.bash
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.sh
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.zsh
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.dsv
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/package.dsv
+/ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/packages/ros2srrc_irb1600
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/cmake/ros2srrc_irb1600Config.cmake
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/cmake/ros2srrc_irb1600Config-version.cmake
+/ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/package.xml

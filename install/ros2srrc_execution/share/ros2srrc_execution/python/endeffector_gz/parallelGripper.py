@@ -1,0 +1,1 @@
+/ros2_ws/src/ros2_SimRealRobotControl/ros2srrc_execution/python/endeffector_gz/parallelGripper.py

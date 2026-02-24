@@ -1,0 +1,4 @@
+[console_scripts]
+pointcloud_transform = spot_bringup.pointcloud_transform:main
+thermal_to_rgb = spot_bringup.thermal_to_rgb:main
+

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-88dd75526b7f2c78b2e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2srrc_execution",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move-Release-e6a7ade8c43dc4c54fae.json",
+					"name" : "move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robmove::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robmove-Release-f808e0283328200a9127.json",
+					"name" : "robmove",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robpose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robpose-Release-d73b7061e906598ea1fc.json",
+					"name" : "robpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_execution_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_execution_uninstall-Release-8e857d6700615e289897.json",
+					"name" : "ros2srrc_execution_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-14460590dbb720809afe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/ros2srrc_execution",
+		"source" : "/ros2_ws/src/ros2_SimRealRobotControl/ros2srrc_execution"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

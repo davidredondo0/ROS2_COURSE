@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2srrc_ur20/ament_cmake_core/ros2srrc_ur20Config-version.cmake

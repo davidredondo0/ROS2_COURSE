@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2srrc_data/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/action__rosidl_typesupport_fastrtps_cpp.hpp

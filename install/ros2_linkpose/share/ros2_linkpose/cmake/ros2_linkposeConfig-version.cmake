@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2_linkpose/ament_cmake_core/ros2_linkposeConfig-version.cmake

@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum_demo/ament_cmake_environment_hooks/local_setup.bash

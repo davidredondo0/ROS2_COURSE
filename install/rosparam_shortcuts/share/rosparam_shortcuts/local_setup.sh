@@ -1,0 +1,1 @@
+/ros2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.sh

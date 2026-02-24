@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2srrc_robots/ament_cmake_core/ros2srrc_robotsConfig-version.cmake
