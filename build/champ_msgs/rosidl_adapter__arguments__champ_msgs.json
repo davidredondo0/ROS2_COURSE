@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Velocities.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/PID.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Imu.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Point.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/PointArray.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Joints.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Contacts.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/ContactsStamped.msg",
+    "/ros2_ws/src/spot_gazebo_ros2/champ_msgs:msg/Pose.msg"
+  ]
+}

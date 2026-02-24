@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7707902beb278f5b0f0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros2srrc_data__py",
+					"jsonFile" : "directory-ros2srrc_data__py-Release-db8da93241e14a88136e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/ros2_ws/build/ros2srrc_data/ros2srrc_data__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2srrc_data",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2srrc_data_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2srrc_data_egg-Release-b69e1a6821df837f9f7d.json",
+					"name" : "ament_cmake_python_build_ros2srrc_data_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ros2srrc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ros2srrc_data-Release-4fae6e544fbdc886bf55.json",
+					"name" : "ament_cmake_python_symlink_ros2srrc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data-Release-f01c1e684bd6fdda2e08.json",
+					"name" : "ros2srrc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__cpp-Release-fb7ce94bf41aa4cd5fde.json",
+					"name" : "ros2srrc_data__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2srrc_data__py::@ad56513e9af85d99de3c",
+					"jsonFile" : "target-ros2srrc_data__py-Release-3e2b7a3a1867acddbd9d.json",
+					"name" : "ros2srrc_data__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_generator_c-Release-ebda9fa5165da4b32889.json",
+					"name" : "ros2srrc_data__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_generator_py-Release-baac2bd2029a3abffa8f.json",
+					"name" : "ros2srrc_data__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_c-Release-c917fbc548ed493ce03c.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_c__pyext-Release-a84a635bcf5ee3f044e4.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_cpp-Release-8ca6c0ec5052ed4995f7.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_fastrtps_c-Release-b69bda1df4165d73fad2.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_fastrtps_c__pyext-Release-7a064a22871447d9723a.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_fastrtps_cpp-Release-233e31fbd4339b3d9ebe.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_introspection_c-Release-41063c39b0d9c2b896a5.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_introspection_c__pyext-Release-d095423080fd24412200.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data__rosidl_typesupport_introspection_cpp-Release-a4369c1a9b7924b0426e.json",
+					"name" : "ros2srrc_data__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2srrc_data_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2srrc_data_uninstall-Release-c3b4af782209472cdb9e.json",
+					"name" : "ros2srrc_data_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-67c99353a22063698efe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/ros2srrc_data",
+		"source" : "/ros2_ws/src/ros2_SimRealRobotControl/ros2srrc_data"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

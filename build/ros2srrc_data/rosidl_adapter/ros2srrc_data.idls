@@ -1,0 +1,13 @@
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Specs.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Robmove.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Joint.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Joints.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Xyz.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Xyzypr.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Ypr.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Action.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Linkattacher.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:msg/Robpose.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:action/Move.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:action/Sequence.idl
+/ros2_ws/build/ros2srrc_data/rosidl_adapter/ros2srrc_data:action/Robmove.idl

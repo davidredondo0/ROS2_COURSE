@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2srrc_data__py",
+		"source" : "/ros2_ws/build/ros2srrc_data/ros2srrc_data__py"
+	}
+}

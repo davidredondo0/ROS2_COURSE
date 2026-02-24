@@ -1,0 +1,7 @@
+{
+  "package_name": "linkattacher_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs:srv/AttachLink.srv",
+    "/ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs:srv/DetachLink.srv"
+  ]
+}

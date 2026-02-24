@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pendulum2_msgs__py",
+		"source" : "/ros2_ws/build/pendulum2_msgs/pendulum2_msgs__py"
+	}
+}

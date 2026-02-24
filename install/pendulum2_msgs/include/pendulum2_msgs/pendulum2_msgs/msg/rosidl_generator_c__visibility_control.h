@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum2_msgs/rosidl_generator_c/pendulum2_msgs/msg/rosidl_generator_c__visibility_control.h

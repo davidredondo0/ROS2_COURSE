@@ -1,0 +1,1 @@
+/ros2_ws/src/spot_gazebo_ros2/champ_msgs/msg/Contacts.msg

@@ -1,0 +1,1 @@
+/ros2_ws/build/linkattacher_msgs/ament_cmake_core/linkattacher_msgsConfig-version.cmake

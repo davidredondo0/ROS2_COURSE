@@ -1,0 +1,1 @@
+/ros2_ws/build/objectpose_msgs/rosidl_generator_py/objectpose_msgs/msg/__init__.py

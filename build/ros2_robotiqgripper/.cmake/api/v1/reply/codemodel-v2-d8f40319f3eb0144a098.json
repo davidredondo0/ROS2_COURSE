@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1d40774c22982e9d43d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros2_robotiqgripper__py",
+					"jsonFile" : "directory-ros2_robotiqgripper__py-Release-ceb6cd81d227a274dcb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/ros2_ws/build/ros2_robotiqgripper/ros2_robotiqgripper__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2_robotiqgripper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_robotiqgripper_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_robotiqgripper_egg-Release-2dce1975d06693637cdb.json",
+					"name" : "ament_cmake_python_build_ros2_robotiqgripper_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ros2_robotiqgripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ros2_robotiqgripper-Release-c7aae8cfb65b12328e73.json",
+					"name" : "ament_cmake_python_symlink_ros2_robotiqgripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper-Release-79e1accdd811c881457e.json",
+					"name" : "ros2_robotiqgripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__cpp-Release-572542dc495ad5b04aa0.json",
+					"name" : "ros2_robotiqgripper__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2_robotiqgripper__py::@273750ccbba68adad7ed",
+					"jsonFile" : "target-ros2_robotiqgripper__py-Release-86795f55a9040acdf8f0.json",
+					"name" : "ros2_robotiqgripper__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_generator_c-Release-4baf6e19475049410637.json",
+					"name" : "ros2_robotiqgripper__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_generator_py-Release-e046206109dfa889c82f.json",
+					"name" : "ros2_robotiqgripper__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_c-Release-5079e71fd5d6c1cfc6c0.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_c__pyext-Release-b8b7d988a7e06339684f.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_cpp-Release-8921b6e8d253dc237b18.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_fastrtps_c-Release-c1535ff07fa9d58e05f6.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_fastrtps_c__pyext-Release-6f649f5d8a120e458d62.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp-Release-7466459edfa5237c0068.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_introspection_c-Release-03a247865fe6c0b66f22.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_introspection_c__pyext-Release-c805625a6fdaf16158d6.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper__rosidl_typesupport_introspection_cpp-Release-0308e6950f807af24165.json",
+					"name" : "ros2_robotiqgripper__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_robotiqgripper_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_robotiqgripper_uninstall-Release-839ed158da6f8919d867.json",
+					"name" : "ros2_robotiqgripper_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-eb2b807ab4bcbc9f23fa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/ros2_robotiqgripper",
+		"source" : "/ros2_ws/src/ros2_RobotiqGripper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

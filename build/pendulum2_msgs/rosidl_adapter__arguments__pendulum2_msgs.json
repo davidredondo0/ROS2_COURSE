@@ -1,0 +1,9 @@
+{
+  "package_name": "pendulum2_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/pendulum/pendulum2_msgs:msg/JointState.msg",
+    "/ros2_ws/src/pendulum/pendulum2_msgs:msg/JointCommand.msg",
+    "/ros2_ws/src/pendulum/pendulum2_msgs:msg/JointCommandStamped.msg",
+    "/ros2_ws/src/pendulum/pendulum2_msgs:msg/PendulumTeleop.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+/ros2_ws/build/linkpose_msgs/rosidl_generator_cpp/linkpose_msgs/msg/detail/link_pose__traits.hpp

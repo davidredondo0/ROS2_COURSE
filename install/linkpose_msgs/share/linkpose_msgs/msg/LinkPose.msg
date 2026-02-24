@@ -1,0 +1,1 @@
+/ros2_ws/src/IFRA_LinkPose/linkpose_msgs/msg/LinkPose.msg

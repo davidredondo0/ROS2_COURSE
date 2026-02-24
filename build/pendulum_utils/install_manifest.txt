@@ -1,0 +1,3 @@
+/ros2_ws/install/pendulum_utils/lib/libpendulum_utils.so
+/ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/export_pendulum_utilsExport.cmake
+/ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/export_pendulum_utilsExport-release.cmake

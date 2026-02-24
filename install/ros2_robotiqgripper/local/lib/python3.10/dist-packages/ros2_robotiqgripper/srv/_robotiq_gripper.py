@@ -1,0 +1,1 @@
+/ros2_ws/build/ros2_robotiqgripper/rosidl_generator_py/ros2_robotiqgripper/srv/_robotiq_gripper.py

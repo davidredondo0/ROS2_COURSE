@@ -1,0 +1,1 @@
+/ros2_ws/build/linkpose_msgs/rosidl_typesupport_introspection_c/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,1 @@
+/ros2_ws/build/objectpose_msgs/rosidl_generator_c/objectpose_msgs/msg/rosidl_generator_c__visibility_control.h

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from as2_msgs/action/SwarmFlocking.action
+// generated code does not contain a copyright notice
+
+#include "as2_msgs/msg/PoseWithID.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module as2_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Swarm action definition")
+    struct SwarmFlocking_Goal {
+      @verbatim (language="comment", text=
+        "Request" "\n"
+        "Offset of the virtual centroid to the following frame")
+      geometry_msgs::msg::PoseStamped virtual_centroid;
+
+      @verbatim (language="comment", text=
+        "Pose of the drones with respect to the virtual centroid")
+      sequence<as2_msgs::msg::PoseWithID> swarm_formation;
+
+      @verbatim (language="comment", text=
+        "Namespaces of the drones in the swarm")
+      sequence<string> drones_namespace;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct SwarmFlocking_Result {
+      @verbatim (language="comment", text=
+        "False if failed to swarm_success")
+      boolean swarm_success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct SwarmFlocking_Feedback {
+      @verbatim (language="comment", text=
+        "Current swarm pose")
+      geometry_msgs::msg::Pose swarm_pose;
+    };
+  };
+};

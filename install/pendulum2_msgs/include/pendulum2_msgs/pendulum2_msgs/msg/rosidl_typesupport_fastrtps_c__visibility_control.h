@@ -1,0 +1,1 @@
+/ros2_ws/build/pendulum2_msgs/rosidl_typesupport_fastrtps_c/pendulum2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

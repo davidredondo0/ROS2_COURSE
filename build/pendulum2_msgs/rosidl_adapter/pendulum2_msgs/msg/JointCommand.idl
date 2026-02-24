@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pendulum2_msgs/msg/JointCommand.msg
+// generated code does not contain a copyright notice
+
+
+module pendulum2_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This represents a linear force applied to the pendulum cart along the X-axis")
+    struct JointCommand {
+      double force;
+    };
+  };
+};

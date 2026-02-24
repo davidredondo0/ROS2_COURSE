@@ -1,0 +1,43 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from pendulum2_msgs:msg/JointCommand.idl
+// generated code does not contain a copyright notice
+
+#ifndef PENDULUM2_MSGS__MSG__DETAIL__JOINT_COMMAND__STRUCT_H_
+#define PENDULUM2_MSGS__MSG__DETAIL__JOINT_COMMAND__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in msg/JointCommand in the package pendulum2_msgs.
+/**
+  * This represents a linear force applied to the pendulum cart along the X-axis
+ */
+typedef struct pendulum2_msgs__msg__JointCommand
+{
+  double force;
+} pendulum2_msgs__msg__JointCommand;
+
+// Struct for a sequence of pendulum2_msgs__msg__JointCommand.
+typedef struct pendulum2_msgs__msg__JointCommand__Sequence
+{
+  pendulum2_msgs__msg__JointCommand * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} pendulum2_msgs__msg__JointCommand__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // PENDULUM2_MSGS__MSG__DETAIL__JOINT_COMMAND__STRUCT_H_

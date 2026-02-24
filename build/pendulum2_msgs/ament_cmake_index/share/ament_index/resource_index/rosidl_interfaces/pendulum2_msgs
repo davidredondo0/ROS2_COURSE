@@ -1,0 +1,8 @@
+msg/JointCommand.idl
+msg/JointCommand.msg
+msg/JointCommandStamped.idl
+msg/JointCommandStamped.msg
+msg/JointState.idl
+msg/JointState.msg
+msg/PendulumTeleop.idl
+msg/PendulumTeleop.msg
