@@ -1,0 +1,3 @@
+/ros2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so
+/ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport.cmake
+/ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport-release.cmake

@@ -1,0 +1,1 @@
+/ros2_ws/install/as2_usb_camera_interface/lib/libas2_usb_camera_interface.a

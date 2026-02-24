@@ -1,0 +1,38 @@
+[0.167s] Invoking command in '/ros2_ws/build/as2_behaviors_platform': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_platform -- -j8 -l8
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target offboard_behavior[0m
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target as2_behaviors_platform[0m
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target arm_behavior[0m
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.425s] [ 15%] Built target offboard_behavior
+[0.502s] [ 30%] Built target gtest_main
+[0.533s] [ 46%] Built target arm_behavior
+[0.537s] [ 69%] Built target as2_behaviors_platform
+[0.554s] [ 84%] Built target gtest
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target as2_behaviors_platform_as2_behaviors_platform_gtest[0m
+[0.730s] [100%] Built target as2_behaviors_platform_as2_behaviors_platform_gtest
+[0.757s] Invoked command in '/ros2_ws/build/as2_behaviors_platform' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_platform -- -j8 -l8
+[0.757s] Invoking command in '/ros2_ws/build/as2_behaviors_platform': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_platform
+[0.795s] -- Install configuration: "Release"
+[0.796s] -- Execute custom install script
+[0.796s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/arm_behavior
+[0.796s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/offboard_behavior
+[0.797s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/as2_platform_behaviors_launch.py
+[0.797s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/test.launch.py
+[0.797s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_platform
+[0.797s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_platform
+[0.798s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.sh
+[0.798s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.dsv
+[0.798s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.sh
+[0.798s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.dsv
+[0.805s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.bash
+[0.805s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.sh
+[0.805s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.zsh
+[0.805s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.dsv
+[0.806s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.dsv
+[0.825s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/packages/as2_behaviors_platform
+[0.826s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig.cmake
+[0.826s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig-version.cmake
+[0.827s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.xml
+[0.827s] -- Up-to-date: /ros2_ws/install/as2_behaviors_platform/lib/libas2_behaviors_platform.a
+[0.891s] Invoked command in '/ros2_ws/build/as2_behaviors_platform' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_platform

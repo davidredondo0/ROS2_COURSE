@@ -1,0 +1,4 @@
+source;share/as2_gazebo_assets/local_setup.bash
+source;share/as2_gazebo_assets/local_setup.dsv
+source;share/as2_gazebo_assets/local_setup.sh
+source;share/as2_gazebo_assets/local_setup.zsh

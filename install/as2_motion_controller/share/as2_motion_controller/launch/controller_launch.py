@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_motion_controller/launch/controller_launch.py

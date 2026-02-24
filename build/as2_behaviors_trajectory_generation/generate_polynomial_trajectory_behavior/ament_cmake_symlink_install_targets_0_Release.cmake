@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/generate_polynomial_trajectory_behavior_node" "TARGETS" "generate_polynomial_trajectory_behavior_node" "DESTINATION" "lib/as2_behaviors_trajectory_generation")

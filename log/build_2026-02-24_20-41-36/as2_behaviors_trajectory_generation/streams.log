@@ -1,0 +1,258 @@
+[0.277s] Invoking command in '/ros2_ws/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_trajectory_generation
+[9.110s] -- The C compiler identification is GNU 11.4.0
+[9.111s] -- The CXX compiler identification is GNU 11.4.0
+[9.111s] -- Detecting C compiler ABI info
+[9.125s] -- Detecting C compiler ABI info - done
+[9.126s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.127s] -- Detecting C compile features
+[9.127s] -- Detecting C compile features - done
+[9.127s] -- Detecting CXX compiler ABI info
+[9.127s] -- Detecting CXX compiler ABI info - done
+[9.127s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.128s] -- Detecting CXX compile features
+[9.128s] -- Detecting CXX compile features - done
+[9.128s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.128s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[9.129s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.129s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.129s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.129s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.130s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[9.130s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.130s] -- Looking for pthread.h
+[9.130s] -- Looking for pthread.h - found
+[9.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.131s] -- Found Threads: TRUE  
+[9.131s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[9.131s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[9.131s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[9.131s] -- Created GeographicLib::GeographicLib target from legacy variables
+[9.131s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.132s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.132s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.132s] -- Found as2_behavior: 1.1.3 (/ros2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[9.132s] -- Found as2_motion_reference_handlers: 1.1.3 (/ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[9.132s] -- dynamic_trajectory_generator not found
+[14.330s] -- Found glog.
+[14.340s] -- GLOG Used config file: /usr/lib/x86_64-linux-gnu/cmake/glog/glog-config.cmake
+[14.428s] -- Could not locate NLopt.
+[18.934s] -- NLopt version 2.7.1
+[18.962s] -- Looking for getopt.h
+[19.507s] -- Looking for getopt.h - found
+[19.509s] -- Looking for unistd.h
+[20.003s] -- Looking for unistd.h - found
+[20.004s] -- Looking for stdint.h
+[20.493s] -- Looking for stdint.h - found
+[20.494s] -- Looking for time.h
+[21.012s] -- Looking for time.h - found
+[21.012s] -- Looking for sys/time.h
+[21.494s] -- Looking for sys/time.h - found
+[21.495s] -- Looking for getpid
+[21.952s] -- Looking for getpid - found
+[21.953s] -- Looking for syscall
+[22.474s] -- Looking for syscall - found
+[22.475s] -- Looking for isinf
+[22.962s] -- Looking for isinf - found
+[22.962s] -- Looking for isnan
+[23.404s] -- Looking for isnan - found
+[23.405s] -- Looking for gettimeofday
+[23.835s] -- Looking for gettimeofday - found
+[23.843s] -- Looking for qsort_r
+[24.269s] -- Looking for qsort_r - found
+[24.270s] -- Looking for time
+[24.730s] -- Looking for time - found
+[24.730s] -- Looking for copysign
+[25.185s] -- Looking for copysign - found
+[25.185s] -- Looking for getopt
+[25.615s] -- Looking for getopt - found
+[25.617s] -- Looking for sys/types.h
+[26.022s] -- Looking for sys/types.h - found
+[26.024s] -- Looking for stddef.h
+[26.428s] -- Looking for stddef.h - found
+[26.429s] -- Check size of uint32_t
+[26.968s] -- Check size of uint32_t - done
+[26.968s] -- Check size of unsigned int
+[27.510s] -- Check size of unsigned int - done
+[27.511s] -- Check size of unsigned long
+[28.073s] -- Check size of unsigned long - done
+[28.080s] -- Looking for sqrt in m
+[28.564s] -- Looking for sqrt in m - found
+[28.567s] -- Looking for fpclassify
+[29.160s] -- Looking for fpclassify - TRUE
+[29.160s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[29.671s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Success
+[29.671s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[29.902s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Failed
+[29.905s] -- Looking for __cplusplus
+[30.490s] -- Looking for __cplusplus - found
+[30.493s] -- Performing Test SUPPORTS_STDCXX11
+[30.885s] -- Performing Test SUPPORTS_STDCXX11 - Success
+[31.074s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[31.091s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[31.865s] -- Found NumPy: /usr/lib/python3/dist-packages/numpy/core/include (found version "1.21.5") 
+[31.963s] -- Could NOT find Guile (missing: GUILE_EXECUTABLE GUILE_ROOT_DIR GUILE_INCLUDE_DIRS GUILE_LIBRARIES) 
+[31.979s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[32.028s] -- Could NOT find Octave (missing: OCTAVE_EXECUTABLE OCTAVE_ROOT_DIR OCTAVE_INCLUDE_DIRS OCTAVE_LIBRARIES) 
+[32.056s] -- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY MX_LIBRARY MAIN_PROGRAM) (found version "NOTFOUND")
+[32.172s] -- Used config file: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake
+[32.173s] -- No yaml_cpp_catkin, using yaml-cpp system library instead.
+[32.228s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[32.408s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[32.866s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[32.898s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[33.205s] -- Added test 'copyright' to check source files copyright and LICENSE
+[33.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[33.211s] -- Configured cppcheck include dirs: 
+[33.211s] -- Configured cppcheck exclude dirs and/or files: 
+[33.216s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[33.216s] -- Configured cpplint exclude dirs and/or files: 
+[33.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[33.221s] -- Added test 'lint_cmake' to check CMake code style
+[33.236s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[33.240s] -- Added test 'uncrustify' to check C / C++ code style
+[33.241s] -- Configured uncrustify additional arguments: 
+[33.243s] -- Added test 'xmllint' to check XML markup files
+[33.248s] -- Configuring done
+[34.072s] -- Generating done
+[34.145s] -- Build files have been written to: /ros2_ws/build/as2_behaviors_trajectory_generation
+[34.219s] Invoked command in '/ros2_ws/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_trajectory_generation
+[34.220s] Invoking command in '/ros2_ws/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_trajectory_generation -- -j8 -l8
+[35.299s] [  1%] [34m[1mGenerating nlopt.hpp[0m
+[35.299s] [  1%] Built target generate-cpp
+[35.299s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[58.370s] [  3%] [32m[1mLinking CXX static library libgtest.a[0m
+[58.635s] [  3%] Built target gtest
+[58.728s] [  5%] [34m[1mGenerating nlopt.f[0m
+[58.917s] [  6%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o[0m
+[59.811s] [  7%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/hybrid.c.o[0m
+[60.598s] [  8%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/praxis/praxis.c.o[0m
+[63.185s] [ 10%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plis.c.o[0m
+[63.579s] [ 11%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plip.c.o[0m
+[63.946s] [ 12%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pnet.c.o[0m
+[64.411s] [ 14%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/mssubs.c.o[0m
+[65.014s] [ 15%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pssubs.c.o[0m
+[65.681s] [ 16%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/crs/crs.c.o[0m
+[66.065s] [ 17%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mlsl/mlsl.c.o[0m
+[66.536s] [ 19%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/mma.c.o[0m
+[67.219s] [ 20%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/ccsa_quadratic.c.o[0m
+[68.228s] [ 21%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cobyla/cobyla.c.o[0m
+[73.228s] [ 23%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/newuoa/newuoa.c.o[0m
+[82.396s] [ 24%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/nldrmd.c.o[0m
+[82.708s] [ 25%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/sbplx.c.o[0m
+[83.036s] [ 26%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/auglag/auglag.c.o[0m
+[83.304s] [ 28%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/bobyqa/bobyqa.c.o[0m
+[90.041s] [ 29%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/isres/isres.c.o[0m
+[90.436s] [ 30%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/slsqp/slsqp.c.o[0m
+[94.134s] [ 32%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/esch/esch.c.o[0m
+[94.582s] [ 33%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/general.c.o[0m
+[94.768s] [ 34%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/options.c.o[0m
+[95.602s] [ 35%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/optimize.c.o[0m
+[96.511s] [ 37%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/deprecated.c.o[0m
+[96.589s] [ 38%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/f77api.c.o[0m
+[97.351s] [ 39%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o[0m
+[97.550s] [ 41%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/sobolseq.c.o[0m
+[97.848s] [ 42%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/timer.c.o[0m
+[97.960s] [ 43%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/stop.c.o[0m
+[98.331s] [ 44%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/redblack.c.o[0m
+[98.796s] [ 46%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/qsort_r.c.o[0m
+[99.269s] [ 47%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/rescale.c.o[0m
+[99.500s] [ 48%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o[0m
+[101.643s] [ 50%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o[0m
+[102.611s] [ 51%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o[0m
+[103.389s] [ 52%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o[0m
+[104.513s] [ 53%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/tools.cc.o[0m
+[105.849s] [ 55%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/evolvent.cc.o[0m
+[106.574s] [ 56%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/solver.cc.o[0m
+[109.510s] [ 57%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/local_optimizer.cc.o[0m
+[110.381s] [ 58%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/ags.cc.o[0m
+[111.919s] [ 60%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o[0m
+[112.642s] [ 61%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o[0m
+[113.777s] [ 62%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o[0m
+[113.996s] [ 64%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o[0m
+[114.130s] [ 65%] [32m[1mLinking CXX shared library libnlopt.so[0m
+[114.378s] [ 66%] Built target nlopt
+[114.425s] [ 67%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[116.858s] [ 69%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[116.933s] [ 69%] Built target gtest_main
+[116.982s] [ 70%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[117.690s] [ 71%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[123.985s] [ 73%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[139.602s] [ 74%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[144.120s] [ 75%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[167.072s] [ 76%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[175.901s] [ 78%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[181.859s] [ 79%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[183.837s] [ 80%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[188.112s] [ 82%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[191.372s] [ 83%] [32m[1mLinking CXX shared library libmav_trajectory_generation.so[0m
+[192.005s] [ 83%] Built target mav_trajectory_generation
+[192.046s] [ 84%] Built target generate-fortran
+[192.051s] [ 85%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_trajectory.cpp.o[0m
+[192.067s] [ 87%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_waypoint.cpp.o[0m
+[192.092s] [ 88%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/test/test_polynomial.cpp.o[0m
+[198.366s] [ 89%] [32m[1mLinking CXX executable test_polynomial[0m
+[198.595s] [ 89%] Built target test_polynomial
+[223.588s] [ 91%] [32m[1mLinking CXX shared library libdynamic_trajectory_generator.so[0m
+[223.852s] [ 91%] Built target dynamic_trajectory_generator
+[223.902s] [ 92%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/generate_polynomial_trajectory_behavior_node.dir/src/generate_polynomial_trajectory_behavior.cpp.o[0m
+[223.913s] [ 93%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/generate_polynomial_trajectory_behavior_node.dir/src/generate_polynomial_trajectory_behavior_node.cpp.o[0m
+[223.922s] [ 94%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/CMakeFiles/trajectory_generator_component.dir/src/generate_polynomial_trajectory_behavior.cpp.o[0m
+[285.463s] [ 96%] [32m[1mLinking CXX shared library libtrajectory_generator_component.so[0m
+[286.208s] [ 96%] Built target trajectory_generator_component
+[286.241s] [ 97%] [32mBuilding CXX object generate_polynomial_trajectory_behavior/tests/CMakeFiles/as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest.dir/generate_polynomial_trajectory_behavior_gtest.cpp.o[0m
+[286.510s] [ 98%] [32m[1mLinking CXX executable generate_polynomial_trajectory_behavior_node[0m
+[287.256s] [ 98%] Built target generate_polynomial_trajectory_behavior_node
+[296.514s] [100%] [32m[1mLinking CXX executable as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest[0m
+[296.983s] [100%] Built target as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest
+[297.000s] Invoked command in '/ros2_ws/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_trajectory_generation -- -j8 -l8
+[297.004s] Invoking command in '/ros2_ws/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_trajectory_generation
+[297.014s] -- Install configuration: "Release"
+[297.014s] -- Execute custom install script
+[297.014s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/pkgconfig/nlopt.pc
+[297.028s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.h
+[297.040s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.hpp
+[297.052s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.f
+[297.065s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt.3
+[297.077s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize.3
+[297.089s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize_constrained.3
+[297.101s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/composable_generate_polynomial_trajectory_behavior.launch.py
+[297.112s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/generate_polynomial_trajectory_behavior_launch.py
+[297.124s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/config/config_default.yaml
+[297.137s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node
+[297.150s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_trajectory_generation
+[297.163s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_trajectory_generation
+[297.177s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.sh
+[297.189s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.dsv
+[297.201s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.sh
+[297.214s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.dsv
+[297.226s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.bash
+[297.238s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.sh
+[297.251s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.zsh
+[297.264s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.dsv
+[297.278s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.dsv
+[297.291s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/packages/as2_behaviors_trajectory_generation
+[297.302s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/rclcpp_components/as2_behaviors_trajectory_generation
+[297.314s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+[297.326s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig.cmake
+[297.338s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig-version.cmake
+[297.350s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.xml
+[297.363s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so
+[297.370s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so" to ""
+[297.371s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so
+[297.372s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so" to ""
+[297.373s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so
+[297.374s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so" to ""
+[297.375s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1
+[297.376s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0
+[297.376s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1" to "/ros2_ws/install/as2_behaviors_trajectory_generation/lib"
+[297.377s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so
+[297.377s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[297.377s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[297.377s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfig.cmake
+[297.377s] -- Installing: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[297.382s] Invoked command in '/ros2_ws/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_trajectory_generation

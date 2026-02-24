@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_msgs/rosidl_typesupport_introspection_c/as2_msgs/srv/detail/get_geozone__rosidl_typesupport_introspection_c.h

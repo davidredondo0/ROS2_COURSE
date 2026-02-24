@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/as2_gazebo_assets/bridges/custom_bridges.py

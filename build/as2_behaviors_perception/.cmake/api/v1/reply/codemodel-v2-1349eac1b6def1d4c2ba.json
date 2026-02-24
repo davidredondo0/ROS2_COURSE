@@ -1,0 +1,212 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f9bf7499713544cf71c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "detect_aruco_markers_behavior",
+					"jsonFile" : "directory-detect_aruco_markers_behavior-Release-86de97c01ef67d7aa6e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "detect_aruco_markers_behavior",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "point_gimbal_behavior",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-point_gimbal_behavior-Release-6e8354e60ab60752cc8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "point_gimbal_behavior",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "point_gimbal_behavior/tests",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-point_gimbal_behavior.tests-Release-850cb6de793899f51f46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "point_gimbal_behavior/tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "as2_behaviors_perception",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_perception_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_perception_uninstall-Release-01bd9e75cf7920a4ecea.json",
+					"name" : "as2_behaviors_perception_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "detect_aruco_markers_behavior_node::@d1a93c6ffa5332ecb033",
+					"jsonFile" : "target-detect_aruco_markers_behavior_node-Release-54c8015314d1dc5ac9a9.json",
+					"name" : "detect_aruco_markers_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-387344665c54244f5e62.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-574385f4a82fc81240a2.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "point_gimbal_behavior::@20eefe0a89451fec56ae",
+					"jsonFile" : "target-point_gimbal_behavior-Release-ce6c2403d88e1caefb05.json",
+					"name" : "point_gimbal_behavior",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "point_gimbal_behavior_node::@20eefe0a89451fec56ae",
+					"jsonFile" : "target-point_gimbal_behavior_node-Release-4e614df668edbcc9709e.json",
+					"name" : "point_gimbal_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "point_gimbal_behavior_point_gimbal_gtest::@c8a9a65884424b2ec816",
+					"jsonFile" : "target-point_gimbal_behavior_point_gimbal_gtest-Release-b8917b014d8b0e1021b8.json",
+					"name" : "point_gimbal_behavior_point_gimbal_gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-aacabe48e748d34dee3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_behaviors_perception",
+		"source" : "/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_perception"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

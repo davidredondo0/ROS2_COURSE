@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target pendulum_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 14%] Built target gtest_main
+[ 28%] Built target gtest
+[ 57%] Built target pendulum_driver
+[35m[1mConsolidate compiler generated dependencies of target test_pendulum_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target pendulum_driver_exe[0m
+[35m[1mConsolidate compiler generated dependencies of target test_pendulum_driver_node[0m
+[ 71%] Built target test_pendulum_driver
+[ 85%] Built target pendulum_driver_exe
+[100%] Built target test_pendulum_driver_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/library_path.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/library_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/include/pendulum_driver/pendulum_driver.hpp
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/include/pendulum_driver/pendulum_driver_node.hpp
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/include/pendulum_driver/runge_kutta.hpp
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/include/pendulum_driver/visibility_control.hpp
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/params/test.param.yaml
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/ament_index/resource_index/package_run_dependencies/pendulum_driver
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/ament_index/resource_index/parent_prefix_path/pendulum_driver
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/local_setup.dsv
+-- Symlinking: /ros2_ws/install/pendulum_driver/share/pendulum_driver/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/ament_index/resource_index/packages/pendulum_driver
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/ament_index/resource_index/rclcpp_components/pendulum_driver
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/pendulum_driverConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/pendulum_driverConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_driver/share/pendulum_driver/package.xml
+-- Up-to-date: /ros2_ws/install/pendulum_driver/lib/libpendulum_driver.so
+-- Up-to-date: /ros2_ws/install/pendulum_driver/lib/pendulum_driver/pendulum_driver_exe
+-- Up-to-date: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/export_pendulum_driverExport.cmake
+-- Up-to-date: /ros2_ws/install/pendulum_driver/share/pendulum_driver/cmake/export_pendulum_driverExport-release.cmake

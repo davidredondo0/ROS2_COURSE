@@ -1,0 +1,12 @@
+setup.py
+as2_motion_reference_handlers/__init__.py
+as2_motion_reference_handlers/basic_motion_references.py
+as2_motion_reference_handlers/hover_motion.py
+as2_motion_reference_handlers/position_motion.py
+as2_motion_reference_handlers/speed_in_a_plane.py
+as2_motion_reference_handlers/speed_motion.py
+as2_motion_reference_handlers/utils.py
+as2_motion_reference_handlers.egg-info/PKG-INFO
+as2_motion_reference_handlers.egg-info/SOURCES.txt
+as2_motion_reference_handlers.egg-info/dependency_links.txt
+as2_motion_reference_handlers.egg-info/top_level.txt

@@ -1,0 +1,165 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+-- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+-- Created GeographicLib::GeographicLib target from legacy variables
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found as2_behavior: 1.1.3 (/ros2_ws/install/as2_behavior/share/as2_behavior/cmake)
+-- Found as2_motion_reference_handlers: 1.1.3 (/ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include/as2_behaviors_motion;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include/as2_behaviors_motion;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include/as2_behaviors_motion;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include/as2_behaviors_motion;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include/as2_behaviors_motion;$<BUILD_INTERFACE:/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/as2_behaviors_motion
+[  2%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/follow_path_behavior/plugins/follow_path_plugin_position.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/follow_path_behavior/plugins/follow_path_plugin_trajectory.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/go_to_behavior/plugins/go_to_plugin_position.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/go_to_behavior/plugins/go_to_plugin_trajectory.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_platform.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_speed.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_trajectory.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_platform.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_position.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_speed.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_trajectory.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library libas2_behaviors_motion.so[0m
+[ 32%] Built target as2_behaviors_motion
+[ 35%] [32mBuilding CXX object CMakeFiles/land_component.dir/land_behavior/src/land_behavior.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/go_to_component.dir/go_to_behavior/src/go_to_behavior.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/takeoff_component.dir/takeoff_behavior/src/takeoff_behavior.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/follow_reference_behavior_node.dir/follow_reference_behavior/src/follow_reference_behavior.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/takeoff_behavior_node.dir/takeoff_behavior/src/takeoff_behavior.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/land_behavior_node.dir/land_behavior/src/land_behavior.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libland_component.so[0m
+[ 51%] Built target land_component
+[ 54%] [32m[1mLinking CXX shared library libtakeoff_component.so[0m
+[ 54%] Built target takeoff_component
+[ 56%] [32mBuilding CXX object CMakeFiles/follow_reference_behavior_node.dir/follow_reference_behavior/src/follow_reference_behavior_node.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library libgo_to_component.so[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/land_behavior_node.dir/land_behavior/src/land_behavior_node.cpp.o[0m
+[ 62%] Built target go_to_component
+[ 64%] [32mBuilding CXX object CMakeFiles/takeoff_behavior_node.dir/takeoff_behavior/src/takeoff_behavior_node.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable follow_reference_behavior_node[0m
+[ 67%] Built target follow_reference_behavior_node
+[ 70%] [32m[1mLinking CXX executable takeoff_behavior_node[0m
+[ 70%] Built target takeoff_behavior_node
+[ 72%] [32m[1mLinking CXX executable land_behavior_node[0m
+[ 72%] Built target land_behavior_node
+[ 75%] [32mBuilding CXX object CMakeFiles/follow_reference_component.dir/follow_reference_behavior/src/follow_reference_behavior.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libfollow_reference_component.so[0m
+[ 78%] Built target follow_reference_component
+[ 81%] [32mBuilding CXX object CMakeFiles/follow_path_component.dir/follow_path_behavior/src/follow_path_behavior.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libfollow_path_component.so[0m
+[ 83%] Built target follow_path_component
+[ 86%] [32mBuilding CXX object CMakeFiles/go_to_behavior_node.dir/go_to_behavior/src/go_to_behavior.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/go_to_behavior_node.dir/go_to_behavior/src/go_to_behavior_node.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable go_to_behavior_node[0m
+[ 91%] Built target go_to_behavior_node
+[ 94%] [32mBuilding CXX object CMakeFiles/follow_path_behavior_node.dir/follow_path_behavior/src/follow_path_behavior.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/follow_path_behavior_node.dir/follow_path_behavior/src/follow_path_behavior_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable follow_path_behavior_node[0m
+[100%] Built target follow_path_behavior_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion//plugins.xml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.sh
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_path_behavior_node
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_base.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_behavior.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_path_behavior/config//config_default.yaml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/go_to_behavior_node
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_base.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_behavior.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/go_to_behavior/config//config_default.yaml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/land_behavior_node
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/land_behavior/land_base.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/land_behavior/land_behavior.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/land_behavior/config//config_default.yaml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/takeoff_behavior_node
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_base.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_behavior.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/takeoff_behavior/config//config_default.yaml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_reference_behavior_node
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/include/follow_reference_behavior/follow_reference_behavior.hpp
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_reference_behavior/config//config_default.yaml
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/libtakeoff_component.so
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/libland_component.so
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/libgo_to_component.so
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/libfollow_path_component.so
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/lib/libfollow_reference_component.so
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_follow_reference.launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_motion_behaviors.launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_path_behavior_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_reference_behavior_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/go_to_behavior_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/land_behavior_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/motion_behaviors_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/takeoff_behavior_launch.py
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_motion
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_motion
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.sh
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.bash
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.sh
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.zsh
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/packages/as2_behaviors_motion
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/as2_behaviors_motion__pluginlib__plugin/as2_behaviors_motion
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/rclcpp_components/as2_behaviors_motion
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig.cmake
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig-version.cmake
+-- Symlinking: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.xml
+-- Installing: /ros2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so
+-- Set runtime path of "/ros2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so" to ""
+-- Installing: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport.cmake
+-- Installing: /ros2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport-release.cmake

@@ -1,0 +1,195 @@
+[0.011s] Invoking command in '/ros2_ws/build/as2_core': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_core
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.378s] -- Detected ROS_DISTRO: humble
+[0.383s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.704s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.769s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.778s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.791s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.905s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.910s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.940s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.956s] -- Looking for pthread.h
+[1.072s] -- Looking for pthread.h - found
+[1.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.149s] -- Found Threads: TRUE  
+[1.216s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.254s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.273s] -- Found as2_msgs: 1.1.3 (/ros2_ws/install/as2_msgs/share/as2_msgs/cmake)
+[1.364s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.378s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.405s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.406s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.407s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.528s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.620s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.674s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.702s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[1.706s] -- Created GeographicLib::GeographicLib target from legacy variables
+[1.905s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.963s] -- Performing Test HAS_FLTO
+[2.172s] -- Performing Test HAS_FLTO - Success
+[2.172s] -- Found pybind11: /usr/include (found version "2.9.1")
+[2.375s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.491s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.528s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.532s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/aerostack2/as2_core/include>;/ros2_ws/src/aerostack2/as2_core/include/as2_core;/ros2_ws/src/aerostack2/as2_core/include
+[2.532s] -- Configured cppcheck exclude dirs and/or files: 
+[2.536s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.536s] -- Configured cpplint exclude dirs and/or files: 
+[2.536s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.537s] -- Added test 'lint_cmake' to check CMake code style
+[2.538s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.541s] -- Added test 'uncrustify' to check C / C++ code style
+[2.541s] -- Configured uncrustify additional arguments: 
+[2.542s] -- Added test 'xmllint' to check XML markup files
+[2.545s] -- Configuring done
+[2.617s] -- Generating done
+[2.647s] -- Build files have been written to: /ros2_ws/build/as2_core
+[2.662s] Invoked command in '/ros2_ws/build/as2_core' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_core
+[2.663s] Invoking command in '/ros2_ws/build/as2_core': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_core -- -j8 -l8
+[2.728s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.728s] [  9%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/sensor.cpp.o[0m
+[2.728s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/node.cpp.o[0m
+[2.728s] [ 16%] [32mBuilding CXX object CMakeFiles/as2_names.dir/src/_as2_core_pybind11.cpp.o[0m
+[2.728s] [ 16%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/aerial_platform.cpp.o[0m
+[2.729s] [ 19%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/platform_state_machine.cpp.o[0m
+[2.733s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.744s] [ 22%] Built target ament_cmake_python_symlink_as2_core
+[3.495s] running egg_info
+[3.496s] creating as2_core.egg-info
+[3.497s] writing as2_core.egg-info/PKG-INFO
+[3.498s] writing dependency_links to as2_core.egg-info/dependency_links.txt
+[3.498s] writing top-level names to as2_core.egg-info/top_level.txt
+[3.499s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[3.505s] reading manifest file 'as2_core.egg-info/SOURCES.txt'
+[3.508s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[3.569s] [ 22%] Built target ament_cmake_python_build_as2_core_egg
+[3.586s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/rate.cpp.o[0m
+[5.144s] [ 29%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/core_functions.cpp.o[0m
+[5.214s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.275s] [ 32%] Built target gtest_main
+[5.292s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/control_mode_utils.cpp.o[0m
+[9.696s] [ 38%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/tf_utils.cpp.o[0m
+[11.065s] [ 41%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/yaml_utils.cpp.o[0m
+[14.322s] [ 45%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/frame_utils.cpp.o[0m
+[14.917s] [ 48%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/gps_utils.cpp.o[0m
+[16.159s] [ 51%] [32m[1mLinking CXX shared module as2_names.cpython-310-x86_64-linux-gnu.so[0m
+[16.501s] lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+[21.336s] [ 51%] Built target as2_names
+[21.979s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.085s] [ 54%] Built target gtest
+[45.214s] [ 58%] [32m[1mLinking CXX static library libas2_core.a[0m
+[45.423s] [ 58%] Built target as2_core
+[45.455s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/frame_test.dir/frame_test.cpp.o[0m
+[45.455s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/sensor_test.dir/sensor_test.cpp.o[0m
+[45.458s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/platform_state_machine_test.dir/platform_state_machine_test.cpp.o[0m
+[45.461s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/tf_utils_gtest.dir/tf_utils_gtest.cpp.o[0m
+[45.461s] [ 77%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/aerial_platform/mock_aerial_platform.cpp.o[0m
+[45.461s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/tf2_namespace_test.dir/tf2_namespace_test.cpp.o[0m
+[45.461s] [ 77%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/executor_thread_util/executor_thread_util.cpp.o[0m
+[54.232s] [ 83%] [32m[1mLinking CXX executable platform_state_machine_test[0m
+[54.602s] [ 83%] Built target platform_state_machine_test
+[54.754s] [ 87%] [32m[1mLinking CXX executable frame_test[0m
+[55.040s] [ 87%] Built target frame_test
+[55.566s] [ 90%] [32m[1mLinking CXX executable tf2_namespace_test[0m
+[55.866s] [ 90%] Built target tf2_namespace_test
+[59.126s] [ 93%] [32m[1mLinking CXX executable tf_utils_gtest[0m
+[59.453s] [ 93%] Built target tf_utils_gtest
+[63.504s] [ 96%] [32m[1mLinking CXX executable sensor_test[0m
+[64.276s] [ 96%] Built target sensor_test
+[85.063s] [100%] [32m[1mLinking CXX shared library libmocks.so[0m
+[85.411s] [100%] Built target mocks
+[85.479s] Invoked command in '/ros2_ws/build/as2_core' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_core -- -j8 -l8
+[85.484s] Invoking command in '/ros2_ws/build/as2_core': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_core
+[85.494s] -- Install configuration: "Release"
+[85.495s] -- Execute custom install script
+[85.495s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/pythonpath.sh
+[85.505s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/pythonpath.dsv
+[85.516s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/PKG-INFO
+[85.526s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/SOURCES.txt
+[85.536s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/dependency_links.txt
+[85.546s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/top_level.txt
+[85.556s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py
+[85.566s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py
+[85.576s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py
+[85.587s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py
+[85.597s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py
+[85.608s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/library_path.sh
+[85.618s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/library_path.dsv
+[85.628s] -- Symlinking: /ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/as2_names.cpython-310-x86_64-linux-gnu.so
+[85.639s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/aerial_platform.hpp
+[85.649s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/as2_basic_behavior.hpp
+[85.659s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/core_functions.hpp
+[85.669s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/custom/cv_bridge.hpp
+[85.679s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/custom/cv_bridge.hpp.in
+[85.689s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp
+[85.700s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp.in
+[85.710s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/names/actions.hpp
+[85.719s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/names/services.hpp
+[85.728s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/names/topics.hpp
+[85.737s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/node.hpp
+[85.745s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/platform_state_machine.hpp
+[85.754s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/rate.hpp
+[85.763s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/sensor.hpp
+[85.772s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/synchronous_service_client.hpp
+[85.781s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/utils/control_mode_utils.hpp
+[85.790s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/utils/frame_utils.hpp
+[85.800s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/utils/gps_utils.hpp
+[85.810s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/utils/tf_utils.hpp
+[85.819s] -- Symlinking: /ros2_ws/install/as2_core/include/as2_core/utils/yaml_utils.hpp
+[85.828s] -- Symlinking: /ros2_ws/install/as2_core/share/ament_index/resource_index/package_run_dependencies/as2_core
+[85.837s] -- Symlinking: /ros2_ws/install/as2_core/share/ament_index/resource_index/parent_prefix_path/as2_core
+[85.845s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/ament_prefix_path.sh
+[85.854s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/ament_prefix_path.dsv
+[85.863s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/path.sh
+[85.872s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/environment/path.dsv
+[85.880s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/local_setup.bash
+[85.889s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/local_setup.sh
+[85.899s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/local_setup.zsh
+[85.908s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/local_setup.dsv
+[85.917s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/package.dsv
+[85.926s] -- Symlinking: /ros2_ws/install/as2_core/share/ament_index/resource_index/packages/as2_core
+[85.935s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/yaml-cpp-extras.cmake
+[85.943s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/GeographicLib-extras.cmake
+[85.952s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_targets-extras.cmake
+[85.960s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.969s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[85.978s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_libraries-extras.cmake
+[85.986s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/as2_coreConfig.cmake
+[85.995s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/cmake/as2_coreConfig-version.cmake
+[86.004s] -- Symlinking: /ros2_ws/install/as2_core/share/as2_core/package.xml
+[86.133s] Listing '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core'...
+[86.134s] Compiling '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py'...
+[86.134s] Compiling '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py'...
+[86.134s] Compiling '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py'...
+[86.134s] Compiling '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py'...
+[86.135s] Compiling '/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py'...
+[86.147s] -- Installing: /ros2_ws/install/as2_core/include/as2_core/mocks/
+[86.147s] -- Installing: /ros2_ws/install/as2_core/include/as2_core/mocks//aerial_platform
+[86.147s] -- Installing: /ros2_ws/install/as2_core/include/as2_core/mocks//aerial_platform/mock_aerial_platform.hpp
+[86.148s] -- Installing: /ros2_ws/install/as2_core/include/as2_core/mocks//executor_thread_util
+[86.148s] -- Installing: /ros2_ws/install/as2_core/include/as2_core/mocks//executor_thread_util/executor_thread_util.hpp
+[86.148s] -- Installing: /ros2_ws/install/as2_core/lib/libas2_core.a
+[86.161s] -- Installing: /ros2_ws/install/as2_core/lib/libmocks.so
+[86.168s] -- Set runtime path of "/ros2_ws/install/as2_core/lib/libmocks.so" to ""
+[86.168s] -- Installing: /ros2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport.cmake
+[86.169s] -- Installing: /ros2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport-release.cmake
+[86.173s] Invoked command in '/ros2_ws/build/as2_core' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_core

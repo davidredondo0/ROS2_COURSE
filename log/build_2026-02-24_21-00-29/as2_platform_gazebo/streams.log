@@ -1,0 +1,38 @@
+[0.055s] Invoking command in '/ros2_ws/build/as2_platform_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble GZ_SIM_RESOURCE_PATH=/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models GZ_SIM_SYSTEM_PLUGIN_PATH=/ros2_ws/install/as2_gazebo_assets/lib GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/ros2_ws/install/as2_gazebo_assets/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_platform_gazebo -- -j8 -l8
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_gazebo[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_gazebo_node[0m
+[0.325s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.381s] [ 18%] Built target as2_platform_gazebo
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.433s] [ 36%] Built target gtest_main
+[0.458s] [ 54%] Built target gtest
+[0.468s] [ 81%] Built target as2_platform_gazebo_node
+[0.521s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_gazebo_as2_platform_gazebo_gtest[0m
+[0.602s] [100%] Built target as2_platform_gazebo_as2_platform_gazebo_gtest
+[0.720s] Invoked command in '/ros2_ws/build/as2_platform_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble GZ_SIM_RESOURCE_PATH=/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models GZ_SIM_SYSTEM_PLUGIN_PATH=/ros2_ws/install/as2_gazebo_assets/lib GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/ros2_ws/install/as2_gazebo_assets/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_platform_gazebo -- -j8 -l8
+[0.723s] Invoking command in '/ros2_ws/build/as2_platform_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble GZ_SIM_RESOURCE_PATH=/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models GZ_SIM_SYSTEM_PLUGIN_PATH=/ros2_ws/install/as2_gazebo_assets/lib GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/ros2_ws/install/as2_gazebo_assets/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_platform_gazebo
+[0.740s] -- Install configuration: "Release"
+[0.741s] -- Execute custom install script
+[0.742s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/include/as2_platform_gazebo/as2_platform_gazebo.hpp
+[0.742s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/lib/as2_platform_gazebo/as2_platform_gazebo_node
+[0.742s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/launch/platform_gazebo_launch.py
+[0.743s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/config/control_modes.yaml
+[0.743s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/config/control_modes_acro.yaml
+[0.745s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/config/platform_config_file.yaml
+[0.746s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/ament_index/resource_index/package_run_dependencies/as2_platform_gazebo
+[0.753s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/ament_index/resource_index/parent_prefix_path/as2_platform_gazebo
+[0.755s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/environment/ament_prefix_path.sh
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/environment/ament_prefix_path.dsv
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/environment/path.sh
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/environment/path.dsv
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/local_setup.bash
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/local_setup.sh
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/local_setup.zsh
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/local_setup.dsv
+[0.758s] -- Symlinking: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/package.dsv
+[0.761s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/ament_index/resource_index/packages/as2_platform_gazebo
+[0.763s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/cmake/as2_platform_gazeboConfig.cmake
+[0.764s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/cmake/as2_platform_gazeboConfig-version.cmake
+[0.765s] -- Up-to-date symlink: /ros2_ws/install/as2_platform_gazebo/share/as2_platform_gazebo/package.xml
+[0.766s] -- Up-to-date: /ros2_ws/install/as2_platform_gazebo/lib/libas2_platform_gazebo.a
+[0.852s] Invoked command in '/ros2_ws/build/as2_platform_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_gazebo_assets:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble GZ_SIM_RESOURCE_PATH=/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/ros2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models GZ_SIM_SYSTEM_PLUGIN_PATH=/ros2_ws/install/as2_gazebo_assets/lib GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/ros2_ws/install/as2_gazebo_assets/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_platform_gazebo

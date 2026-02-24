@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/drone_manager.py

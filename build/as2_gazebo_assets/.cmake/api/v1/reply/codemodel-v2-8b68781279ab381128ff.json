@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5150f8cc1123290f9ff5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_gazebo_assets",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MulticopterINDIControl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MulticopterINDIControl-Release-caac337fe9edc7760edc.json",
+					"name" : "MulticopterINDIControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acro_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acro_bridge-Release-c0940c114c32ab188c41.json",
+					"name" : "acro_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_gazebo_assets_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_gazebo_assets_egg-Release-ddab18e07a9f80172bf1.json",
+					"name" : "ament_cmake_python_build_as2_gazebo_assets_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_as2_gazebo_assets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_as2_gazebo_assets-Release-a8b360699b99d7ff7678.json",
+					"name" : "ament_cmake_python_symlink_as2_gazebo_assets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_gazebo_assets_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_gazebo_assets_uninstall-Release-2c83a4509cc80c7e6f2c.json",
+					"name" : "as2_gazebo_assets_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "azimuth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-azimuth_bridge-Release-86c840b7e39b67e2fd3f.json",
+					"name" : "azimuth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_bridge-Release-42ef171b156e46c7c897.json",
+					"name" : "gimbal_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_bridge-Release-dac09b8f83b58c2a620e.json",
+					"name" : "gps_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_truth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_truth_bridge-Release-557cf49bacee71e7a0f8.json",
+					"name" : "ground_truth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_tf_broadcaster-Release-7691a155097f5268411e.json",
+					"name" : "object_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_entity_pose_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_entity_pose_bridge-Release-adeb8a4ae2e5bb87c6a6.json",
+					"name" : "set_entity_pose_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-85649c69066f90cd675f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_gazebo_assets",
+		"source" : "/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

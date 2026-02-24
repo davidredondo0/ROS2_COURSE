@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target as2_map_server[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 21%] Built target as2_map_server
+[ 28%] Built target as2_map_server_base
+[ 42%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target as2_map_server_node[0m
+[ 57%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target scan2occ_grid[0m
+[ 71%] Built target as2_map_server_node
+[35m[1mConsolidate compiler generated dependencies of target as2_map_server_map_server_gtest[0m
+[ 85%] Built target scan2occ_grid
+[100%] Built target as2_map_server_map_server_gtest
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/lib/as2_map_server/as2_map_server_node
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/scan2occ_grid.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server//plugins.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/map_server.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/scan2occ_grid-map_server.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/scan2occ_grid/config/plugin_default.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/depth2occ_grid-map_server.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/depth2occ_grid/config/plugin_default.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/point_cloud2occ_grid-map_server.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/point_cloud2occ_grid/config/plugin_default.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/package_run_dependencies/as2_map_server
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/parent_prefix_path/as2_map_server
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_map_server/share/as2_map_server/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/packages/as2_map_server
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/as2_map_server__pluginlib__plugin/as2_map_server
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/package.xml
+-- Up-to-date: /ros2_ws/install/as2_map_server/lib/libas2_map_server_base.so
+-- Up-to-date: /ros2_ws/install/as2_map_server/lib/libas2_map_server.so
+-- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport.cmake
+-- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport-release.cmake
+-- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport.cmake
+-- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport-release.cmake
+-- Up-to-date: /ros2_ws/install/as2_map_server/lib/libscan2occ_grid.so

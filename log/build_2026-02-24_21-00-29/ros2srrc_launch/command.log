@@ -1,0 +1,4 @@
+Invoking command in '/ros2_ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_launch -- -j8 -l8
+Invoked command in '/ros2_ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_launch -- -j8 -l8
+Invoking command in '/ros2_ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_launch
+Invoked command in '/ros2_ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_launch

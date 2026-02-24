@@ -1,0 +1,90 @@
+[0.054s] Invoking command in '/ros2_ws/build/spot_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/spot_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/spot_gazebo
+[0.614s] -- The C compiler identification is GNU 11.4.0
+[0.614s] -- The CXX compiler identification is GNU 11.4.0
+[0.615s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.628s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.629s] -- Detecting CXX compiler ABI info
+[0.827s] -- Detecting CXX compiler ABI info - done
+[0.851s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.852s] -- Detecting CXX compile features
+[0.854s] -- Detecting CXX compile features - done
+[0.871s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.548s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.674s] -- Found spot_description: 0.0.0 (/ros2_ws/install/spot_description/share/spot_description/cmake)
+[1.684s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.993s] -- Configuring done
+[1.996s] -- Generating done
+[1.999s] -- Build files have been written to: /ros2_ws/build/spot_gazebo
+[2.032s] Invoked command in '/ros2_ws/build/spot_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/spot_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/spot_gazebo
+[2.035s] Invoking command in '/ros2_ws/build/spot_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake --build /ros2_ws/build/spot_gazebo -- -j8 -l8
+[4.781s] Invoked command in '/ros2_ws/build/spot_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake --build /ros2_ws/build/spot_gazebo -- -j8 -l8
+[4.781s] Invoking command in '/ros2_ws/build/spot_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake --install /ros2_ws/build/spot_gazebo
+[5.915s] -- Install configuration: "Release"
+[5.916s] -- Execute custom install script
+[5.916s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/edgar_mine.sdf
+[5.916s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/electrical_substation.sdf
+[5.916s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/empty.sdf
+[5.916s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/empty_room.sdf
+[5.916s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Asphalt.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Cables_Albedo.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Chainlink_Albedo.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Chainlink_Transparency.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Door_Albedo.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Entrance.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/GroundDirt_Albedo.jpg
+[5.917s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Light_Plastic_Albedo.jpg
+[5.918s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Light_Plastic_Emissive.jpg
+[5.918s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Pipes_Albedo.jpg
+[5.918s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Rails_Albedo.jpg
+[5.918s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/RockWall_Albedo.jpg
+[5.918s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/RustyMetal_Albedo.jpg
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/Wood_Albedo.jpg
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/YellowPlastic_Albedo.jpg
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/tag41_12_00000.png
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/tag41_12_00001.png
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/materials/textures/tag41_12_00002.png
+[5.919s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_01.stl
+[5.920s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_02.stl
+[5.920s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_03.stl
+[5.920s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_04.stl
+[5.928s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_05.stl
+[5.928s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_06.stl
+[5.929s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_07.stl
+[5.929s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_08.stl
+[5.929s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_09.stl
+[5.929s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_Section_10.stl
+[5.929s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/collision/Edgar_StartingArea.stl
+[5.930s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_01.dae
+[5.930s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_02.dae
+[5.930s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_03.dae
+[5.930s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_04.dae
+[5.931s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_05.dae
+[5.931s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_06.dae
+[5.949s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_07.dae
+[5.974s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_08.dae
+[5.996s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_09.dae
+[6.013s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_Section_10.dae
+[6.032s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/meshes/visual/Edgar_StartingArea.dae
+[6.050s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/worlds/simple_tunnel.sdf
+[6.068s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/spot_gazebo.dsv
+[6.088s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/spot_gazebo.sh
+[6.122s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/ament_index/resource_index/package_run_dependencies/spot_gazebo
+[6.160s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/ament_index/resource_index/parent_prefix_path/spot_gazebo
+[6.175s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/ament_prefix_path.sh
+[6.205s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/ament_prefix_path.dsv
+[6.235s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/path.sh
+[6.251s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/environment/path.dsv
+[6.278s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/local_setup.bash
+[6.295s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/local_setup.sh
+[6.315s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/local_setup.zsh
+[6.347s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/local_setup.dsv
+[6.364s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/package.dsv
+[6.382s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/ament_index/resource_index/packages/spot_gazebo
+[6.400s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/cmake/spot_gazeboConfig.cmake
+[6.417s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/cmake/spot_gazeboConfig-version.cmake
+[6.447s] -- Symlinking: /ros2_ws/install/spot_gazebo/share/spot_gazebo/package.xml
+[6.489s] Invoked command in '/ros2_ws/build/spot_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/spot_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/ros2_ws/install/spot_description/share/spot_description/models /usr/bin/cmake --install /ros2_ws/build/spot_gazebo

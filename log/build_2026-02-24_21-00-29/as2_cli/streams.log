@@ -1,0 +1,21 @@
+[0.154s] Invoking command in '/ros2_ws/build/as2_cli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/as2_cli -- -j8 -l8
+[0.398s] Invoked command in '/ros2_ws/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/as2_cli -- -j8 -l8
+[0.404s] Invoking command in '/ros2_ws/build/as2_cli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/as2_cli
+[0.427s] -- Install configuration: "Release"
+[0.428s] -- Execute custom install script
+[0.429s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/ament_index/resource_index/package_run_dependencies/as2_cli
+[0.431s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/ament_index/resource_index/parent_prefix_path/as2_cli
+[0.432s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/environment/ament_prefix_path.sh
+[0.433s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/environment/ament_prefix_path.dsv
+[0.433s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/environment/path.sh
+[0.434s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/environment/path.dsv
+[0.435s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/local_setup.bash
+[0.436s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/local_setup.sh
+[0.437s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/local_setup.zsh
+[0.437s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/local_setup.dsv
+[0.438s] -- Symlinking: /ros2_ws/install/as2_cli/share/as2_cli/package.dsv
+[0.453s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/ament_index/resource_index/packages/as2_cli
+[0.453s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/cmake/as2_cliConfig.cmake
+[0.454s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/cmake/as2_cliConfig-version.cmake
+[0.455s] -- Up-to-date symlink: /ros2_ws/install/as2_cli/share/as2_cli/package.xml
+[0.617s] Invoked command in '/ros2_ws/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/as2_cli

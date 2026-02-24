@@ -1,0 +1,40 @@
+[0.051s] Invoking command in '/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/champ -- -j8 -l8
+[0.168s] Invoked command in '/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/champ -- -j8 -l8
+[0.196s] Invoking command in '/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/champ
+[1.434s] -- Install configuration: "Release"
+[1.434s] -- Execute custom install script
+[1.434s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/LICENSE
+[1.435s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/README.md
+[1.435s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/bla/basic_linear_algebra.h
+[1.435s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/bla/memory_delegate.h
+[1.436s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/body_controller/body_controller.h
+[1.437s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/geometry/geometry.h
+[1.438s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/kinematics/kinematics.h
+[1.438s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/leg_controller/leg_controller.h
+[1.438s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/leg_controller/phase_generator.h
+[1.439s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/leg_controller/trajectory_planner.h
+[1.439s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/macros/macros.h
+[1.441s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/odometry/odometry.h
+[1.441s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/quadruped_base/quadruped_base.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/quadruped_base/quadruped_components.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/utils/urdf_loader.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/include/champ/utils/xmlrpc_helpers.h
+[1.442s] -- Up-to-date symlink: /ros2_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/environment/path.sh
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/environment/path.dsv
+[1.443s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/local_setup.bash
+[1.444s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/local_setup.sh
+[1.444s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/local_setup.zsh
+[1.444s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/local_setup.dsv
+[1.444s] -- Symlinking: /ros2_ws/install/champ/share/champ/package.dsv
+[1.444s] -- Up-to-date symlink: /ros2_ws/install/champ/share/ament_index/resource_index/packages/champ
+[1.444s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.445s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/cmake/champConfig.cmake
+[1.445s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+[1.445s] -- Up-to-date symlink: /ros2_ws/install/champ/share/champ/package.xml
+[1.455s] Invoked command in '/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/champ

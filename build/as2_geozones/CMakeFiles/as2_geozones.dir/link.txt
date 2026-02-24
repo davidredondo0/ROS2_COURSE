@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_geozones.a CMakeFiles/as2_geozones.dir/src/as2_geozones.cpp.o
+/usr/bin/ranlib libas2_geozones.a

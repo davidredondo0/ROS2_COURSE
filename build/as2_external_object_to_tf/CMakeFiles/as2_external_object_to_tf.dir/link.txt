@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_external_object_to_tf.a CMakeFiles/as2_external_object_to_tf.dir/src/as2_external_object_to_tf.cpp.o
+/usr/bin/ranlib libas2_external_object_to_tf.a

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator_node" "TARGETS" "as2_platform_multirotor_simulator_node" "DESTINATION" "lib/as2_platform_multirotor_simulator")

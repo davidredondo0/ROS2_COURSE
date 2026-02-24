@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing as2_visualization.egg-info/PKG-INFO
+writing dependency_links to as2_visualization.egg-info/dependency_links.txt
+writing entry points to as2_visualization.egg-info/entry_points.txt
+writing requirements to as2_visualization.egg-info/requires.txt
+writing top-level names to as2_visualization.egg-info/top_level.txt
+reading manifest file 'as2_visualization.egg-info/SOURCES.txt'
+writing manifest file 'as2_visualization.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/as2_visualization/lib/python3.10/site-packages/as2-visualization.egg-link (link to .)
+Installing cfg_generator script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing gate_publisher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing marker_publisher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing viz_launcher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+
+Installed /ros2_ws/build/as2_visualization
+running symlink_data

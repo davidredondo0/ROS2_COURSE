@@ -1,0 +1,49 @@
+[0.077s] Invoking command in '/ros2_ws/build/ros2srrc_ur10': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/packages/ros2srrc_ur10 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_ur10
+[1.544s] -- The C compiler identification is GNU 11.4.0
+[1.544s] -- The CXX compiler identification is GNU 11.4.0
+[1.544s] -- Detecting C compiler ABI info
+[1.544s] -- Detecting C compiler ABI info - done
+[1.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.545s] -- Detecting C compile features
+[1.545s] -- Detecting C compile features - done
+[1.545s] -- Detecting CXX compiler ABI info
+[1.545s] -- Detecting CXX compiler ABI info - done
+[1.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.545s] -- Detecting CXX compile features
+[1.546s] -- Detecting CXX compile features - done
+[1.546s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.546s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.546s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.751s] -- Added test 'lint_cmake' to check CMake code style
+[1.754s] -- Added test 'xmllint' to check XML markup files
+[1.758s] -- Configuring done
+[1.766s] -- Generating done
+[1.770s] -- Build files have been written to: /ros2_ws/build/ros2srrc_ur10
+[1.780s] Invoked command in '/ros2_ws/build/ros2srrc_ur10' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/packages/ros2srrc_ur10 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_ur10
+[1.784s] Invoking command in '/ros2_ws/build/ros2srrc_ur10': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur10 -- -j8 -l8
+[1.867s] Invoked command in '/ros2_ws/build/ros2srrc_ur10' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur10 -- -j8 -l8
+[1.868s] Invoking command in '/ros2_ws/build/ros2srrc_ur10': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur10
+[2.094s] -- Install configuration: "Release"
+[2.095s] -- Execute custom install script
+[2.095s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/config/configurations.yaml
+[2.095s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/urdf/ur10.urdf.xacro
+[2.096s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/urdf/ur10_robotiq_2f85.urdf.xacro
+[2.096s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/urdf/ur10_robotiq_hande.urdf.xacro
+[2.096s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur10
+[2.096s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur10
+[2.097s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/environment/ament_prefix_path.sh
+[2.097s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/environment/ament_prefix_path.dsv
+[2.097s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/environment/path.sh
+[2.098s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/environment/path.dsv
+[2.099s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/local_setup.bash
+[2.099s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/local_setup.sh
+[2.100s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/local_setup.zsh
+[2.105s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/local_setup.dsv
+[2.119s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/package.dsv
+[2.137s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ament_index/resource_index/packages/ros2srrc_ur10
+[2.156s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/cmake/ros2srrc_ur10Config.cmake
+[2.176s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/cmake/ros2srrc_ur10Config-version.cmake
+[2.196s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10/share/ros2srrc_ur10/package.xml
+[2.239s] Invoked command in '/ros2_ws/build/ros2srrc_ur10' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur10

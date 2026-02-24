@@ -1,0 +1,49 @@
+[0.023s] Invoking command in '/ros2_ws/build/ros2srrc_ur16e': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/packages/ros2srrc_ur16e -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_ur16e
+[1.576s] -- The C compiler identification is GNU 11.4.0
+[1.576s] -- The CXX compiler identification is GNU 11.4.0
+[1.576s] -- Detecting C compiler ABI info
+[1.576s] -- Detecting C compiler ABI info - done
+[1.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.577s] -- Detecting C compile features
+[1.577s] -- Detecting C compile features - done
+[1.577s] -- Detecting CXX compiler ABI info
+[1.577s] -- Detecting CXX compiler ABI info - done
+[1.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.578s] -- Detecting CXX compile features
+[1.578s] -- Detecting CXX compile features - done
+[1.578s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.578s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.673s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.679s] -- Added test 'lint_cmake' to check CMake code style
+[1.681s] -- Added test 'xmllint' to check XML markup files
+[1.685s] -- Configuring done
+[1.692s] -- Generating done
+[1.696s] -- Build files have been written to: /ros2_ws/build/ros2srrc_ur16e
+[1.705s] Invoked command in '/ros2_ws/build/ros2srrc_ur16e' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/packages/ros2srrc_ur16e -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_ur16e
+[1.710s] Invoking command in '/ros2_ws/build/ros2srrc_ur16e': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur16e -- -j8 -l8
+[2.751s] Invoked command in '/ros2_ws/build/ros2srrc_ur16e' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur16e -- -j8 -l8
+[2.752s] Invoking command in '/ros2_ws/build/ros2srrc_ur16e': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur16e
+[3.075s] -- Install configuration: "Release"
+[3.075s] -- Execute custom install script
+[3.075s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/config/configurations.yaml
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/urdf/ur16e.urdf.xacro
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/urdf/ur16e_robotiq_2f85.urdf.xacro
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/urdf/ur16e_robotiq_hande.urdf.xacro
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur16e
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur16e
+[3.076s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/environment/ament_prefix_path.sh
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/environment/ament_prefix_path.dsv
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/environment/path.sh
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/environment/path.dsv
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/local_setup.bash
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/local_setup.sh
+[3.077s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/local_setup.zsh
+[3.078s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/local_setup.dsv
+[3.080s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/package.dsv
+[3.080s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ament_index/resource_index/packages/ros2srrc_ur16e
+[3.080s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/cmake/ros2srrc_ur16eConfig.cmake
+[3.081s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/cmake/ros2srrc_ur16eConfig-version.cmake
+[3.082s] -- Symlinking: /ros2_ws/install/ros2srrc_ur16e/share/ros2srrc_ur16e/package.xml
+[3.151s] Invoked command in '/ros2_ws/build/ros2srrc_ur16e' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur16e

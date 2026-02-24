@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b4f1870d914c5c0f4226.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_alphanumeric_viewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_alphanumeric_viewer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_alphanumeric_viewer_node-Release-8ebf596966fdf3099a49.json",
+					"name" : "as2_alphanumeric_viewer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_alphanumeric_viewer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_alphanumeric_viewer_uninstall-Release-313afd86f93f812f7d69.json",
+					"name" : "as2_alphanumeric_viewer_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-eccf1869e14192b20870.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_alphanumeric_viewer",
+		"source" : "/ros2_ws/src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

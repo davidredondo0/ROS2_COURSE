@@ -1,0 +1,121 @@
+[0.071s] Invoking command in '/ros2_ws/build/as2_rviz_plugins': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_rviz_plugins
+[94.872s] -- The C compiler identification is GNU 11.4.0
+[94.874s] -- The CXX compiler identification is GNU 11.4.0
+[94.875s] -- Detecting C compiler ABI info
+[94.875s] -- Detecting C compiler ABI info - done
+[94.877s] -- Check for working C compiler: /usr/bin/cc - skipped
+[94.878s] -- Detecting C compile features
+[94.879s] -- Detecting C compile features - done
+[94.879s] -- Detecting CXX compiler ABI info
+[94.880s] -- Detecting CXX compiler ABI info - done
+[94.882s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[94.883s] -- Detecting CXX compile features
+[94.884s] -- Detecting CXX compile features - done
+[94.884s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[94.885s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[94.885s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[94.885s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[94.886s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[94.886s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[94.886s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[94.887s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[94.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[94.887s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[94.888s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[94.888s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[94.888s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[94.889s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[94.889s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[94.889s] -- Looking for pthread.h
+[94.890s] -- Looking for pthread.h - found
+[94.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[94.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[94.890s] -- Found Threads: TRUE  
+[94.891s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[94.891s] -- Found rviz_common: 11.2.23 (/opt/ros/humble/share/rviz_common/cmake)
+[94.891s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[94.892s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[94.892s] -- Found OGRE
+[94.892s] --   static     : OFF
+[94.892s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[94.902s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[94.903s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[94.903s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[94.903s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[94.903s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[94.903s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[94.903s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[94.904s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[94.904s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[94.904s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[94.904s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[94.904s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[94.904s] -- Found X11: /usr/include   
+[94.904s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[94.905s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[94.905s] -- Looking for gethostbyname
+[94.905s] -- Looking for gethostbyname - found
+[94.905s] -- Looking for connect
+[94.905s] -- Looking for connect - found
+[94.905s] -- Looking for remove
+[94.906s] -- Looking for remove - found
+[94.906s] -- Looking for shmat
+[94.906s] -- Looking for shmat - found
+[94.906s] -- Looking for IceConnectionNumber in ICE
+[94.906s] -- Looking for IceConnectionNumber in ICE - found
+[94.906s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[94.907s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[94.907s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[94.907s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[94.907s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[94.907s] -- Created GeographicLib::GeographicLib target from legacy variables
+[94.907s] -- Found as2_motion_reference_handlers: 1.1.3 (/ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[94.907s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[94.908s] -- Added test 'copyright' to check source files copyright and LICENSE
+[94.908s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[94.908s] -- Configured cppcheck include dirs: 
+[94.908s] -- Configured cppcheck exclude dirs and/or files: 
+[94.908s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[94.908s] -- Configured cpplint exclude dirs and/or files: 
+[94.909s] -- Added test 'lint_cmake' to check CMake code style
+[94.909s] -- Added test 'uncrustify' to check C / C++ code style
+[94.909s] -- Configured uncrustify additional arguments: 
+[94.909s] -- Added test 'xmllint' to check XML markup files
+[94.909s] -- Configuring done
+[94.909s] -- Generating done
+[94.910s] -- Build files have been written to: /ros2_ws/build/as2_rviz_plugins
+[94.941s] Invoked command in '/ros2_ws/build/as2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_rviz_plugins
+[94.942s] Invoking command in '/ros2_ws/build/as2_rviz_plugins': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_rviz_plugins -- -j8 -l8
+[101.140s] [ 25%] [34m[1mAutomatic MOC for target as2_rviz_plugins[0m
+[101.140s] [ 25%] Built target as2_rviz_plugins_autogen
+[101.140s] [ 50%] [32mBuilding CXX object CMakeFiles/as2_rviz_plugins.dir/as2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[107.861s] [ 75%] [32mBuilding CXX object CMakeFiles/as2_rviz_plugins.dir/src/teleop_panel.cpp.o[0m
+[131.676s] [100%] [32m[1mLinking CXX shared library libas2_rviz_plugins.so[0m
+[135.043s] [100%] Built target as2_rviz_plugins
+[135.077s] Invoked command in '/ros2_ws/build/as2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_rviz_plugins -- -j8 -l8
+[135.078s] Invoking command in '/ros2_ws/build/as2_rviz_plugins': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_rviz_plugins
+[148.498s] -- Install configuration: "Release"
+[148.498s] -- Execute custom install script
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins//plugin_description.xml
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/lib/as2_rviz_plugins/libas2_rviz_plugins.so
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/icons/classes/Imu.png
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/icons/classes/PlantFlag.png
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/icons/classes/Teleop.png
+[148.499s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/as2_rviz_plugins
+[148.500s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/as2_rviz_plugins
+[148.500s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/environment/ament_prefix_path.sh
+[148.500s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/environment/ament_prefix_path.dsv
+[148.500s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/environment/path.sh
+[148.500s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/environment/path.dsv
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/local_setup.bash
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/local_setup.sh
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/local_setup.zsh
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/local_setup.dsv
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/package.dsv
+[148.501s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/ament_index/resource_index/packages/as2_rviz_plugins
+[148.502s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/as2_rviz_plugins
+[148.502s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[148.502s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/cmake/as2_rviz_pluginsConfig.cmake
+[148.502s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/cmake/as2_rviz_pluginsConfig-version.cmake
+[148.502s] -- Symlinking: /ros2_ws/install/as2_rviz_plugins/share/as2_rviz_plugins/package.xml
+[148.525s] Invoked command in '/ros2_ws/build/as2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_rviz_plugins

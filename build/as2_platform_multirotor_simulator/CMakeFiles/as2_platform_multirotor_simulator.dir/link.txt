@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_platform_multirotor_simulator.a CMakeFiles/as2_platform_multirotor_simulator.dir/src/as2_platform_multirotor_simulator.cpp.o CMakeFiles/as2_platform_multirotor_simulator.dir/src/as2_interface.cpp.o
+/usr/bin/ranlib libas2_platform_multirotor_simulator.a

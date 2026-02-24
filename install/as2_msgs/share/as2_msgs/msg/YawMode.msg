@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_msgs/msg/YawMode.msg

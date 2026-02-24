@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/as2_cli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/aerostack2/as2_cli -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_cli
+Invoked command in '/ros2_ws/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/aerostack2/as2_cli -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_cli
+Invoking command in '/ros2_ws/build/as2_cli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/as2_cli -- -j8 -l8
+Invoked command in '/ros2_ws/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/as2_cli -- -j8 -l8
+Invoking command in '/ros2_ws/build/as2_cli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/as2_cli
+Invoked command in '/ros2_ws/build/as2_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/as2_cli

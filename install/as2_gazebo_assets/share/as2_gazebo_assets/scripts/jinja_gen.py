@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/scripts/jinja_gen.py

@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/as2_external_object_to_tf.dir/src/as2_external_object_to_tf.cpp.o"
+  "CMakeFiles/as2_external_object_to_tf.dir/src/as2_external_object_to_tf.cpp.o.d"
+  "libas2_external_object_to_tf.a"
+  "libas2_external_object_to_tf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/as2_external_object_to_tf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

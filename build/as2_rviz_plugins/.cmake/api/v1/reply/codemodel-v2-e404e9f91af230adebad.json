@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-948faa3fbebc8624dae5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_rviz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_rviz_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_rviz_plugins-Release-11e386de3972baa6816f.json",
+					"name" : "as2_rviz_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_rviz_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_rviz_plugins_autogen-Release-d9d27b4d8e985b794da5.json",
+					"name" : "as2_rviz_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_rviz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_rviz_plugins_uninstall-Release-8dad7227d7b0f7332e3f.json",
+					"name" : "as2_rviz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9b97d0d7d256055f21c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_rviz_plugins",
+		"source" : "/ros2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

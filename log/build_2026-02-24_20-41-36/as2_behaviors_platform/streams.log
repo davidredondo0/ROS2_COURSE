@@ -1,0 +1,102 @@
+[0.214s] Invoking command in '/ros2_ws/build/as2_behaviors_platform': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_platform
+[1.243s] -- The C compiler identification is GNU 11.4.0
+[1.244s] -- The CXX compiler identification is GNU 11.4.0
+[1.244s] -- Detecting C compiler ABI info
+[1.416s] -- Detecting C compiler ABI info - done
+[1.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.442s] -- Detecting C compile features
+[1.443s] -- Detecting C compile features - done
+[1.452s] -- Detecting CXX compiler ABI info
+[1.777s] -- Detecting CXX compiler ABI info - done
+[1.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.820s] -- Detecting CXX compile features
+[1.832s] -- Detecting CXX compile features - done
+[1.857s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.005s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.245s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[3.438s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.488s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.551s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.071s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.097s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[4.243s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.299s] -- Looking for pthread.h
+[4.897s] -- Looking for pthread.h - found
+[4.898s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.299s] -- Found Threads: TRUE  
+[5.586s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.859s] -- Found as2_behavior: 1.1.3 (/ros2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[5.887s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.946s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[5.973s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[5.978s] -- Created GeographicLib::GeographicLib target from legacy variables
+[6.832s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.836s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.836s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.885s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.659s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.706s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.713s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.715s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform/include/as2_behaviors_platform
+[8.715s] -- Configured cppcheck exclude dirs and/or files: 
+[8.739s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.739s] -- Configured cpplint exclude dirs and/or files: 
+[8.741s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.742s] -- Added test 'lint_cmake' to check CMake code style
+[8.744s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.747s] -- Added test 'uncrustify' to check C / C++ code style
+[8.747s] -- Configured uncrustify additional arguments: 
+[8.748s] -- Added test 'xmllint' to check XML markup files
+[8.772s] -- Configuring done
+[9.021s] -- Generating done
+[9.090s] -- Build files have been written to: /ros2_ws/build/as2_behaviors_platform
+[9.193s] Invoked command in '/ros2_ws/build/as2_behaviors_platform' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_platform
+[9.194s] Invoking command in '/ros2_ws/build/as2_behaviors_platform': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_platform -- -j8 -l8
+[29.796s] [  7%] [32mBuilding CXX object CMakeFiles/arm_behavior.dir/src/set_arming_state_behavior_main.cpp.o[0m
+[46.669s] [ 15%] [32m[1mLinking CXX executable arm_behavior[0m
+[47.397s] [ 15%] Built target arm_behavior
+[47.581s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[68.515s] [ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[68.643s] [ 30%] Built target gtest
+[68.686s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[70.902s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[70.967s] [ 46%] Built target gtest_main
+[71.012s] [ 53%] [32mBuilding CXX object CMakeFiles/as2_behaviors_platform.dir/src/set_arming_state_behavior_main.cpp.o[0m
+[90.378s] [ 61%] [32mBuilding CXX object CMakeFiles/as2_behaviors_platform.dir/src/set_offboard_mode_behavior_main.cpp.o[0m
+[112.810s] [ 69%] [32m[1mLinking CXX static library libas2_behaviors_platform.a[0m
+[112.990s] [ 69%] Built target as2_behaviors_platform
+[113.038s] [ 76%] [32mBuilding CXX object CMakeFiles/offboard_behavior.dir/src/set_offboard_mode_behavior_main.cpp.o[0m
+[134.563s] [ 84%] [32m[1mLinking CXX executable offboard_behavior[0m
+[135.195s] [ 84%] Built target offboard_behavior
+[135.261s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/as2_behaviors_platform_as2_behaviors_platform_gtest.dir/as2_behaviors_platform_gtest.cpp.o[0m
+[166.608s] [100%] [32m[1mLinking CXX executable as2_behaviors_platform_as2_behaviors_platform_gtest[0m
+[167.233s] [100%] Built target as2_behaviors_platform_as2_behaviors_platform_gtest
+[167.297s] Invoked command in '/ros2_ws/build/as2_behaviors_platform' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_platform -- -j8 -l8
+[167.342s] Invoking command in '/ros2_ws/build/as2_behaviors_platform': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_platform
+[167.343s] -- Install configuration: "Release"
+[167.343s] -- Execute custom install script
+[167.343s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/arm_behavior
+[167.345s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/offboard_behavior
+[167.358s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/as2_platform_behaviors_launch.py
+[167.380s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/test.launch.py
+[167.411s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_platform
+[167.434s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_platform
+[167.457s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.sh
+[167.480s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.dsv
+[167.510s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.sh
+[167.530s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.dsv
+[167.551s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.bash
+[167.571s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.sh
+[167.613s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.zsh
+[167.633s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.dsv
+[167.654s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.dsv
+[167.677s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/packages/as2_behaviors_platform
+[167.698s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig.cmake
+[167.717s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig-version.cmake
+[167.737s] -- Symlinking: /ros2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.xml
+[167.758s] -- Installing: /ros2_ws/install/as2_behaviors_platform/lib/libas2_behaviors_platform.a
+[168.290s] Invoked command in '/ros2_ws/build/as2_behaviors_platform' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_platform

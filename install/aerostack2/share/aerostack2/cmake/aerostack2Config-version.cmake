@@ -1,0 +1,1 @@
+/ros2_ws/build/aerostack2/ament_cmake_core/aerostack2Config-version.cmake

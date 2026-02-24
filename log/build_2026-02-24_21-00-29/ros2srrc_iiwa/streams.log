@@ -1,0 +1,24 @@
+[0.493s] Invoking command in '/ros2_ws/build/ros2srrc_iiwa': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_iiwa -- -j8 -l8
+[0.606s] Invoked command in '/ros2_ws/build/ros2srrc_iiwa' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_iiwa -- -j8 -l8
+[0.614s] Invoking command in '/ros2_ws/build/ros2srrc_iiwa': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_iiwa
+[0.638s] -- Install configuration: "Release"
+[0.638s] -- Execute custom install script
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/config/configurations.yaml
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/urdf/iiwa.urdf.xacro
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/urdf/iiwa_robotiq_2f85.urdf.xacro
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ament_index/resource_index/package_run_dependencies/ros2srrc_iiwa
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ament_index/resource_index/parent_prefix_path/ros2srrc_iiwa
+[0.639s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/environment/ament_prefix_path.sh
+[0.640s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/environment/ament_prefix_path.dsv
+[0.640s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/environment/path.sh
+[0.642s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/environment/path.dsv
+[0.642s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/local_setup.bash
+[0.642s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/local_setup.sh
+[0.642s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/local_setup.zsh
+[0.643s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/local_setup.dsv
+[0.643s] -- Symlinking: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/package.dsv
+[0.651s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ament_index/resource_index/packages/ros2srrc_iiwa
+[0.652s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/cmake/ros2srrc_iiwaConfig.cmake
+[0.652s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/cmake/ros2srrc_iiwaConfig-version.cmake
+[0.653s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_iiwa/share/ros2srrc_iiwa/package.xml
+[0.712s] Invoked command in '/ros2_ws/build/ros2srrc_iiwa' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_iiwa

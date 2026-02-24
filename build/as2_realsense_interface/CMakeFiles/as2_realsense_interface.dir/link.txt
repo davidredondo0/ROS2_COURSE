@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_realsense_interface.a CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o
+/usr/bin/ranlib libas2_realsense_interface.a

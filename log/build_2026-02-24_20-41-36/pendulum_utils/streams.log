@@ -1,0 +1,84 @@
+[0.049s] Invoking command in '/ros2_ws/build/pendulum_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/pendulum/pendulum_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/pendulum_utils
+[0.414s] -- The C compiler identification is GNU 11.4.0
+[0.574s] -- The CXX compiler identification is GNU 11.4.0
+[0.592s] -- Detecting C compiler ABI info
+[0.737s] -- Detecting C compiler ABI info - done
+[0.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.759s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.920s] -- Detecting CXX compiler ABI info - done
+[0.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.947s] -- Detecting CXX compile features
+[0.948s] -- Detecting CXX compile features - done
+[0.955s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.660s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.775s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.037s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.051s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.074s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.266s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.275s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.335s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.368s] -- Looking for pthread.h
+[2.522s] -- Looking for pthread.h - found
+[2.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.669s] -- Found Threads: TRUE  
+[2.828s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.897s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.904s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.130s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.132s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.133s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/pendulum/pendulum_utils/include>
+[3.134s] -- Configured cppcheck exclude dirs and/or files: 
+[3.135s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.135s] -- Configured cpplint exclude dirs and/or files: 
+[3.139s] -- Added test 'lint_cmake' to check CMake code style
+[3.139s] -- Added test 'uncrustify' to check C / C++ code style
+[3.139s] -- Configured uncrustify additional arguments: 
+[3.140s] -- Added test 'xmllint' to check XML markup files
+[3.145s] -- Configuring done
+[3.167s] -- Generating done
+[3.174s] -- Build files have been written to: /ros2_ws/build/pendulum_utils
+[3.195s] Invoked command in '/ros2_ws/build/pendulum_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/pendulum/pendulum_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/pendulum_utils
+[3.195s] Invoking command in '/ros2_ws/build/pendulum_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/pendulum_utils -- -j8 -l8
+[3.765s] [ 33%] [32mBuilding CXX object CMakeFiles/pendulum_utils.dir/src/memory_lock.cpp.o[0m
+[3.765s] [ 66%] [32mBuilding CXX object CMakeFiles/pendulum_utils.dir/src/rt_thread.cpp.o[0m
+[4.609s] [100%] [32m[1mLinking CXX shared library libpendulum_utils.so[0m
+[5.115s] [100%] Built target pendulum_utils
+[5.169s] Invoked command in '/ros2_ws/build/pendulum_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/pendulum_utils -- -j8 -l8
+[5.170s] Invoking command in '/ros2_ws/build/pendulum_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/pendulum_utils
+[9.295s] -- Install configuration: "Release"
+[9.295s] -- Execute custom install script
+[9.295s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/library_path.sh
+[9.295s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/library_path.dsv
+[9.295s] -- Symlinking: /ros2_ws/install/pendulum_utils/include/pendulum_utils/lifecycle_autostart.hpp
+[9.295s] -- Symlinking: /ros2_ws/install/pendulum_utils/include/pendulum_utils/memory_lock.hpp
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/include/pendulum_utils/process_settings.hpp
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/include/pendulum_utils/rt_thread.hpp
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/ament_index/resource_index/package_run_dependencies/pendulum_utils
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/ament_index/resource_index/parent_prefix_path/pendulum_utils
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/ament_prefix_path.sh
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/ament_prefix_path.dsv
+[9.296s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/path.sh
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/environment/path.dsv
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/local_setup.bash
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/local_setup.sh
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/local_setup.zsh
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/local_setup.dsv
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/package.dsv
+[9.297s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/ament_index/resource_index/packages/pendulum_utils
+[9.298s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/ament_cmake_export_targets-extras.cmake
+[9.298s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.298s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/pendulum_utilsConfig.cmake
+[9.298s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/pendulum_utilsConfig-version.cmake
+[9.298s] -- Symlinking: /ros2_ws/install/pendulum_utils/share/pendulum_utils/package.xml
+[9.298s] -- Installing: /ros2_ws/install/pendulum_utils/lib/libpendulum_utils.so
+[9.298s] -- Set runtime path of "/ros2_ws/install/pendulum_utils/lib/libpendulum_utils.so" to ""
+[9.299s] -- Installing: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/export_pendulum_utilsExport.cmake
+[9.299s] -- Installing: /ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake/export_pendulum_utilsExport-release.cmake
+[9.340s] Invoked command in '/ros2_ws/build/pendulum_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/pendulum_utils

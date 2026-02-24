@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/ros2_ws/build/pendulum_state_publisher': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_state_publisher -- -j8 -l8
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target pendulum_state_publisher[0m
+[0.126s] [100%] Built target pendulum_state_publisher
+[0.182s] Invoked command in '/ros2_ws/build/pendulum_state_publisher' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_state_publisher -- -j8 -l8
+[0.190s] Invoking command in '/ros2_ws/build/pendulum_state_publisher': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_state_publisher
+[0.278s] -- Install configuration: "Release"
+[0.278s] -- Execute custom install script
+[0.278s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/lib/pendulum_state_publisher/pendulum_state_publisher
+[0.279s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/package_run_dependencies/pendulum_state_publisher
+[0.279s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/parent_prefix_path/pendulum_state_publisher
+[0.279s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/ament_prefix_path.dsv
+[0.280s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/path.sh
+[0.280s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/path.dsv
+[0.280s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.bash
+[0.280s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.sh
+[0.280s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.zsh
+[0.281s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.dsv
+[0.281s] -- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/package.dsv
+[0.281s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/packages/pendulum_state_publisher
+[0.281s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/cmake/pendulum_state_publisherConfig.cmake
+[0.281s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/cmake/pendulum_state_publisherConfig-version.cmake
+[0.282s] -- Up-to-date symlink: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/package.xml
+[0.313s] Invoked command in '/ros2_ws/build/pendulum_state_publisher' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_state_publisher

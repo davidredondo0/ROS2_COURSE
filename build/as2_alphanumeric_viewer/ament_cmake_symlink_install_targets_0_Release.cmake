@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_alphanumeric_viewer/as2_alphanumeric_viewer_node" "TARGETS" "as2_alphanumeric_viewer_node" "DESTINATION" "lib/as2_alphanumeric_viewer")

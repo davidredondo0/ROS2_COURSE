@@ -4,3 +4,8 @@ pendulum2_msgs.egg-info/PKG-INFO
 pendulum2_msgs.egg-info/SOURCES.txt
 pendulum2_msgs.egg-info/dependency_links.txt
 pendulum2_msgs.egg-info/top_level.txt
+pendulum2_msgs/msg/__init__.py
+pendulum2_msgs/msg/_joint_command.py
+pendulum2_msgs/msg/_joint_command_stamped.py
+pendulum2_msgs/msg/_joint_state.py
+pendulum2_msgs/msg/_pendulum_teleop.py

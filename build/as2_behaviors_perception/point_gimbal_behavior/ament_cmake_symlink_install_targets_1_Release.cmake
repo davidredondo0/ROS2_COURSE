@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_behaviors_perception/point_gimbal_behavior/point_gimbal_behavior_node" "TARGETS" "point_gimbal_behavior_node" "DESTINATION" "lib/as2_behaviors_perception")

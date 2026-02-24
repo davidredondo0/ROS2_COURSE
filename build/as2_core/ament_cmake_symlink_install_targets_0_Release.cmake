@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_core/as2_names.cpython-310-x86_64-linux-gnu.so" "TARGETS" "as2_names" "DESTINATION" "local/lib/python3.10/dist-packages/as2_core")

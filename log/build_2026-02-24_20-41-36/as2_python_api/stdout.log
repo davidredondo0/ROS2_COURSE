@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating as2_python_api.egg-info
+writing as2_python_api.egg-info/PKG-INFO
+writing dependency_links to as2_python_api.egg-info/dependency_links.txt
+writing entry points to as2_python_api.egg-info/entry_points.txt
+writing requirements to as2_python_api.egg-info/requires.txt
+writing top-level names to as2_python_api.egg-info/top_level.txt
+writing manifest file 'as2_python_api.egg-info/SOURCES.txt'
+reading manifest file 'as2_python_api.egg-info/SOURCES.txt'
+writing manifest file 'as2_python_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/as2_python_api/lib/python3.10/site-packages/as2-python-api.egg-link (link to .)
+Installing mission_executor script to /ros2_ws/install/as2_python_api/lib/as2_python_api
+
+Installed /ros2_ws/build/as2_python_api
+running symlink_data
+creating /ros2_ws/install/as2_python_api/share/ament_index
+creating /ros2_ws/install/as2_python_api/share/ament_index/resource_index
+creating /ros2_ws/install/as2_python_api/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/as2_python_api/resource/as2_python_api -> /ros2_ws/install/as2_python_api/share/ament_index/resource_index/packages
+creating /ros2_ws/install/as2_python_api/share/as2_python_api/hooks
+symbolically linking /ros2_ws/build/as2_python_api/hooks/resource_paths.sh -> /ros2_ws/install/as2_python_api/share/as2_python_api/hooks
+symbolically linking /ros2_ws/build/as2_python_api/package.xml -> /ros2_ws/install/as2_python_api/share/as2_python_api

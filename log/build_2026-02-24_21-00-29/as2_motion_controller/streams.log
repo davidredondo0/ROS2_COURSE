@@ -1,0 +1,73 @@
+[0.052s] Invoking command in '/ros2_ws/build/as2_motion_controller': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_motion_controller -- -j8 -l8
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller[0m
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.398s] [  3%] Built target as2_motion_controller_plugin_base
+[0.412s] [ 10%] Built target gtest_main
+[0.430s] [ 20%] Built target as2_motion_controller
+[0.434s] [ 24%] Built target pid_controller
+[0.443s] [ 31%] Built target gtest
+[0.468s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller_node[0m
+[0.485s] [35m[1mConsolidate compiler generated dependencies of target differential_flatness_controller[0m
+[0.509s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_pid_1d_gtest[0m
+[0.518s] [35m[1mConsolidate compiler generated dependencies of target pid_speed_controller[0m
+[0.545s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_saturate_output_gtest[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_pid_gtest[0m
+[0.570s] [ 37%] Built target as2_motion_controller_node
+[0.591s] [ 44%] Built target pid_controller_pid_1d_gtest
+[0.592s] [ 51%] Built target differential_flatness_controller
+[0.607s] [ 58%] Built target pid_speed_controller
+[0.630s] [ 65%] Built target pid_controller_saturate_output_gtest
+[0.631s] [ 72%] Built target pid_controller_pid_gtest
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller_find_mode_match_test[0m
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller_as2_motion_controller_gtest[0m
+[0.659s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller_differential_flatness_controller_gtest[0m
+[0.672s] [35m[1mConsolidate compiler generated dependencies of target as2_motion_controller_pid_speed_controller_gtest[0m
+[0.681s] [ 79%] Built target as2_motion_controller_find_mode_match_test
+[0.704s] [ 86%] Built target as2_motion_controller_as2_motion_controller_gtest
+[0.714s] [ 93%] Built target as2_motion_controller_differential_flatness_controller_gtest
+[0.720s] [100%] Built target as2_motion_controller_pid_speed_controller_gtest
+[0.851s] Invoked command in '/ros2_ws/build/as2_motion_controller' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_motion_controller -- -j8 -l8
+[0.854s] Invoking command in '/ros2_ws/build/as2_motion_controller': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_motion_controller
+[0.864s] -- Install configuration: "Release"
+[0.866s] -- Execute custom install script
+[0.866s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/lib/as2_motion_controller/as2_motion_controller_node
+[0.867s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_base.hpp
+[0.867s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_handler.hpp
+[0.867s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_manager.hpp
+[0.868s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/library_path.sh
+[0.868s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/library_path.dsv
+[0.870s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/include/differential_flatness_controller/differential_flatness_controller.hpp
+[0.871s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/include/pid_speed_controller/pid_speed_controller.hpp
+[0.871s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller//plugins.xml
+[0.872s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/differential_flatness_controller/config/available_modes.yaml
+[0.872s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/differential_flatness_controller/config/controller_default.yaml
+[0.872s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/pid_speed_controller/config/available_modes.yaml
+[0.873s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/pid_speed_controller/config/controller_default.yaml
+[0.873s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/controller_launch.py
+[0.873s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/differential_flatness_controller.launch.py
+[0.874s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/pid_speed_controller.launch.py
+[0.874s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/config/motion_controller_default.yaml
+[0.874s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/ament_index/resource_index/package_run_dependencies/as2_motion_controller
+[0.875s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/ament_index/resource_index/parent_prefix_path/as2_motion_controller
+[0.875s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/ament_prefix_path.sh
+[0.876s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/ament_prefix_path.dsv
+[0.876s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/path.sh
+[0.876s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/path.dsv
+[0.876s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.bash
+[0.876s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.sh
+[0.877s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.zsh
+[0.877s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.dsv
+[0.877s] -- Symlinking: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/package.dsv
+[0.892s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/ament_index/resource_index/packages/as2_motion_controller
+[0.892s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/ament_index/resource_index/as2_motion_controller__pluginlib__plugin/as2_motion_controller
+[0.893s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.893s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.894s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/as2_motion_controllerConfig.cmake
+[0.894s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/as2_motion_controllerConfig-version.cmake
+[0.895s] -- Up-to-date symlink: /ros2_ws/install/as2_motion_controller/share/as2_motion_controller/package.xml
+[0.895s] -- Up-to-date: /ros2_ws/install/as2_motion_controller/lib/libas2_motion_controller.so
+[0.896s] -- Up-to-date: /ros2_ws/install/as2_motion_controller/lib/libas2_motion_controller_plugin_base.so
+[0.897s] -- Up-to-date: /ros2_ws/install/as2_motion_controller/lib/libdifferential_flatness_controller.so
+[0.898s] -- Up-to-date: /ros2_ws/install/as2_motion_controller/lib/libpid_speed_controller.so
+[1.343s] Invoked command in '/ros2_ws/build/as2_motion_controller' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_motion_controller

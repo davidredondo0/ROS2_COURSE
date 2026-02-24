@@ -1,0 +1,73 @@
+[35m[1mConsolidate compiler generated dependencies of target takeoff_emulator[0m
+[35m[1mConsolidate compiler generated dependencies of target platform_emulator[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_behavior_tree[0m
+[35m[1mConsolidate compiler generated dependencies of target land_emulator[0m
+[35m[1mConsolidate compiler generated dependencies of target go_to_emulator[0m
+[35m[1mConsolidate compiler generated dependencies of target follow_path_emulator[0m
+[  6%] Built target takeoff_emulator
+[ 12%] Built target platform_emulator
+[ 19%] Built target go_to_emulator
+[ 25%] Built target follow_path_emulator
+[ 32%] Built target land_emulator
+[ 80%] Built target as2_behavior_tree
+[35m[1mConsolidate compiler generated dependencies of target as2_behavior_tree_node[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_behavior_tree_port_test[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_behavior_tree_port_pose_test[0m
+[ 87%] Built target as2_behavior_tree_port_test
+[ 93%] Built target as2_behavior_tree_port_pose_test
+[100%] Built target as2_behavior_tree_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/arm_service.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/echo.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/follow_path.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/get_origin.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_action.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_gps_action.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/gps_to_cartesian.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/land_action.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/offboard_service.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/send_event.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/set_origin.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/takeoff_action.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_action_node.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_service_node.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/condition/is_flying_condition.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_alert.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_event.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/port_specialization.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/as2_behavior_tree_node
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/behavior_trees.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/RTL_test_2.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/actions.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/arm_test.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/basic_mission.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test_2.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/follow_path_test.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/takeoff.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/test.xml
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/all_emulator.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/land_emulator.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/takeoff_emulator.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/platform_emulator
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/takeoff_emulator
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/land_emulator
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/go_to_emulator
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/follow_path_emulator
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/as2_behavior_tree
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/as2_behavior_tree
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/packages/as2_behavior_tree
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.xml
+-- Up-to-date: /ros2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so

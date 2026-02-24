@@ -1,0 +1,6 @@
+/ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator.so
+/ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so
+/ros2_ws/install/as2_state_estimator/lib/libraw_odometry.so
+/ros2_ws/install/as2_state_estimator/lib/libground_truth.so
+/ros2_ws/install/as2_state_estimator/lib/libmocap_pose.so
+/ros2_ws/install/as2_state_estimator/lib/libground_truth_odometry_fuse.so

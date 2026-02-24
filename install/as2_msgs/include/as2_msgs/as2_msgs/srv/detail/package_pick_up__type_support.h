@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_msgs/rosidl_generator_c/as2_msgs/srv/detail/package_pick_up__type_support.h

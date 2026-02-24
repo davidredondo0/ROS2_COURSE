@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_perception/detect_aruco_markers_behavior/launch/detect_aruco_markers_behavior_sim_launch.py

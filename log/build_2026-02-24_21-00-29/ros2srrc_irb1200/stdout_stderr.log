@@ -1,0 +1,20 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/config/configurations.yaml
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/urdf/irb1200.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/urdf/irb1200_egp64.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb1200
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb1200
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ament_index/resource_index/packages/ros2srrc_irb1200
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/cmake/ros2srrc_irb1200Config.cmake
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/cmake/ros2srrc_irb1200Config-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1200/share/ros2srrc_irb1200/package.xml

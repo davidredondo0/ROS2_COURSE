@@ -1,0 +1,17 @@
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/launch/alphanumeric_viewer_launch.py
+/ros2_ws/install/as2_alphanumeric_viewer/lib/as2_alphanumeric_viewer/as2_alphanumeric_viewer_node
+/ros2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/package_run_dependencies/as2_alphanumeric_viewer
+/ros2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/parent_prefix_path/as2_alphanumeric_viewer
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/ament_prefix_path.sh
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/ament_prefix_path.dsv
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/path.sh
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/path.dsv
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.bash
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.sh
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.zsh
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.dsv
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/package.dsv
+/ros2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/packages/as2_alphanumeric_viewer
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/cmake/as2_alphanumeric_viewerConfig.cmake
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/cmake/as2_alphanumeric_viewerConfig-version.cmake
+/ros2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/package.xml

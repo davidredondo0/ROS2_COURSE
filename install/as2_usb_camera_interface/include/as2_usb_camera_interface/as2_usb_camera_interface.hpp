@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/include/as2_usb_camera_interface/as2_usb_camera_interface.hpp

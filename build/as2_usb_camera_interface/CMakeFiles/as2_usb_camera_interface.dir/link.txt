@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_usb_camera_interface.a CMakeFiles/as2_usb_camera_interface.dir/src/as2_usb_camera_interface.cpp.o
+/usr/bin/ranlib libas2_usb_camera_interface.a

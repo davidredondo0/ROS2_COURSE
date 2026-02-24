@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_map_server/plugins/scan2occ_grid/launch/scan2occ_grid-map_server.launch.py

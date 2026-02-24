@@ -1,0 +1,247 @@
+[0.056s] Invoking command in '/ros2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_swarm_flocking
+[1.078s] -- The C compiler identification is GNU 11.4.0
+[1.078s] -- The CXX compiler identification is GNU 11.4.0
+[1.078s] -- Detecting C compiler ABI info
+[1.079s] -- Detecting C compiler ABI info - done
+[1.079s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.079s] -- Detecting C compile features
+[1.079s] -- Detecting C compile features - done
+[1.079s] -- Detecting CXX compiler ABI info
+[1.079s] -- Detecting CXX compiler ABI info - done
+[1.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.080s] -- Detecting CXX compile features
+[1.080s] -- Detecting CXX compile features - done
+[1.080s] -- dynamic_trajectory_generator not found
+[3.980s] -- Found glog.
+[3.980s] -- GLOG Used config file: /usr/lib/x86_64-linux-gnu/cmake/glog/glog-config.cmake
+[4.033s] -- Could not locate NLopt.
+[6.636s] -- NLopt version 2.7.1
+[6.636s] -- Looking for getopt.h
+[6.782s] -- Looking for getopt.h - found
+[6.783s] -- Looking for unistd.h
+[6.941s] -- Looking for unistd.h - found
+[6.942s] -- Looking for stdint.h
+[7.089s] -- Looking for stdint.h - found
+[7.089s] -- Looking for time.h
+[7.243s] -- Looking for time.h - found
+[7.244s] -- Looking for sys/time.h
+[7.399s] -- Looking for sys/time.h - found
+[7.399s] -- Looking for getpid
+[7.550s] -- Looking for getpid - found
+[7.550s] -- Looking for syscall
+[7.657s] -- Looking for syscall - found
+[7.658s] -- Looking for isinf
+[7.764s] -- Looking for isinf - found
+[7.764s] -- Looking for isnan
+[7.872s] -- Looking for isnan - found
+[7.872s] -- Looking for gettimeofday
+[7.979s] -- Looking for gettimeofday - found
+[7.980s] -- Looking for qsort_r
+[8.085s] -- Looking for qsort_r - found
+[8.085s] -- Looking for time
+[8.205s] -- Looking for time - found
+[8.206s] -- Looking for copysign
+[8.356s] -- Looking for copysign - found
+[8.357s] -- Looking for getopt
+[8.512s] -- Looking for getopt - found
+[8.513s] -- Looking for sys/types.h
+[8.668s] -- Looking for sys/types.h - found
+[8.669s] -- Looking for stddef.h
+[8.805s] -- Looking for stddef.h - found
+[8.805s] -- Check size of uint32_t
+[8.967s] -- Check size of uint32_t - done
+[8.967s] -- Check size of unsigned int
+[9.133s] -- Check size of unsigned int - done
+[9.133s] -- Check size of unsigned long
+[9.299s] -- Check size of unsigned long - done
+[9.308s] -- Looking for sqrt in m
+[9.471s] -- Looking for sqrt in m - found
+[9.473s] -- Looking for fpclassify
+[9.623s] -- Looking for fpclassify - TRUE
+[9.623s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[9.773s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Success
+[9.774s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[9.837s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Failed
+[9.838s] -- Looking for __cplusplus
+[10.032s] -- Looking for __cplusplus - found
+[10.032s] -- Performing Test SUPPORTS_STDCXX11
+[10.214s] -- Performing Test SUPPORTS_STDCXX11 - Success
+[10.258s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[10.279s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[10.563s] -- Found NumPy: /usr/lib/python3/dist-packages/numpy/core/include (found version "1.21.5") 
+[10.587s] -- Could NOT find Guile (missing: GUILE_EXECUTABLE GUILE_ROOT_DIR GUILE_INCLUDE_DIRS GUILE_LIBRARIES) 
+[10.591s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[10.608s] -- Could NOT find Octave (missing: OCTAVE_EXECUTABLE OCTAVE_ROOT_DIR OCTAVE_INCLUDE_DIRS OCTAVE_LIBRARIES) 
+[10.616s] -- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY MX_LIBRARY MAIN_PROGRAM) (found version "NOTFOUND")
+[10.649s] -- Used config file: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake
+[10.649s] -- No yaml_cpp_catkin, using yaml-cpp system library instead.
+[10.659s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.053s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.255s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.398s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.441s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[11.593s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.616s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.650s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.926s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.943s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[12.012s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[12.048s] -- Looking for pthread.h
+[12.213s] -- Looking for pthread.h - found
+[12.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.388s] -- Found Threads: TRUE  
+[12.620s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[12.743s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[12.743s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[12.746s] -- Created GeographicLib::GeographicLib target from legacy variables
+[13.176s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[13.179s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.179s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.655s] -- Found as2_behavior: 1.1.3 (/ros2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[13.661s] -- Found as2_motion_reference_handlers: 1.1.3 (/ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[13.765s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[13.858s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.183s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.185s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include;/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking;$<BUILD_INTERFACE:/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include>
+[14.186s] -- Configured cppcheck exclude dirs and/or files: 
+[14.189s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.190s] -- Configured cpplint exclude dirs and/or files: 
+[14.191s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.195s] -- Added test 'lint_cmake' to check CMake code style
+[14.197s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.200s] -- Added test 'uncrustify' to check C / C++ code style
+[14.200s] -- Configured uncrustify additional arguments: 
+[14.202s] -- Added test 'xmllint' to check XML markup files
+[14.208s] -- Configuring done
+[14.426s] -- Generating done
+[14.468s] -- Build files have been written to: /ros2_ws/build/as2_behaviors_swarm_flocking
+[14.500s] Invoked command in '/ros2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behaviors_swarm_flocking
+[14.509s] Invoking command in '/ros2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[14.637s] [  1%] [34m[1mGenerating nlopt.hpp[0m
+[14.709s] [  1%] Built target generate-cpp
+[14.749s] [  2%] [34m[1mGenerating nlopt.f[0m
+[14.790s] [  2%] Built target generate-fortran
+[14.834s] [  4%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o[0m
+[15.266s] [  5%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plis.c.o[0m
+[15.567s] [  6%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plip.c.o[0m
+[15.936s] [  8%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pnet.c.o[0m
+[16.380s] [  9%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/mssubs.c.o[0m
+[16.926s] [ 11%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pssubs.c.o[0m
+[17.478s] [ 12%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/crs/crs.c.o[0m
+[17.845s] [ 13%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mlsl/mlsl.c.o[0m
+[18.265s] [ 15%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/mma.c.o[0m
+[18.944s] [ 16%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/ccsa_quadratic.c.o[0m
+[19.858s] [ 18%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cobyla/cobyla.c.o[0m
+[21.877s] [ 19%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/newuoa/newuoa.c.o[0m
+[23.942s] [ 20%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/praxis/praxis.c.o[0m
+[24.686s] [ 22%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/hybrid.c.o[0m
+[32.895s] [ 23%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/auglag/auglag.c.o[0m
+[33.364s] [ 25%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/bobyqa/bobyqa.c.o[0m
+[36.387s] [ 26%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/isres/isres.c.o[0m
+[36.864s] [ 27%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/sbplx.c.o[0m
+[37.323s] [ 29%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/slsqp/slsqp.c.o[0m
+[37.341s] [ 30%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/esch/esch.c.o[0m
+[37.701s] [ 31%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/nldrmd.c.o[0m
+[38.188s] [ 33%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/general.c.o[0m
+[38.414s] [ 34%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/options.c.o[0m
+[39.345s] [ 36%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/optimize.c.o[0m
+[40.244s] [ 37%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/deprecated.c.o[0m
+[40.536s] [ 38%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/f77api.c.o[0m
+[41.740s] [ 40%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/timer.c.o[0m
+[41.861s] [ 41%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/stop.c.o[0m
+[42.243s] [ 43%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/redblack.c.o[0m
+[42.704s] [ 44%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/qsort_r.c.o[0m
+[43.160s] [ 45%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/rescale.c.o[0m
+[43.398s] [ 47%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o[0m
+[45.541s] [ 48%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o[0m
+[46.303s] [ 50%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o[0m
+[47.163s] [ 51%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o[0m
+[48.263s] [ 52%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/tools.cc.o[0m
+[49.568s] [ 54%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/evolvent.cc.o[0m
+[50.335s] [ 55%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/solver.cc.o[0m
+[51.355s] [ 56%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/local_optimizer.cc.o[0m
+[52.375s] [ 58%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/sobolseq.c.o[0m
+[52.448s] [ 59%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o[0m
+[52.658s] [ 61%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/ags.cc.o[0m
+[52.716s] [ 62%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o[0m
+[52.891s] [ 63%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o[0m
+[53.463s] [ 65%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o[0m
+[53.691s] [ 66%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o[0m
+[54.252s] [ 68%] [32m[1mLinking CXX shared library libnlopt.so[0m
+[54.448s] [ 70%] Built target nlopt
+[54.480s] [ 72%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[54.481s] [ 73%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[54.957s] [ 75%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[56.015s] [ 76%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[68.105s] [ 77%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[83.361s] [ 79%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[83.366s] [ 80%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[88.666s] [ 81%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[91.575s] [ 84%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[91.575s] [ 84%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[96.874s] [ 86%] [32m[1mLinking CXX shared library libmav_trajectory_generation.so[0m
+[97.048s] [ 86%] Built target mav_trajectory_generation
+[97.085s] [ 87%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_waypoint.cpp.o[0m
+[97.085s] [ 88%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_trajectory.cpp.o[0m
+[97.101s] [ 90%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/test/test_polynomial.cpp.o[0m
+[102.264s] [ 91%] [32m[1mLinking CXX executable test_polynomial[0m
+[102.467s] [ 91%] Built target test_polynomial
+[119.327s] [ 93%] [32m[1mLinking CXX shared library libdynamic_trajectory_generator.so[0m
+[119.461s] [ 93%] Built target dynamic_trajectory_generator
+[119.490s] [ 94%] [32mBuilding CXX object CMakeFiles/as2_behaviors_swarm_flocking.dir/src/swarm_flocking_behavior.cpp.o[0m
+[119.490s] [ 95%] [32mBuilding CXX object CMakeFiles/as2_behaviors_swarm_flocking.dir/src/drone_swarm.cpp.o[0m
+[143.716s] [ 97%] [32m[1mLinking CXX shared library libas2_behaviors_swarm_flocking.so[0m
+[144.127s] [ 97%] Built target as2_behaviors_swarm_flocking
+[144.150s] [ 98%] [32mBuilding CXX object CMakeFiles/swarm_flocking_behavior_node.dir/src/swarm_flocking_behavior_node.cpp.o[0m
+[149.850s] [100%] [32m[1mLinking CXX executable swarm_flocking_behavior_node[0m
+[150.082s] [100%] Built target swarm_flocking_behavior_node
+[150.152s] Invoked command in '/ros2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[150.158s] Invoking command in '/ros2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_swarm_flocking
+[150.180s] -- Install configuration: "Release"
+[150.181s] -- Execute custom install script
+[150.183s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/drone_swarm.hpp
+[150.211s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/swarm_flocking_behavior.hpp
+[150.232s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/config/config_default.yaml
+[150.251s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/launch/swarm_flocking_behavior.launch.py
+[150.271s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node
+[150.290s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_swarm_flocking
+[150.308s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_swarm_flocking
+[150.319s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.sh
+[150.328s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.dsv
+[150.338s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.sh
+[150.347s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.dsv
+[150.356s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.bash
+[150.365s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.sh
+[150.374s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.zsh
+[150.384s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.dsv
+[150.393s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.dsv
+[150.404s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/packages/as2_behaviors_swarm_flocking
+[150.414s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_dependencies-extras.cmake
+[150.424s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_include_directories-extras.cmake
+[150.434s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig.cmake
+[150.443s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig-version.cmake
+[150.452s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.xml
+[150.461s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so
+[150.462s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so" to ""
+[150.462s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so
+[150.465s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so" to ""
+[150.466s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/pkgconfig/nlopt.pc
+[150.466s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.h
+[150.466s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.hpp
+[150.466s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.f
+[150.467s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1
+[150.467s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0
+[150.468s] -- Set runtime path of "/ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1" to "/ros2_ws/install/as2_behaviors_swarm_flocking/lib"
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfig.cmake
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[150.468s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt.3
+[150.469s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize.3
+[150.469s] -- Installing: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize_constrained.3
+[150.471s] Invoked command in '/ros2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_swarm_flocking

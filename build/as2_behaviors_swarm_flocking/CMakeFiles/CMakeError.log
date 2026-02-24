@@ -1,0 +1,33 @@
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
+Change Dir: /ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5445d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5445d.dir/build.make CMakeFiles/cmTC_5445d.dir/build
+gmake[1]: Entering directory '/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5445d.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_5445d.dir/src.c.o -c /ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:4:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    4 |     int main(void) {
+      |                    ^
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:2:5: warning: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:2:28: error: declaration for parameter ‘tls’ but no such parameter
+    2 |     __declspec(thread) int tls;
+      |                            ^~~
+/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:7: error: expected ‘{’ at end of input
+gmake[1]: *** [CMakeFiles/cmTC_5445d.dir/build.make:78: CMakeFiles/cmTC_5445d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/ros2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5445d/fast] Error 2
+
+
+Source file was:
+
+    __declspec(thread) int tls;
+
+    int main(void) {
+        return 0;
+    }

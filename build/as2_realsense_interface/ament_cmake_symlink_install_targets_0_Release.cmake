@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_realsense_interface/as2_realsense_interface_node" "TARGETS" "as2_realsense_interface_node" "DESTINATION" "lib/as2_realsense_interface")

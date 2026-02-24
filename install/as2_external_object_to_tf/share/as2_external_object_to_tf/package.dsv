@@ -1,0 +1,8 @@
+source;share/as2_external_object_to_tf/hook/cmake_prefix_path.ps1
+source;share/as2_external_object_to_tf/hook/cmake_prefix_path.dsv
+source;share/as2_external_object_to_tf/hook/cmake_prefix_path.sh
+source;share/as2_external_object_to_tf/local_setup.bash
+source;share/as2_external_object_to_tf/local_setup.dsv
+source;share/as2_external_object_to_tf/local_setup.ps1
+source;share/as2_external_object_to_tf/local_setup.sh
+source;share/as2_external_object_to_tf/local_setup.zsh

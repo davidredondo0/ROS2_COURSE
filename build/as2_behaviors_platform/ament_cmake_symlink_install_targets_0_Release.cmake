@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_behaviors_platform/arm_behavior" "/ros2_ws/build/as2_behaviors_platform/offboard_behavior" "TARGETS" "arm_behavior" "offboard_behavior" "DESTINATION" "lib/as2_behaviors_platform")

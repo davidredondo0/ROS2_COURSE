@@ -1,0 +1,25 @@
+[0.079s] Invoking command in '/ros2_ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_launch -- -j8 -l8
+[0.211s] Invoked command in '/ros2_ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_launch -- -j8 -l8
+[0.212s] Invoking command in '/ros2_ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_launch
+[0.226s] -- Install configuration: "Release"
+[0.226s] -- Execute custom install script
+[0.226s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo/simulation.launch.py
+[0.227s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2/moveit2.launch.py
+[0.228s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_abb.launch.py
+[0.228s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_ur.launch.py
+[0.228s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ament_index/resource_index/package_run_dependencies/ros2srrc_launch
+[0.228s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ament_index/resource_index/parent_prefix_path/ros2srrc_launch
+[0.228s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.sh
+[0.229s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.dsv
+[0.229s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.sh
+[0.229s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.dsv
+[0.231s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.bash
+[0.234s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.sh
+[0.234s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.zsh
+[0.235s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.dsv
+[0.236s] -- Symlinking: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/package.dsv
+[0.245s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ament_index/resource_index/packages/ros2srrc_launch
+[0.245s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig.cmake
+[0.253s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig-version.cmake
+[0.253s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_launch/share/ros2srrc_launch/package.xml
+[0.302s] Invoked command in '/ros2_ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_launch

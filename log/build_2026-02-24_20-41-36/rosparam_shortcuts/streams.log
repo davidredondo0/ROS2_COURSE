@@ -1,0 +1,108 @@
+[0.084s] Invoking command in '/ros2_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosparam_shortcuts
+[1.092s] -- The C compiler identification is GNU 11.4.0
+[1.094s] -- The CXX compiler identification is GNU 11.4.0
+[1.094s] -- Detecting C compiler ABI info
+[1.094s] -- Detecting C compiler ABI info - done
+[1.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.107s] -- Detecting C compile features
+[1.107s] -- Detecting C compile features - done
+[1.107s] -- Detecting CXX compiler ABI info
+[1.108s] -- Detecting CXX compiler ABI info - done
+[1.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.108s] -- Detecting CXX compile features
+[1.108s] -- Detecting CXX compile features - done
+[1.108s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.189s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.478s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.512s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.519s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.650s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.669s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.700s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.939s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.073s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.084s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.149s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.173s] -- Looking for pthread.h
+[2.305s] -- Looking for pthread.h - found
+[2.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.467s] -- Found Threads: TRUE  
+[2.656s] -- Found tf2_eigen: 0.25.17 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.082s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.091s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.099s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[3.106s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.114s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.162s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.173s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.173s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.173s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.174s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.225s] -- Found PythonExtra: .so  
+[3.427s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.449s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.451s] -- Added test 'lint_cmake' to check CMake code style
+[3.452s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.453s] -- Added test 'xmllint' to check XML markup files
+[3.458s] -- Configuring done
+[3.532s] -- Generating done
+[3.557s] -- Build files have been written to: /ros2_ws/build/rosparam_shortcuts
+[3.580s] Invoked command in '/ros2_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosparam_shortcuts
+[3.592s] Invoking command in '/ros2_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/rosparam_shortcuts -- -j8 -l8
+[3.695s] [  7%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[11.545s] [ 15%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[25.621s] [ 23%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[25.895s] [ 23%] Built target rosparam_shortcuts
+[25.931s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[25.931s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[28.838s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[29.062s] [ 46%] Built target gtest_main
+[47.230s] [ 53%] [32m[1mLinking CXX static library libgtest.a[0m
+[47.422s] [ 53%] Built target gtest
+[47.532s] [ 61%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[54.954s] [ 69%] [32m[1mLinking CXX executable node_parameters_example[0m
+[55.147s] [ 69%] Built target rosparam_shortcuts_node_parameters_example
+[55.175s] [ 76%] [32mBuilding CXX object CMakeFiles/test_node_parameters.dir/test/test_node_parameters.cpp.o[0m
+[67.532s] [ 84%] [32m[1mLinking CXX executable test_node_parameters[0m
+[67.828s] [ 84%] Built target test_node_parameters
+[67.855s] [ 92%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[76.424s] [100%] [32m[1mLinking CXX executable example[0m
+[76.723s] [100%] Built target rosparam_shortcuts_example
+[76.791s] Invoked command in '/ros2_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/rosparam_shortcuts -- -j8 -l8
+[76.791s] Invoking command in '/ros2_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/rosparam_shortcuts
+[76.806s] -- Install configuration: "Release"
+[76.807s] -- Execute custom install script
+[76.808s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[76.825s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[76.842s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[76.858s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[76.875s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[76.892s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[76.908s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[76.925s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[76.942s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[76.959s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[76.976s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[76.993s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[77.011s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[77.028s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[77.045s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[77.062s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[77.079s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[77.096s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[77.113s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[77.131s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[77.148s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[77.177s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.213s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[77.250s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[77.275s] -- Symlinking: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[77.299s] -- Installing: /ros2_ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[77.300s] -- Set runtime path of "/ros2_ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[77.300s] -- Installing: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[77.301s] -- Installing: /ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[77.316s] Invoked command in '/ros2_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/rosparam_shortcuts

@@ -1,0 +1,46 @@
+[0.167s] Invoking command in '/ros2_ws/build/as2_behaviors_perception': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_perception -- -j8 -l8
+[0.253s] [35m[1mConsolidate compiler generated dependencies of target detect_aruco_markers_behavior_node[0m
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior_node[0m
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.314s] [35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.417s] [ 13%] Built target gtest_main
+[0.442s] [ 26%] Built target gtest
+[0.474s] [ 46%] Built target detect_aruco_markers_behavior_node
+[0.494s] [ 66%] Built target point_gimbal_behavior
+[0.524s] [ 86%] Built target point_gimbal_behavior_node
+[0.572s] [35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior_point_gimbal_gtest[0m
+[0.668s] [100%] Built target point_gimbal_behavior_point_gimbal_gtest
+[0.716s] Invoked command in '/ros2_ws/build/as2_behaviors_perception' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_perception -- -j8 -l8
+[0.717s] Invoking command in '/ros2_ws/build/as2_behaviors_perception': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_perception
+[0.756s] -- Install configuration: "Release"
+[0.756s] -- Execute custom install script
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/detect_aruco_markers_behavior/config/real_params.yaml
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/detect_aruco_markers_behavior/config/sim_params.yaml
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/detect_aruco_markers_behavior_real_launch.py
+[0.756s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/detect_aruco_markers_behavior_sim_launch.py
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/include/point_gimbal_behavior/point_gimbal_behavior.hpp
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/point_gimbal_behavior.launch.py
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/point_gimbal_behavior/config/config_default.yaml
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/lib/as2_behaviors_perception/point_gimbal_behavior_node
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/library_path.sh
+[0.757s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/library_path.dsv
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_perception
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_perception
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/ament_prefix_path.sh
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/ament_prefix_path.dsv
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/path.sh
+[0.758s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/path.dsv
+[0.759s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.bash
+[0.759s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.sh
+[0.759s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.zsh
+[0.759s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.dsv
+[0.759s] -- Symlinking: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/package.dsv
+[0.784s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/packages/as2_behaviors_perception
+[0.784s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.784s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/as2_behaviors_perceptionConfig.cmake
+[0.784s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/as2_behaviors_perceptionConfig-version.cmake
+[0.785s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/package.xml
+[0.785s] -- Up-to-date: /ros2_ws/install/as2_behaviors_perception/lib/libpoint_gimbal_behavior.so
+[0.810s] Invoked command in '/ros2_ws/build/as2_behaviors_perception' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_perception

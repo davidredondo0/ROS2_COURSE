@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d13f3d121405890c3c2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						10
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Release-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "tests/node_emulators",
+					"jsonFile" : "directory-tests.node_emulators-Release-c1bad6015bf12361fd42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests/node_emulators",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "as2_behavior_tree",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behavior_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behavior_tree-Release-45c261a0608558e614e9.json",
+					"name" : "as2_behavior_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behavior_tree_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behavior_tree_node-Release-f1ff4a55f4c07a01a86c.json",
+					"name" : "as2_behavior_tree_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "as2_behavior_tree_port_pose_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-as2_behavior_tree_port_pose_test-Release-2628667ae2fbf97dd8ee.json",
+					"name" : "as2_behavior_tree_port_pose_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "as2_behavior_tree_port_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-as2_behavior_tree_port_test-Release-68b5394ce6f345935292.json",
+					"name" : "as2_behavior_tree_port_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behavior_tree_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behavior_tree_uninstall-Release-2090e7edf28e45ff23f8.json",
+					"name" : "as2_behavior_tree_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "follow_path_emulator::@efbda9cc1e99d4eb2b8b",
+					"jsonFile" : "target-follow_path_emulator-Release-a1205fb4ee7f0dd06f94.json",
+					"name" : "follow_path_emulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "go_to_emulator::@efbda9cc1e99d4eb2b8b",
+					"jsonFile" : "target-go_to_emulator-Release-8d903e34c2e78607dae2.json",
+					"name" : "go_to_emulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "land_emulator::@efbda9cc1e99d4eb2b8b",
+					"jsonFile" : "target-land_emulator-Release-36d4b35248a1cd47f8d4.json",
+					"name" : "land_emulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "platform_emulator::@efbda9cc1e99d4eb2b8b",
+					"jsonFile" : "target-platform_emulator-Release-d03798cdd6cac3ea9ea4.json",
+					"name" : "platform_emulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "takeoff_emulator::@efbda9cc1e99d4eb2b8b",
+					"jsonFile" : "target-takeoff_emulator-Release-40e66f13700d107ffd6a.json",
+					"name" : "takeoff_emulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-409c7f066214b85bacc3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_behavior_tree",
+		"source" : "/ros2_ws/src/aerostack2/as2_behavior_tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

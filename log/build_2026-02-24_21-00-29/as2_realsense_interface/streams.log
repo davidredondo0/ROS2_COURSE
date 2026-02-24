@@ -1,0 +1,42 @@
+[0.120s] Invoking command in '/ros2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_realsense_interface -- -j8 -l8
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target as2_realsense_interface_node[0m
+[0.304s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target as2_realsense_interface[0m
+[0.321s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.359s] [ 18%] Built target gtest
+[0.363s] [ 36%] Built target gtest_main
+[0.394s] [ 63%] Built target as2_realsense_interface_node
+[0.498s] [ 81%] Built target as2_realsense_interface
+[0.563s] [35m[1mConsolidate compiler generated dependencies of target as2_realsense_interface_as2_realsense_interface_gtest[0m
+[0.664s] [100%] Built target as2_realsense_interface_as2_realsense_interface_gtest
+[0.732s] Invoked command in '/ros2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_realsense_interface -- -j8 -l8
+[0.733s] Invoking command in '/ros2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_realsense_interface
+[1.121s] -- Install configuration: "Release"
+[1.121s] -- Execute custom install script
+[1.122s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/include/as2_realsense_interface/as2_realsense_interface.hpp
+[1.123s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/lib/as2_realsense_interface/as2_realsense_interface_node
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_launch.py
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_t265_launch.py
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/params.yaml
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/tf_sensors.yaml
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/params.yaml
+[1.124s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/tf_sensors.yaml
+[1.125s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/d435i.yaml
+[1.125s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/t265.yaml
+[1.125s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/package_run_dependencies/as2_realsense_interface
+[1.126s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/parent_prefix_path/as2_realsense_interface
+[1.127s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.sh
+[1.127s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.dsv
+[1.127s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.sh
+[1.127s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.dsv
+[1.128s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.bash
+[1.128s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.sh
+[1.129s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.zsh
+[1.129s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.dsv
+[1.130s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.dsv
+[1.131s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/packages/as2_realsense_interface
+[1.132s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig.cmake
+[1.132s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig-version.cmake
+[1.133s] -- Up-to-date symlink: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.xml
+[1.133s] -- Up-to-date: /ros2_ws/install/as2_realsense_interface/lib/libas2_realsense_interface.a
+[1.135s] Invoked command in '/ros2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_realsense_interface

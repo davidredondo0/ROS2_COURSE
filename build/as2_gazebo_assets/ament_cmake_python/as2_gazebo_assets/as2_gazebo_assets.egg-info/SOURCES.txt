@@ -1,0 +1,16 @@
+setup.py
+as2_gazebo_assets/__init__.py
+as2_gazebo_assets/world.py
+as2_gazebo_assets.egg-info/PKG-INFO
+as2_gazebo_assets.egg-info/SOURCES.txt
+as2_gazebo_assets.egg-info/dependency_links.txt
+as2_gazebo_assets.egg-info/top_level.txt
+as2_gazebo_assets/bridges/__init__.py
+as2_gazebo_assets/bridges/bridge.py
+as2_gazebo_assets/bridges/bridges.py
+as2_gazebo_assets/bridges/custom_bridges.py
+as2_gazebo_assets/models/__init__.py
+as2_gazebo_assets/models/drone.py
+as2_gazebo_assets/models/entity.py
+as2_gazebo_assets/models/object.py
+as2_gazebo_assets/models/payload.py

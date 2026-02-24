@@ -1,0 +1,24 @@
+[0.472s] Invoking command in '/ros2_ws/build/objectpose_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_objectpose/lib:/ros2_ws/install/objectpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/objectpose_gazebo -- -j8 -l8
+[1.118s] Invoked command in '/ros2_ws/build/objectpose_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_objectpose/lib:/ros2_ws/install/objectpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/objectpose_gazebo -- -j8 -l8
+[1.122s] Invoking command in '/ros2_ws/build/objectpose_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_objectpose/lib:/ros2_ws/install/objectpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/objectpose_gazebo
+[1.147s] -- Install configuration: "Release"
+[1.148s] -- Execute custom install script
+[1.148s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/launch/objectpose.launch.py
+[1.148s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/worlds/objectpose.world
+[1.148s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/urdf/box.urdf
+[1.149s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/package_run_dependencies/objectpose_gazebo
+[1.149s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/parent_prefix_path/objectpose_gazebo
+[1.149s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/ament_prefix_path.sh
+[1.149s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/ament_prefix_path.dsv
+[1.150s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/path.sh
+[1.150s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/path.dsv
+[1.150s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.bash
+[1.150s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.sh
+[1.151s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.zsh
+[1.151s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.dsv
+[1.152s] -- Symlinking: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/package.dsv
+[1.175s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/packages/objectpose_gazebo
+[1.175s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/cmake/objectpose_gazeboConfig.cmake
+[1.176s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/cmake/objectpose_gazeboConfig-version.cmake
+[1.176s] -- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/package.xml
+[1.288s] Invoked command in '/ros2_ws/build/objectpose_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_objectpose:/ros2_ws/install/objectpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_objectpose/lib:/ros2_ws/install/objectpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/objectpose_gazebo

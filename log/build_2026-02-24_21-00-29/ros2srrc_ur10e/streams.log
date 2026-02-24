@@ -1,0 +1,25 @@
+[0.092s] Invoking command in '/ros2_ws/build/ros2srrc_ur10e': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur10e -- -j8 -l8
+[0.274s] Invoked command in '/ros2_ws/build/ros2srrc_ur10e' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur10e -- -j8 -l8
+[0.275s] Invoking command in '/ros2_ws/build/ros2srrc_ur10e': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur10e
+[0.288s] -- Install configuration: "Release"
+[0.289s] -- Execute custom install script
+[0.289s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/config/configurations.yaml
+[0.290s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/urdf/ur10e.urdf.xacro
+[0.290s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/urdf/ur10e_robotiq_2f85.urdf.xacro
+[0.291s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/urdf/ur10e_robotiq_hande.urdf.xacro
+[0.291s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur10e
+[0.292s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur10e
+[0.293s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/environment/ament_prefix_path.sh
+[0.296s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/environment/ament_prefix_path.dsv
+[0.296s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/environment/path.sh
+[0.296s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/environment/path.dsv
+[0.297s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/local_setup.bash
+[0.297s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/local_setup.sh
+[0.297s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/local_setup.zsh
+[0.298s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/local_setup.dsv
+[0.298s] -- Symlinking: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/package.dsv
+[0.304s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ament_index/resource_index/packages/ros2srrc_ur10e
+[0.305s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/cmake/ros2srrc_ur10eConfig.cmake
+[0.305s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/cmake/ros2srrc_ur10eConfig-version.cmake
+[0.306s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur10e/share/ros2srrc_ur10e/package.xml
+[0.398s] Invoked command in '/ros2_ws/build/ros2srrc_ur10e' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur10e

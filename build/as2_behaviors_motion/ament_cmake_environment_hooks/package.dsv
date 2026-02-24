@@ -1,0 +1,4 @@
+source;share/as2_behaviors_motion/local_setup.bash
+source;share/as2_behaviors_motion/local_setup.dsv
+source;share/as2_behaviors_motion/local_setup.sh
+source;share/as2_behaviors_motion/local_setup.zsh

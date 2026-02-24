@@ -1,0 +1,26 @@
+[2.805s] Invoking command in '/ros2_ws/build/as2_python_api': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/build/as2_python_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/as2_python_api/lib/python3.10/site-packages:/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/as2_python_api/build --no-deps symlink_data
+[6.256s] running develop
+[6.256s] running egg_info
+[6.256s] creating as2_python_api.egg-info
+[6.256s] writing as2_python_api.egg-info/PKG-INFO
+[6.257s] writing dependency_links to as2_python_api.egg-info/dependency_links.txt
+[6.257s] writing entry points to as2_python_api.egg-info/entry_points.txt
+[6.257s] writing requirements to as2_python_api.egg-info/requires.txt
+[6.257s] writing top-level names to as2_python_api.egg-info/top_level.txt
+[6.257s] writing manifest file 'as2_python_api.egg-info/SOURCES.txt'
+[6.257s] reading manifest file 'as2_python_api.egg-info/SOURCES.txt'
+[6.257s] writing manifest file 'as2_python_api.egg-info/SOURCES.txt'
+[6.258s] running build_ext
+[6.258s] Creating /ros2_ws/install/as2_python_api/lib/python3.10/site-packages/as2-python-api.egg-link (link to .)
+[6.258s] Installing mission_executor script to /ros2_ws/install/as2_python_api/lib/as2_python_api
+[6.258s] 
+[6.258s] Installed /ros2_ws/build/as2_python_api
+[6.258s] running symlink_data
+[6.259s] creating /ros2_ws/install/as2_python_api/share/ament_index
+[6.259s] creating /ros2_ws/install/as2_python_api/share/ament_index/resource_index
+[6.259s] creating /ros2_ws/install/as2_python_api/share/ament_index/resource_index/packages
+[6.259s] symbolically linking /ros2_ws/build/as2_python_api/resource/as2_python_api -> /ros2_ws/install/as2_python_api/share/ament_index/resource_index/packages
+[6.259s] creating /ros2_ws/install/as2_python_api/share/as2_python_api/hooks
+[6.259s] symbolically linking /ros2_ws/build/as2_python_api/hooks/resource_paths.sh -> /ros2_ws/install/as2_python_api/share/as2_python_api/hooks
+[6.259s] symbolically linking /ros2_ws/build/as2_python_api/package.xml -> /ros2_ws/install/as2_python_api/share/as2_python_api
+[6.287s] Invoked command in '/ros2_ws/build/as2_python_api' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/build/as2_python_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/as2_python_api/lib/python3.10/site-packages:/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/as2_python_api/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer/launch/alphanumeric_viewer_launch.py

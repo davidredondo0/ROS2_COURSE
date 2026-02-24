@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target as2_motion_reference_handlers[0m
+[  0%] Built target ament_cmake_python_symlink_as2_motion_reference_handlers
+[100%] Built target as2_motion_reference_handlers
+running egg_info
+writing as2_motion_reference_handlers.egg-info/PKG-INFO
+writing dependency_links to as2_motion_reference_handlers.egg-info/dependency_links.txt
+writing top-level names to as2_motion_reference_handlers.egg-info/top_level.txt
+reading manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+writing manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_as2_motion_reference_handlers_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/library_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/library_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/acro_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/basic_motion_references.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/hover_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/position_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/speed_in_a_plane_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/speed_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/trajectory_motion.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/pythonpath.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/pythonpath.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/__init__.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/basic_motion_references.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/hover_motion.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/position_motion.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_in_a_plane.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_motion.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/utils.py
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/package_run_dependencies/as2_motion_reference_handlers
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/parent_prefix_path/as2_motion_reference_handlers
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/packages/as2_motion_reference_handlers
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/as2_motion_reference_handlersConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/as2_motion_reference_handlersConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/package.xml
+-- Up-to-date: /ros2_ws/install/as2_motion_reference_handlers/lib/libas2_motion_reference_handlers.a
+Listing '/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers'...
+-- Up-to-date: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/export_as2_motion_reference_handlersExport.cmake
+-- Up-to-date: /ros2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/export_as2_motion_reference_handlersExport-release.cmake

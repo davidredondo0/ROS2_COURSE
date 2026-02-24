@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target pendulum_demo[0m
+[100%] Built target pendulum_demo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/params/test.param.yaml
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/package_run_dependencies/pendulum_demo
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/parent_prefix_path/pendulum_demo
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.dsv
+-- Symlinking: /ros2_ws/install/pendulum_demo/share/pendulum_demo/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/packages/pendulum_demo
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/cmake/pendulum_demoConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/cmake/pendulum_demoConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/package.xml
+-- Up-to-date: /ros2_ws/install/pendulum_demo/lib/pendulum_demo/pendulum_demo

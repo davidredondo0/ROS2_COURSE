@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found pendulum2_msgs: 0.0.1 (/ros2_ws/install/pendulum2_msgs/share/pendulum2_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/pendulum_state_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/pendulum_state_publisher.dir/pendulum_state_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pendulum_state_publisher[0m
+[100%] Built target pendulum_state_publisher
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/lib/pendulum_state_publisher/pendulum_state_publisher
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/package_run_dependencies/pendulum_state_publisher
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/parent_prefix_path/pendulum_state_publisher
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/path.sh
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/environment/path.dsv
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.bash
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.sh
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.zsh
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/local_setup.dsv
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/package.dsv
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/ament_index/resource_index/packages/pendulum_state_publisher
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/cmake/pendulum_state_publisherConfig.cmake
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/cmake/pendulum_state_publisherConfig-version.cmake
+-- Symlinking: /ros2_ws/install/pendulum_state_publisher/share/pendulum_state_publisher/package.xml

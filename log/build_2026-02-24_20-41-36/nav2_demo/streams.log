@@ -1,0 +1,57 @@
+[1.098s] Invoking command in '/ros2_ws/build/nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/nav2_demo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/nav2_demo
+[1.361s] -- The C compiler identification is GNU 11.4.0
+[1.571s] -- The CXX compiler identification is GNU 11.4.0
+[1.595s] -- Detecting C compiler ABI info
+[1.855s] -- Detecting C compiler ABI info - done
+[1.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.887s] -- Detecting C compile features
+[1.888s] -- Detecting C compile features - done
+[1.906s] -- Detecting CXX compiler ABI info
+[2.239s] -- Detecting CXX compiler ABI info - done
+[2.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.309s] -- Detecting CXX compile features
+[2.313s] -- Detecting CXX compile features - done
+[2.329s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.001s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.309s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.542s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[3.760s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.789s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.826s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.192s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.202s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[4.275s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.321s] -- Looking for pthread.h
+[4.644s] -- Looking for pthread.h - found
+[4.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.913s] -- Found Threads: TRUE  
+[5.113s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.336s] -- Configuring done
+[5.347s] -- Generating done
+[5.353s] -- Build files have been written to: /ros2_ws/build/nav2_demo
+[5.373s] Invoked command in '/ros2_ws/build/nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/nav2_demo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/nav2_demo
+[5.382s] Invoking command in '/ros2_ws/build/nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/nav2_demo -- -j8 -l8
+[5.834s] Invoked command in '/ros2_ws/build/nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/nav2_demo -- -j8 -l8
+[5.836s] Invoking command in '/ros2_ws/build/nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/nav2_demo
+[7.304s] -- Install configuration: "Release"
+[7.305s] -- Execute custom install script
+[7.306s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/launch/nav2_demo.launch.py
+[7.307s] -- Symlinking: /ros2_ws/install/nav2_demo/share/ament_index/resource_index/package_run_dependencies/nav2_demo
+[7.307s] -- Symlinking: /ros2_ws/install/nav2_demo/share/ament_index/resource_index/parent_prefix_path/nav2_demo
+[7.307s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/environment/ament_prefix_path.sh
+[7.307s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/environment/ament_prefix_path.dsv
+[7.308s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/environment/path.sh
+[7.308s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/environment/path.dsv
+[7.308s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/local_setup.bash
+[7.308s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/local_setup.sh
+[7.309s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/local_setup.zsh
+[7.309s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/local_setup.dsv
+[7.309s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/package.dsv
+[7.309s] -- Symlinking: /ros2_ws/install/nav2_demo/share/ament_index/resource_index/packages/nav2_demo
+[7.309s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/cmake/nav2_demoConfig.cmake
+[7.310s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/cmake/nav2_demoConfig-version.cmake
+[7.310s] -- Symlinking: /ros2_ws/install/nav2_demo/share/nav2_demo/package.xml
+[7.319s] Invoked command in '/ros2_ws/build/nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/nav2_demo

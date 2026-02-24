@@ -1,0 +1,25 @@
+[0.229s] Invoking command in '/ros2_ws/build/pendulum_demo': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_driver/lib:/ros2_ws/install/pendulum_controller/lib:/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_demo -- -j8 -l8
+[0.351s] [35m[1mConsolidate compiler generated dependencies of target pendulum_demo[0m
+[0.435s] [100%] Built target pendulum_demo
+[0.779s] Invoked command in '/ros2_ws/build/pendulum_demo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_driver/lib:/ros2_ws/install/pendulum_controller/lib:/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_demo -- -j8 -l8
+[0.782s] Invoking command in '/ros2_ws/build/pendulum_demo': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_driver/lib:/ros2_ws/install/pendulum_controller/lib:/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_demo
+[0.817s] -- Install configuration: "Release"
+[0.817s] -- Execute custom install script
+[0.818s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/params/test.param.yaml
+[0.819s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/package_run_dependencies/pendulum_demo
+[0.822s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/parent_prefix_path/pendulum_demo
+[0.823s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/ament_prefix_path.sh
+[0.825s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/ament_prefix_path.dsv
+[0.826s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/path.sh
+[0.826s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/environment/path.dsv
+[0.826s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.bash
+[0.827s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.sh
+[0.827s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.zsh
+[0.827s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/local_setup.dsv
+[0.828s] -- Symlinking: /ros2_ws/install/pendulum_demo/share/pendulum_demo/package.dsv
+[0.828s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/ament_index/resource_index/packages/pendulum_demo
+[0.828s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/cmake/pendulum_demoConfig.cmake
+[0.829s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/cmake/pendulum_demoConfig-version.cmake
+[0.829s] -- Up-to-date symlink: /ros2_ws/install/pendulum_demo/share/pendulum_demo/package.xml
+[0.829s] -- Up-to-date: /ros2_ws/install/pendulum_demo/lib/pendulum_demo/pendulum_demo
+[0.905s] Invoked command in '/ros2_ws/build/pendulum_demo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_driver:/ros2_ws/install/pendulum_controller:/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_driver/lib:/ros2_ws/install/pendulum_controller/lib:/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_demo

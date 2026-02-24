@@ -1,0 +1,573 @@
+[0.048s] Invoking command in '/ros2_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_gazebo_assets
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.343s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.543s] -- Detecting C compiler ABI info - done
+[0.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.788s] -- Detecting CXX compile features
+[0.790s] -- Detecting CXX compile features - done
+[0.840s] [0mUsing GAZEBO version: fortress[0m
+[0.918s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[0.937s] -- Searching for dependencies of ignition-gazebo6
+[0.954s] -- Looking for sdformat12 -- found version 12.7.2
+[0.956s] -- Searching for dependencies of sdformat12
+[0.966s] -- Checking for module 'tinyxml2'
+[0.994s] --   Found tinyxml2, version 9.0.0
+[1.079s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.081s] -- Searching for dependencies of ignition-math6
+[1.153s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.155s] -- Searching for dependencies of ignition-utils1
+[1.177s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.180s] -- Searching for dependencies of ignition-plugin1
+[1.182s] -- Searching for <ignition-plugin1> component [loader]
+[1.195s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.198s] -- Searching for dependencies of ignition-plugin1-loader
+[1.200s] -- Searching for <ignition-plugin1> component [register]
+[1.214s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.216s] -- Searching for dependencies of ignition-plugin1-register
+[1.234s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.235s] -- Searching for dependencies of ignition-transport11
+[1.625s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.667s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.676s] -- Checking for module 'libzmq >= 4'
+[1.702s] --   Found libzmq , version 4.3.4
+[1.782s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.797s] -- Checking for module 'uuid'
+[1.822s] --   Found uuid, version 2.37.2
+[1.880s] -- Found UUID: TRUE  
+[1.882s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.883s] -- Searching for dependencies of ignition-utils1
+[1.884s] -- Searching for <ignition-utils1> component [cli]
+[1.957s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.957s] -- Searching for dependencies of ignition-utils1-cli
+[1.969s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.970s] -- Searching for dependencies of ignition-msgs8
+[2.033s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.036s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.067s] -- Searching for <ignition-transport11> component [log]
+[2.077s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[2.079s] -- Searching for dependencies of ignition-transport11-log
+[2.080s] -- Searching for <ignition-transport11> component [parameters]
+[2.092s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[2.093s] -- Searching for dependencies of ignition-transport11-parameters
+[2.096s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.108s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.109s] -- Searching for dependencies of ignition-common4
+[2.110s] -- Looking for dlfcn.h - found
+[2.112s] -- Looking for libdl - found
+[2.115s] -- Found DL: TRUE  
+[2.135s] -- Searching for <ignition-common4> component [profiler]
+[2.150s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[2.151s] -- Searching for dependencies of ignition-common4-profiler
+[2.155s] -- Searching for <ignition-common4> component [events]
+[2.167s] -- Looking for ignition-common4-events -- found version 4.7.0
+[2.169s] -- Searching for dependencies of ignition-common4-events
+[2.170s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.173s] -- Searching for <ignition-common4> component [av]
+[2.187s] -- Looking for ignition-common4-av -- found version 4.7.0
+[2.189s] -- Searching for dependencies of ignition-common4-av
+[2.205s] -- Checking for module 'libswscale'
+[2.233s] --   Found libswscale, version 5.9.100
+[2.308s] -- Found SWSCALE: TRUE  
+[2.321s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.352s] --   Found libavdevice , version 58.13.100
+[2.433s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.445s] -- Checking for module 'libavformat'
+[2.472s] --   Found libavformat, version 58.76.100
+[2.541s] -- Found AVFORMAT: TRUE  
+[2.552s] -- Checking for module 'libavcodec'
+[2.581s] --   Found libavcodec, version 58.134.100
+[2.647s] -- Found AVCODEC: TRUE  
+[2.659s] -- Checking for module 'libavutil'
+[2.685s] --   Found libavutil, version 56.70.100
+[2.749s] -- Found AVUTIL: TRUE  
+[2.764s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[2.765s] -- Searching for dependencies of ignition-fuel_tools7
+[2.942s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.966s] -- Checking for module 'jsoncpp'
+[2.995s] --   Found jsoncpp, version 1.9.5
+[3.064s] -- Found JSONCPP: TRUE  
+[3.080s] -- Checking for module 'libzip'
+[3.106s] --   Found libzip, version 1.7.3
+[3.165s] -- Found ZIP: TRUE  
+[3.166s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.167s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.168s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.241s] -- Looking for ignition-gui6 -- found version 6.8.0
+[3.242s] -- Searching for dependencies of ignition-gui6
+[3.330s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.332s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.333s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.334s] -- Looking for ignition-transport11 -- found version 11.4.1
+[3.349s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[3.350s] -- Searching for dependencies of ignition-rendering6
+[3.352s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.353s] -- Searching for dependencies of ignition-math6
+[3.354s] -- Searching for <ignition-math6> component [eigen3]
+[3.365s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[3.367s] -- Searching for dependencies of ignition-math6-eigen3
+[3.404s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.405s] -- Searching for dependencies of ignition-common4
+[3.406s] -- Looking for dlfcn.h - found
+[3.406s] -- Looking for libdl - found
+[3.426s] -- Searching for <ignition-common4> component [graphics]
+[3.437s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[3.438s] -- Searching for dependencies of ignition-common4-graphics
+[3.439s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.441s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.443s] -- Searching for <ignition-common4> component [events]
+[3.446s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.447s] -- Searching for dependencies of ignition-plugin1
+[3.448s] -- Searching for <ignition-plugin1> component [all]
+[3.458s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[3.459s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.471s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.576s] -- Looking for ignition-physics5 -- found version 5.3.2
+[3.579s] -- Searching for dependencies of ignition-physics5
+[3.579s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.580s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.581s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.585s] -- Searching for <ignition-physics5> component [heightmap]
+[3.601s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[3.602s] -- Searching for dependencies of ignition-physics5-heightmap
+[3.604s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.606s] -- Searching for <ignition-physics5> component [mesh]
+[3.619s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[3.620s] -- Searching for dependencies of ignition-physics5-mesh
+[3.622s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.623s] -- Searching for <ignition-physics5> component [sdf]
+[3.675s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[3.676s] -- Searching for dependencies of ignition-physics5-sdf
+[3.677s] -- Looking for sdformat12 -- found version 12.7.2
+[3.738s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[3.740s] -- Searching for dependencies of ignition-sensors6
+[3.803s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.804s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.806s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.807s] -- Looking for ignition-transport11 -- found version 11.4.1
+[3.811s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[3.811s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.811s] -- Looking for sdformat12 -- found version 12.7.2
+[3.813s] -- Searching for <ignition-sensors6> component [air_pressure]
+[3.822s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[3.824s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[3.827s] -- Searching for <ignition-sensors6> component [altimeter]
+[3.839s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[3.842s] -- Searching for dependencies of ignition-sensors6-altimeter
+[3.844s] -- Searching for <ignition-sensors6> component [imu]
+[3.853s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[3.854s] -- Searching for dependencies of ignition-sensors6-imu
+[3.856s] -- Searching for <ignition-sensors6> component [force_torque]
+[3.867s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[3.869s] -- Searching for dependencies of ignition-sensors6-force_torque
+[3.871s] -- Searching for <ignition-sensors6> component [logical_camera]
+[3.885s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[3.887s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[3.889s] -- Searching for <ignition-sensors6> component [magnetometer]
+[3.900s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[3.902s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[3.904s] -- Searching for <ignition-sensors6> component [navsat]
+[3.921s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[3.922s] -- Searching for dependencies of ignition-sensors6-navsat
+[3.925s] -- Searching for <ignition-sensors6> component [rendering]
+[3.934s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[3.936s] -- Searching for dependencies of ignition-sensors6-rendering
+[3.938s] -- Searching for <ignition-sensors6> component [lidar]
+[3.947s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[3.948s] -- Searching for dependencies of ignition-sensors6-lidar
+[3.949s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[3.950s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[3.960s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[3.962s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[3.963s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[3.965s] -- Searching for <ignition-sensors6> component [camera]
+[3.979s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[3.993s] -- Searching for dependencies of ignition-sensors6-camera
+[3.993s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[3.993s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[4.010s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[4.011s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[4.013s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[4.024s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[4.029s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[4.029s] -- Searching for <ignition-sensors6> component [depth_camera]
+[4.042s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[4.045s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[4.047s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.049s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[4.066s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[4.068s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[4.069s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.071s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[4.086s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[4.088s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[4.089s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.099s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.100s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.134s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.302s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.302s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.302s] -- Looking for ignition-transport11 -- found version 11.4.1
+[4.302s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.303s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.303s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.347s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.027s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.951s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.633s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[8.521s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.611s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.734s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.195s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[10.613s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[10.829s] -- Found Threads: TRUE  
+[11.800s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[15.770s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[15.785s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[15.801s] -- Created GeographicLib::GeographicLib target from legacy variables
+[16.849s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[16.852s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[16.873s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.397s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.723s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[37.258s] -- Added test 'copyright' to check source files copyright and LICENSE
+[37.483s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.497s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets
+[37.497s] -- Configured cppcheck exclude dirs and/or files: /ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Common.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Common.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/INDIControlPlugin.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/INDIControlPlugin.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/IndiController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/PIDController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Parameters.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Common.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Common.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/INDIControlPlugin.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/INDIControlPlugin.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/IndiController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/PIDController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Parameters.hpp
+[37.649s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[37.649s] -- Configured cpplint exclude dirs and/or files: /ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Common.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Common.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/INDIControlPlugin.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/INDIControlPlugin.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/IndiController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/PIDController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control/Parameters.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Common.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Common.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/INDIControlPlugin.cpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/INDIControlPlugin.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/IndiController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/PIDController.hpp;/ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/plugins/indi-control_ign/Parameters.hpp
+[37.694s] -- Added test 'flake8' to check Python code syntax and style conventions
+[37.752s] -- Added test 'lint_cmake' to check CMake code style
+[37.805s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.991s] -- Added test 'uncrustify' to check C / C++ code style
+[37.991s] -- Configured uncrustify additional arguments: 
+[38.014s] -- Added test 'xmllint' to check XML markup files
+[38.034s] -- Configuring done
+[39.159s] -- Generating done
+[39.507s] -- Build files have been written to: /ros2_ws/build/as2_gazebo_assets
+[39.727s] Invoked command in '/ros2_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_gazebo_assets
+[39.728s] Invoking command in '/ros2_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_gazebo_assets -- -j8 -l8
+[99.384s] [  4%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o[0m
+[99.384s] [  8%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o[0m
+[115.614s] [ 12%] [32m[1mLinking CXX executable gps_bridge[0m
+[117.240s] [ 12%] Built target gps_bridge
+[117.274s] [ 16%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/INDIControlPlugin.cpp.o[0m
+[148.441s] [ 20%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/Common.cpp.o[0m
+[172.780s] [ 25%] [32m[1mLinking CXX shared library libMulticopterINDIControl.so[0m
+[173.470s] [ 25%] Built target MulticopterINDIControl
+[173.529s] [ 25%] Built target ament_cmake_python_symlink_as2_gazebo_assets
+[173.572s] [ 29%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge.cpp.o[0m
+[200.273s] [ 33%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge_node.cpp.o[0m
+[223.082s] [ 37%] [32m[1mLinking CXX executable set_entity_pose_bridge[0m
+[223.587s] [ 37%] Built target set_entity_pose_bridge
+[224.053s] running egg_info
+[224.055s] creating as2_gazebo_assets.egg-info
+[224.055s] writing as2_gazebo_assets.egg-info/PKG-INFO
+[224.055s] writing dependency_links to as2_gazebo_assets.egg-info/dependency_links.txt
+[224.056s] writing top-level names to as2_gazebo_assets.egg-info/top_level.txt
+[224.056s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[224.060s] reading manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[224.070s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[224.114s] [ 37%] Built target ament_cmake_python_build_as2_gazebo_assets_egg
+[224.147s] [ 41%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o[0m
+[264.358s] [ 45%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o[0m
+[290.151s] [ 50%] [32m[1mLinking CXX executable acro_bridge[0m
+[291.042s] [ 50%] Built target acro_bridge
+[291.092s] [ 54%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o[0m
+[343.674s] [ 58%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o[0m
+[368.599s] [ 62%] [32m[1mLinking CXX executable gimbal_bridge[0m
+[369.161s] [ 62%] Built target gimbal_bridge
+[369.192s] [ 66%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster.cpp.o[0m
+[393.973s] [ 70%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster_node.cpp.o[0m
+[424.550s] [ 75%] [32m[1mLinking CXX executable object_tf_broadcaster[0m
+[427.265s] [ 75%] Built target object_tf_broadcaster
+[427.430s] [ 79%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o[0m
+[469.916s] [ 83%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o[0m
+[487.807s] [ 87%] [32m[1mLinking CXX executable azimuth_bridge[0m
+[488.427s] [ 87%] Built target azimuth_bridge
+[488.471s] [ 91%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge.cpp.o[0m
+[515.628s] [ 95%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge_node.cpp.o[0m
+[535.477s] [100%] [32m[1mLinking CXX executable ground_truth_bridge[0m
+[536.907s] [100%] Built target ground_truth_bridge
+[536.974s] Invoked command in '/ros2_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_gazebo_assets -- -j8 -l8
+[537.025s] Invoking command in '/ros2_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_gazebo_assets
+[537.045s] -- Install configuration: "Release"
+[537.046s] -- Execute custom install script
+[537.046s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.dsv
+[537.046s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.sh
+[537.046s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge
+[537.051s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge
+[537.076s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge
+[537.101s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster
+[537.112s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge
+[537.131s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge
+[537.149s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge
+[537.168s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/lib/libMulticopterINDIControl.so
+[537.190s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.sh
+[537.212s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.dsv
+[537.236s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/PKG-INFO
+[537.257s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/SOURCES.txt
+[537.278s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/dependency_links.txt
+[537.295s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/top_level.txt
+[537.315s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py
+[537.337s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py
+[537.357s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py
+[537.379s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py
+[537.402s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py
+[537.424s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py
+[537.446s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py
+[537.468s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py
+[537.488s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py
+[537.508s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py
+[537.536s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py
+[537.558s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py
+[537.582s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py
+[537.602s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/acro_bridge.hpp
+[537.622s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/azimuth_bridge.hpp
+[537.644s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gimbal_bridge.hpp
+[537.666s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gps_bridge.hpp
+[537.696s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/ground_truth_bridge.hpp
+[537.726s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/object_tf_broadcaster.hpp
+[537.745s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/set_entity_pose_bridge.hpp
+[537.766s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/drone_bridges.py
+[537.794s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/launch_simulation.py
+[537.815s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/monitor_sim.py
+[537.842s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/object_bridges.py
+[537.862s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/world_bridges.py
+[537.890s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/empty.sdf.jinja
+[537.910s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/grass.sdf.jinja
+[537.931s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/test_gripper.sdf
+[537.956s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/3d_lidar.sdf
+[537.975s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/model.config
+[538.041s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/air_pressure.sdf
+[538.080s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/model.config
+[538.121s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/aruco.sdf
+[538.137s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts/aruco.material
+[538.160s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker1.png
+[538.182s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker2.png
+[538.204s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker3.png
+[538.223s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker4.png
+[538.243s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker5.png
+[538.263s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes/checkerboard_plane.dae
+[538.286s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/model.config
+[538.306s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/aruco_gate_1.sdf
+[538.325s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/background.stl
+[538.346s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base.stl
+[538.365s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base_2.stl
+[538.386s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop.stl
+[538.405s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop_2.stl
+[538.422s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/model.config
+[538.440s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/aruco_gate_2.sdf
+[538.465s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/model.config
+[538.496s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf
+[538.529s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf.jinja
+[538.554s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/ccw_prop.dae
+[538.580s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cf2_assembly.dae
+[538.634s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cw_prop.dae
+[538.669s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/model.config
+[538.715s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/f330.sdf
+[538.763s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/f330.sdf.jinja
+[538.785s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/meshes/model.dae
+[538.803s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/model.config
+[538.828s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/gate.sdf
+[538.859s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate.dae
+[538.904s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate_color.png
+[538.932s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/model.config
+[538.959s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/model.config
+[538.986s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf
+[539.005s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf.jinja
+[539.064s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/speed_gimbal.sdf.jinja
+[539.085s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/gps.sdf
+[539.105s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/model.config
+[539.122s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures/grass_dry.png
+[539.140s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.config
+[539.158s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.sdf
+[539.178s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails/grasspatch.jpg
+[539.196s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscale_camera/grayscale_camera.sdf
+[539.218s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscale_camera/grayscale_camera.sdf.jinja
+[539.242s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscale_camera/model.config
+[539.260s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/ground_plane.sdf
+[539.279s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/model.config
+[539.297s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf
+[539.321s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf.jinja
+[539.348s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/model.config
+[539.366s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf
+[539.385s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf.jinja
+[539.409s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures/led.jpg
+[539.428s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.dae
+[539.448s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.jpg
+[539.468s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led.dae
+[539.487s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led_lamp.dae
+[539.511s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_ccw.dae
+[539.530s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_cw.dae
+[539.550s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/model.config
+[539.569s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/lidar_3d.sdf
+[539.589s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/model.config
+[539.610s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/magnetometer.sdf
+[539.628s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/model.config
+[539.646s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/model.config
+[539.666s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/planar_lidar.sdf
+[539.687s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/model.config
+[539.711s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/point_lidar.sdf
+[539.736s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/body.dae
+[539.765s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_ccw.dae
+[539.793s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_cw.dae
+[539.819s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/model.config
+[539.845s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf
+[539.873s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf.jinja
+[539.898s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_front.png
+[539.925s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_top.png
+[539.944s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4vision_diagonal.png
+[539.965s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures/led.jpg
+[539.985s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led.dae
+[540.013s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led_lamp.dae
+[540.033s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_ccw.dae
+[540.070s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_cw.dae
+[540.097s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.dae
+[540.116s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.jpg
+[540.144s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/model.config
+[540.165s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf
+[540.185s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf.jinja
+[540.214s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/model.config
+[540.232s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf
+[540.252s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf.jinja
+[540.272s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/model.config
+[540.292s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf
+[540.316s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf.jinja
+[540.335s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/model.config
+[540.354s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/suction_gripper.sdf
+[540.374s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/suction_gripper.sdf.jinja
+[540.394s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/base_color.png
+[540.422s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/base_normals.png
+[540.443s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/elbow_flex_color.png
+[540.486s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/elbow_flex_normals.png
+[540.514s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/finger_H_Color_100430.png
+[540.541s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/fingertip_H_Color_100430.png
+[540.573s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/float_H_Color_100430.png
+[540.601s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm.png
+[540.620s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm_color.png
+[540.673s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm_normals.png
+[540.711s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/gripper_palm_color.png
+[540.753s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/gripper_palm_normals.png
+[540.772s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_pan_color.png
+[540.794s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_pan_normals.png
+[540.813s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color.png
+[540.833s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color_red.png
+[540.856s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color_yellow.png
+[540.883s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_green.png
+[540.905s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_normals.png
+[540.924s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_color.png
+[540.944s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_normals.png
+[540.969s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_tip_color.png
+[540.990s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_tip_normals.png
+[541.011s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_float_color.png
+[541.031s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_float_normals.png
+[541.054s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/palm_H_Color_100430.png
+[541.075s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_lift_color.png
+[541.096s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_lift_normals.png
+[541.117s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_pan_color.png
+[541.136s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_pan_normals.png
+[541.159s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/tilting_hokuyo_color.png
+[541.182s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/tilting_hokuyo_normals.png
+[541.202s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/torso_lift_color.png
+[541.222s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/torso_lift_normals.png
+[541.249s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm.png
+[541.273s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_color.png
+[541.295s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_normals.png
+[541.315s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_roll_color.png
+[541.335s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_roll_normals.png
+[541.358s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_color.png
+[541.392s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_h_color.png
+[541.412s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_normals.png
+[541.430s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wrist_color.png
+[541.451s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wrist_normals.png
+[541.475s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/forearm_v0/wrist_roll.stl
+[541.498s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/forearm_v0/wrist_roll_L.stl
+[541.522s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/float_H_UV_100430.dae
+[541.544s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/gripper_palm.dae
+[541.569s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/gripper_palm.stl
+[541.593s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger.dae
+[541.620s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger.stl
+[541.643s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger_tip.dae
+[541.667s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger_tip.stl
+[541.694s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_float.dae
+[541.752s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_floating.stl
+[541.793s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/palm_H_UV_100430.dae
+[541.839s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/upper_finger_l.stl
+[541.874s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/upper_finger_r.stl
+[541.899s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/model.config
+[541.920s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/1.png
+[541.945s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/2.png
+[541.972s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/3.png
+[541.998s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/4.png
+[542.031s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/5.png
+[542.049s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/two_fingers_gripper.sdf
+[542.079s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/model.config
+[542.101s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf
+[542.124s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf.jinja
+[542.142s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/Plastic010_1K_Displacement.jpg
+[542.166s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/blades.dae
+[542.192s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/rotor.dae
+[542.223s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/tower.dae
+[542.251s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/model.config
+[542.275s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/windmill.sdf
+[542.294s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/CF.png
+[542.317s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/nxp.png
+[542.337s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/rd.png
+[542.358s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_ccw.stl
+[542.380s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_cw.stl
+[542.402s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Base.dae
+[542.423s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Bell.dae
+[542.444s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/CF.png
+[542.467s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/NXP-HGD-CF.dae
+[542.490s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/model.config
+[542.510s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/1.png
+[542.530s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/2.png
+[542.553s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/3.png
+[542.576s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/4.png
+[542.600s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/5.png
+[542.623s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf
+[542.646s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf.jinja
+[542.670s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts/jinja_gen.py
+[542.691s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/package_run_dependencies/as2_gazebo_assets
+[542.713s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/parent_prefix_path/as2_gazebo_assets
+[542.739s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.sh
+[542.765s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.dsv
+[542.786s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.sh
+[542.818s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.dsv
+[542.837s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.bash
+[542.863s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.sh
+[542.888s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.zsh
+[542.911s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.dsv
+[542.933s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.dsv
+[542.958s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/packages/as2_gazebo_assets
+[542.982s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig.cmake
+[543.003s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig-version.cmake
+[543.026s] -- Symlinking: /ros2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.xml
+[543.216s] Listing '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets'...
+[543.216s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py'...
+[543.217s] Listing '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges'...
+[543.217s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py'...
+[543.217s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py'...
+[543.217s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py'...
+[543.218s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py'...
+[543.218s] Listing '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models'...
+[543.218s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py'...
+[543.218s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py'...
+[543.220s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py'...
+[543.221s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py'...
+[543.221s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py'...
+[543.222s] Listing '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests'...
+[543.222s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py'...
+[543.222s] Listing '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils'...
+[543.230s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py'...
+[543.232s] Compiling '/ros2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py'...
+[543.247s] Invoked command in '/ros2_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_gazebo_assets

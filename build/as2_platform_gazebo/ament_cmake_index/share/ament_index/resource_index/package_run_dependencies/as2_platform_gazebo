@@ -1,0 +1,1 @@
+rclcpp;as2_core;as2_msgs;as2_gazebo_assets;geometry_msgs;ament_lint_auto;ament_lint_common;ament_cmake_gtest;ament_index_cpp

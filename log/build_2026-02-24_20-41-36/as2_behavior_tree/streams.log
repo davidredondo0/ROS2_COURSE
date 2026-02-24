@@ -1,0 +1,156 @@
+[0.042s] Invoking command in '/ros2_ws/build/as2_behavior_tree': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behavior_tree -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behavior_tree
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.338s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.521s] -- Detecting CXX compiler ABI info
+[0.715s] -- Detecting CXX compiler ABI info - done
+[0.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.745s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.144s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.431s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.463s] -- Found behaviortree_cpp: 4.7.1 (/opt/ros/humble/share/behaviortree_cpp/cmake)
+[1.500s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.634s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.654s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.683s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.933s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.945s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.019s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.054s] -- Looking for pthread.h
+[2.216s] -- Looking for pthread.h - found
+[2.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.397s] -- Found Threads: TRUE  
+[2.575s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.691s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[2.701s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[2.705s] -- Created GeographicLib::GeographicLib target from legacy variables
+[3.141s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.144s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.145s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.621s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.928s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.940s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_behavior_tree/include;/ros2_ws/src/aerostack2/as2_behavior_tree/include/as2_behavior_tree
+[3.940s] -- Configured cppcheck exclude dirs and/or files: 
+[3.950s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.950s] -- Configured cpplint exclude dirs and/or files: 
+[3.952s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.955s] -- Added test 'lint_cmake' to check CMake code style
+[3.958s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.979s] -- Added test 'uncrustify' to check C / C++ code style
+[3.980s] -- Configured uncrustify additional arguments: 
+[3.980s] -- Added test 'xmllint' to check XML markup files
+[3.980s] -- Configuring done
+[4.232s] -- Generating done
+[4.392s] -- Build files have been written to: /ros2_ws/build/as2_behavior_tree
+[4.488s] Invoked command in '/ros2_ws/build/as2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_behavior_tree -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_behavior_tree
+[4.489s] Invoking command in '/ros2_ws/build/as2_behavior_tree': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behavior_tree -- -j8 -l8
+[92.413s] [  3%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/takeoff_action.cpp.o[0m
+[92.413s] [  6%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/takeoff_emulator.dir/src/takeoff_emulator.cpp.o[0m
+[92.414s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/arm_service.cpp.o[0m
+[92.414s] [  9%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/platform_emulator.dir/src/platform_emulator.cpp.o[0m
+[92.414s] [ 16%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/offboard_service.cpp.o[0m
+[92.414s] [ 19%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/land_emulator.dir/src/land_emulator.cpp.o[0m
+[92.414s] [ 22%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/follow_path_emulator.dir/src/follow_path_emulator.cpp.o[0m
+[92.414s] [ 25%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/go_to_emulator.dir/src/go_to_emulator.cpp.o[0m
+[92.415s] [ 29%] [32m[1mLinking CXX executable land_emulator[0m
+[92.415s] [ 32%] [32m[1mLinking CXX executable platform_emulator[0m
+[92.415s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/land_action.cpp.o[0m
+[92.415s] [ 35%] Built target platform_emulator
+[92.415s] [ 35%] Built target land_emulator
+[92.415s] [ 38%] [32m[1mLinking CXX executable go_to_emulator[0m
+[92.416s] [ 38%] Built target go_to_emulator
+[92.416s] [ 41%] [32m[1mLinking CXX executable follow_path_emulator[0m
+[92.416s] [ 45%] [32m[1mLinking CXX executable takeoff_emulator[0m
+[92.416s] [ 45%] Built target follow_path_emulator
+[92.416s] [ 45%] Built target takeoff_emulator
+[94.410s] [ 48%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_gps_action.cpp.o[0m
+[116.626s] [ 51%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/condition/is_flying_condition.cpp.o[0m
+[144.523s] [ 54%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_event.cpp.o[0m
+[170.408s] [ 58%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_alert.cpp.o[0m
+[196.733s] [ 61%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/gps_to_cartesian.cpp.o[0m
+[214.536s] [ 64%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/get_origin.cpp.o[0m
+[230.411s] [ 67%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/set_origin.cpp.o[0m
+[247.567s] [ 70%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/echo.cpp.o[0m
+[259.549s] [ 74%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/send_event.cpp.o[0m
+[276.350s] [ 77%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_action.cpp.o[0m
+[300.016s] [ 80%] [32m[1mLinking CXX shared library libas2_behavior_tree.so[0m
+[301.256s] [ 80%] Built target as2_behavior_tree
+[301.396s] [ 83%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree_node.dir/src/as2_behavior_tree_node.cpp.o[0m
+[340.769s] [ 87%] [32m[1mLinking CXX executable as2_behavior_tree_node[0m
+[341.670s] [ 87%] Built target as2_behavior_tree_node
+[341.734s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_test.dir/port_test.cpp.o[0m
+[353.013s] [ 93%] [32m[1mLinking CXX executable as2_behavior_tree_port_test[0m
+[353.451s] [ 93%] Built target as2_behavior_tree_port_test
+[353.550s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_pose_test.dir/port_pose_test.cpp.o[0m
+[363.472s] [100%] [32m[1mLinking CXX executable as2_behavior_tree_port_pose_test[0m
+[363.781s] [100%] Built target as2_behavior_tree_port_pose_test
+[363.851s] Invoked command in '/ros2_ws/build/as2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behavior_tree -- -j8 -l8
+[363.852s] Invoking command in '/ros2_ws/build/as2_behavior_tree': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behavior_tree
+[407.565s] -- Install configuration: "Release"
+[407.565s] -- Execute custom install script
+[407.566s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/arm_service.hpp
+[407.566s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/echo.hpp
+[407.566s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/follow_path.hpp
+[407.566s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/get_origin.hpp
+[407.566s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_action.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_gps_action.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/gps_to_cartesian.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/land_action.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/offboard_service.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/send_event.hpp
+[407.567s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/set_origin.hpp
+[407.568s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/takeoff_action.hpp
+[407.568s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_action_node.hpp
+[407.568s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_service_node.hpp
+[407.568s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/condition/is_flying_condition.hpp
+[407.568s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_alert.hpp
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_event.hpp
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/port_specialization.hpp
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/as2_behavior_tree_node
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/behavior_trees.launch.py
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/RTL_test_2.xml
+[407.569s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/actions.xml
+[407.570s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/arm_test.xml
+[407.570s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/basic_mission.xml
+[407.570s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test.xml
+[407.570s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test_2.xml
+[407.570s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/follow_path_test.xml
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/takeoff.xml
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/test.xml
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/all_emulator.launch.py
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/land_emulator.launch.py
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/takeoff_emulator.launch.py
+[407.571s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/platform_emulator
+[407.572s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/takeoff_emulator
+[407.572s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/land_emulator
+[407.572s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/go_to_emulator
+[407.573s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/follow_path_emulator
+[407.573s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/as2_behavior_tree
+[407.573s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/as2_behavior_tree
+[407.573s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.sh
+[407.573s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.dsv
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.sh
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.dsv
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.bash
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.sh
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.zsh
+[407.574s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.dsv
+[407.575s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.dsv
+[407.575s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/packages/as2_behavior_tree
+[407.575s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig.cmake
+[407.575s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig-version.cmake
+[407.575s] -- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.xml
+[407.575s] -- Installing: /ros2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so
+[407.576s] -- Set runtime path of "/ros2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so" to ""
+[407.643s] Invoked command in '/ros2_ws/build/as2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behavior_tree

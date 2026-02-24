@@ -1,0 +1,150 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found behaviortree_cpp: 4.7.1 (/opt/ros/humble/share/behaviortree_cpp/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+-- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+-- Created GeographicLib::GeographicLib target from legacy variables
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_behavior_tree/include;/ros2_ws/src/aerostack2/as2_behavior_tree/include/as2_behavior_tree
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/as2_behavior_tree
+[  3%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/takeoff_action.cpp.o[0m
+[  6%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/takeoff_emulator.dir/src/takeoff_emulator.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/arm_service.cpp.o[0m
+[  9%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/platform_emulator.dir/src/platform_emulator.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/offboard_service.cpp.o[0m
+[ 19%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/land_emulator.dir/src/land_emulator.cpp.o[0m
+[ 22%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/follow_path_emulator.dir/src/follow_path_emulator.cpp.o[0m
+[ 25%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/go_to_emulator.dir/src/go_to_emulator.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable land_emulator[0m
+[ 32%] [32m[1mLinking CXX executable platform_emulator[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/land_action.cpp.o[0m
+[ 35%] Built target platform_emulator
+[ 35%] Built target land_emulator
+[ 38%] [32m[1mLinking CXX executable go_to_emulator[0m
+[ 38%] Built target go_to_emulator
+[ 41%] [32m[1mLinking CXX executable follow_path_emulator[0m
+[ 45%] [32m[1mLinking CXX executable takeoff_emulator[0m
+[ 45%] Built target follow_path_emulator
+[ 45%] Built target takeoff_emulator
+[ 48%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_gps_action.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/condition/is_flying_condition.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_event.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_alert.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/gps_to_cartesian.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/get_origin.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/set_origin.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/echo.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/send_event.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_action.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libas2_behavior_tree.so[0m
+[ 80%] Built target as2_behavior_tree
+[ 83%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree_node.dir/src/as2_behavior_tree_node.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable as2_behavior_tree_node[0m
+[ 87%] Built target as2_behavior_tree_node
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_test.dir/port_test.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable as2_behavior_tree_port_test[0m
+[ 93%] Built target as2_behavior_tree_port_test
+[ 96%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_pose_test.dir/port_pose_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable as2_behavior_tree_port_pose_test[0m
+[100%] Built target as2_behavior_tree_port_pose_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/arm_service.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/echo.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/follow_path.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/get_origin.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_action.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_gps_action.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/gps_to_cartesian.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/land_action.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/offboard_service.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/send_event.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/set_origin.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/takeoff_action.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_action_node.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_service_node.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/condition/is_flying_condition.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_alert.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_event.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/include/as2_behavior_tree/port_specialization.hpp
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/as2_behavior_tree_node
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/behavior_trees.launch.py
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/RTL_test_2.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/actions.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/arm_test.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/basic_mission.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test_2.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/follow_path_test.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/takeoff.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/test.xml
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/all_emulator.launch.py
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/land_emulator.launch.py
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/takeoff_emulator.launch.py
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/platform_emulator
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/takeoff_emulator
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/land_emulator
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/go_to_emulator
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/follow_path_emulator
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/as2_behavior_tree
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/as2_behavior_tree
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.sh
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.dsv
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.bash
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.sh
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.zsh
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.dsv
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/ament_index/resource_index/packages/as2_behavior_tree
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig.cmake
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig-version.cmake
+-- Symlinking: /ros2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.xml
+-- Installing: /ros2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so
+-- Set runtime path of "/ros2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so" to ""

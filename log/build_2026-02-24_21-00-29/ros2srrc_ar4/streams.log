@@ -1,0 +1,24 @@
+[0.133s] Invoking command in '/ros2_ws/build/ros2srrc_ar4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ar4 -- -j8 -l8
+[0.216s] Invoked command in '/ros2_ws/build/ros2srrc_ar4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ar4 -- -j8 -l8
+[0.220s] Invoking command in '/ros2_ws/build/ros2srrc_ar4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ar4
+[0.233s] -- Install configuration: "Release"
+[0.235s] -- Execute custom install script
+[0.235s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/config/configurations.yaml
+[0.236s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/urdf/ar4.urdf.xacro
+[0.236s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/urdf/ar4_ar4gripper.urdf.xacro
+[0.237s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ar4
+[0.237s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ar4
+[0.239s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/environment/ament_prefix_path.sh
+[0.239s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/environment/ament_prefix_path.dsv
+[0.240s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/environment/path.sh
+[0.240s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/environment/path.dsv
+[0.241s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/local_setup.bash
+[0.242s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/local_setup.sh
+[0.243s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/local_setup.zsh
+[0.244s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/local_setup.dsv
+[0.244s] -- Symlinking: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/package.dsv
+[0.263s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ament_index/resource_index/packages/ros2srrc_ar4
+[0.265s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/cmake/ros2srrc_ar4Config.cmake
+[0.266s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/cmake/ros2srrc_ar4Config-version.cmake
+[0.267s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ar4/share/ros2srrc_ar4/package.xml
+[0.363s] Invoked command in '/ros2_ws/build/ros2srrc_ar4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ar4

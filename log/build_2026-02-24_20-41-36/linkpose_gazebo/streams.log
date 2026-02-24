@@ -1,0 +1,50 @@
+[0.056s] Invoking command in '/ros2_ws/build/linkpose_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/IFRA_LinkPose/linkpose_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/linkpose_gazebo
+[0.690s] -- The C compiler identification is GNU 11.4.0
+[0.690s] -- The CXX compiler identification is GNU 11.4.0
+[0.691s] -- Detecting C compiler ABI info
+[0.691s] -- Detecting C compiler ABI info - done
+[0.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.691s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.692s] -- Detecting CXX compile features
+[0.692s] -- Detecting CXX compile features - done
+[0.692s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.049s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.211s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.333s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.581s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.585s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.586s] -- Added test 'lint_cmake' to check CMake code style
+[1.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.590s] -- Added test 'xmllint' to check XML markup files
+[1.594s] -- Configuring done
+[1.601s] -- Generating done
+[1.605s] -- Build files have been written to: /ros2_ws/build/linkpose_gazebo
+[1.615s] Invoked command in '/ros2_ws/build/linkpose_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/IFRA_LinkPose/linkpose_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/linkpose_gazebo
+[1.616s] Invoking command in '/ros2_ws/build/linkpose_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/linkpose_gazebo -- -j8 -l8
+[6.198s] Invoked command in '/ros2_ws/build/linkpose_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/linkpose_gazebo -- -j8 -l8
+[6.201s] Invoking command in '/ros2_ws/build/linkpose_gazebo': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/linkpose_gazebo
+[6.641s] -- Install configuration: "Release"
+[6.642s] -- Execute custom install script
+[6.642s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/launch/linkpose.launch.py
+[6.642s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/worlds/linkpose.world
+[6.643s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/urdf/box.urdf
+[6.643s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/ament_index/resource_index/package_run_dependencies/linkpose_gazebo
+[6.644s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/ament_index/resource_index/parent_prefix_path/linkpose_gazebo
+[6.644s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/environment/ament_prefix_path.sh
+[6.644s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/environment/ament_prefix_path.dsv
+[6.644s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/environment/path.sh
+[6.645s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/environment/path.dsv
+[6.645s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/local_setup.bash
+[6.645s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/local_setup.sh
+[6.645s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/local_setup.zsh
+[6.647s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/local_setup.dsv
+[6.647s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/package.dsv
+[6.647s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/ament_index/resource_index/packages/linkpose_gazebo
+[6.648s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/cmake/linkpose_gazeboConfig.cmake
+[6.649s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/cmake/linkpose_gazeboConfig-version.cmake
+[6.649s] -- Symlinking: /ros2_ws/install/linkpose_gazebo/share/linkpose_gazebo/package.xml
+[6.701s] Invoked command in '/ros2_ws/build/linkpose_gazebo' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ros2_linkpose:/ros2_ws/install/linkpose_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ros2_linkpose/lib:/ros2_ws/install/linkpose_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/linkpose_gazebo

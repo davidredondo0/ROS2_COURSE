@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_platform_gazebo.a CMakeFiles/as2_platform_gazebo.dir/src/as2_platform_gazebo.cpp.o
+/usr/bin/ranlib libas2_platform_gazebo.a

@@ -1,0 +1,6 @@
+/ros2_ws/install/as2_core/include/as2_core/mocks//aerial_platform/mock_aerial_platform.hpp
+/ros2_ws/install/as2_core/include/as2_core/mocks//executor_thread_util/executor_thread_util.hpp
+/ros2_ws/install/as2_core/lib/libas2_core.a
+/ros2_ws/install/as2_core/lib/libmocks.so
+/ros2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport.cmake
+/ros2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport-release.cmake

@@ -1,0 +1,44 @@
+[0.174s] Invoking command in '/ros2_ws/build/as2_usb_camera_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_usb_camera_interface -- -j8 -l8
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target as2_usb_camera_interface_node[0m
+[0.420s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target as2_usb_camera_interface[0m
+[0.427s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.557s] [ 18%] Built target gtest_main
+[0.565s] [ 45%] Built target as2_usb_camera_interface_node
+[0.578s] [ 63%] Built target gtest
+[0.589s] [ 81%] Built target as2_usb_camera_interface
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target as2_usb_camera_interface_as2_usb_camera_interface_gtest[0m
+[0.708s] [100%] Built target as2_usb_camera_interface_as2_usb_camera_interface_gtest
+[1.042s] Invoked command in '/ros2_ws/build/as2_usb_camera_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_usb_camera_interface -- -j8 -l8
+[1.043s] Invoking command in '/ros2_ws/build/as2_usb_camera_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_usb_camera_interface
+[1.142s] -- Install configuration: "Release"
+[1.142s] -- Execute custom install script
+[1.142s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/include/as2_usb_camera_interface/as2_usb_camera_interface.hpp
+[1.142s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/launch/as2_usb_camera_interface_launch.py
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/camera_info.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide02_720_info.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide03_1080_info.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide03_720_info.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/camera_calibration_default.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/config_file_default.yaml
+[1.143s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/f330_arguments.yaml
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/f450_arguments.yaml
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/sim_arguments.yaml
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/lib/as2_usb_camera_interface/as2_usb_camera_interface_node
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/package_run_dependencies/as2_usb_camera_interface
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/parent_prefix_path/as2_usb_camera_interface
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/ament_prefix_path.sh
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/ament_prefix_path.dsv
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/path.sh
+[1.144s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/path.dsv
+[1.145s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.bash
+[1.145s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.sh
+[1.145s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.zsh
+[1.146s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.dsv
+[1.146s] -- Symlinking: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/package.dsv
+[1.146s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/packages/as2_usb_camera_interface
+[1.147s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/cmake/as2_usb_camera_interfaceConfig.cmake
+[1.147s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/cmake/as2_usb_camera_interfaceConfig-version.cmake
+[1.147s] -- Up-to-date symlink: /ros2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/package.xml
+[1.147s] -- Up-to-date: /ros2_ws/install/as2_usb_camera_interface/lib/libas2_usb_camera_interface.a
+[1.198s] Invoked command in '/ros2_ws/build/as2_usb_camera_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_usb_camera_interface

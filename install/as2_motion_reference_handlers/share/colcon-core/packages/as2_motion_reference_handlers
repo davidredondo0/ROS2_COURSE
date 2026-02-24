@@ -1,0 +1,1 @@
+ament_cmake:as2_core:as2_msgs:eigen:geometry_msgs:rclcpp:rclcpp_action:rclpy:std_msgs:std_srvs:trajectory_msgs

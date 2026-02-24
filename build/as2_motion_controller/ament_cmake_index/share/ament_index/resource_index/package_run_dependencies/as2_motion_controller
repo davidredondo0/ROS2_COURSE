@@ -1,0 +1,1 @@
+rclcpp;pluginlib;yaml-cpp;as2_core;as2_msgs;as2_motion_reference_handlers;geometry_msgs;eigen;benchmark;ament_lint_auto;ament_lint_common;ament_cmake_gtest;ament_index_cpp

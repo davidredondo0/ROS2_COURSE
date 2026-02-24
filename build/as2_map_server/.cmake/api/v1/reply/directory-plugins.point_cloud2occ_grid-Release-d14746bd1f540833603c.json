@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "plugins/point_cloud2occ_grid",
+		"source" : "plugins/point_cloud2occ_grid"
+	}
+}

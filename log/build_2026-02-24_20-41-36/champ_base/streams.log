@@ -1,0 +1,95 @@
+[0.069s] Invoking command in '/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/champ_base -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/champ_base
+[2.712s] -- The C compiler identification is GNU 11.4.0
+[2.712s] -- The CXX compiler identification is GNU 11.4.0
+[2.712s] -- Detecting C compiler ABI info
+[2.712s] -- Detecting C compiler ABI info - done
+[2.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.713s] -- Detecting C compile features
+[2.713s] -- Detecting C compile features - done
+[2.713s] -- Detecting CXX compiler ABI info
+[2.713s] -- Detecting CXX compiler ABI info - done
+[2.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.713s] -- Detecting CXX compile features
+[2.714s] -- Detecting CXX compile features - done
+[2.714s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.714s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.714s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.714s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.715s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.715s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.715s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.715s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.716s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.716s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.716s] -- Looking for pthread.h
+[2.716s] -- Looking for pthread.h - found
+[2.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.717s] -- Found Threads: TRUE  
+[2.717s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[2.717s] -- Found champ_msgs: 0.1.0 (/ros2_ws/install/champ_msgs/share/champ_msgs/cmake)
+[2.717s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.822s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.878s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.934s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.319s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.430s] -- Found champ: 0.1.0 (/ros2_ws/install/champ/share/champ/cmake)
+[3.674s] -- Configuring done
+[3.868s] -- Generating done
+[3.919s] -- Build files have been written to: /ros2_ws/build/champ_base
+[3.956s] Invoked command in '/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/champ_base -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/champ_base
+[3.957s] Invoking command in '/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/champ_base -- -j8 -l8
+[30.601s] [  8%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[45.539s] [ 16%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[46.166s] [ 16%] Built target quadruped_controller
+[46.205s] [ 25%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[104.901s] [ 33%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[105.753s] [ 33%] Built target state_estimation
+[105.880s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[116.809s] [ 50%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[117.225s] [ 50%] Built target quadruped_controller_node
+[117.309s] [ 58%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[134.764s] [ 66%] [32m[1mLinking CXX executable state_estimation_node[0m
+[135.010s] [ 66%] Built target state_estimation_node
+[135.038s] [ 75%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[174.964s] [ 83%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[175.772s] [ 83%] Built target message_relay
+[175.848s] [ 91%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[182.340s] [100%] [32m[1mLinking CXX executable message_relay_node[0m
+[182.688s] [100%] Built target message_relay_node
+[182.721s] Invoked command in '/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/champ_base -- -j8 -l8
+[182.722s] Invoking command in '/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/champ_base
+[182.738s] -- Install configuration: "Release"
+[182.739s] -- Execute custom install script
+[182.741s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[182.757s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[182.775s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[182.793s] -- Symlinking: /ros2_ws/install/champ_base/lib/libquadruped_controller.so
+[182.810s] -- Symlinking: /ros2_ws/install/champ_base/bin/quadruped_controller_node
+[182.827s] -- Symlinking: /ros2_ws/install/champ_base/lib/libmessage_relay.so
+[182.843s] -- Symlinking: /ros2_ws/install/champ_base/bin/message_relay_node
+[182.860s] -- Symlinking: /ros2_ws/install/champ_base/lib/libstate_estimation.so
+[182.879s] -- Symlinking: /ros2_ws/install/champ_base/bin/state_estimation_node
+[182.897s] -- Symlinking: /ros2_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[182.914s] -- Symlinking: /ros2_ws/install/champ_base/lib/champ_base/message_relay_node
+[182.931s] -- Symlinking: /ros2_ws/install/champ_base/lib/champ_base/state_estimation_node
+[182.948s] -- Symlinking: /ros2_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[182.967s] -- Symlinking: /ros2_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[182.994s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[183.012s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[183.030s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/environment/path.sh
+[183.049s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/environment/path.dsv
+[183.067s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/local_setup.bash
+[183.092s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/local_setup.sh
+[183.110s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/local_setup.zsh
+[183.127s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/local_setup.dsv
+[183.148s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/package.dsv
+[183.165s] -- Symlinking: /ros2_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[183.191s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[183.208s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[183.225s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[183.242s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[183.260s] -- Symlinking: /ros2_ws/install/champ_base/share/champ_base/package.xml
+[183.287s] Invoked command in '/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/champ_base

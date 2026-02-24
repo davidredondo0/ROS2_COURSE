@@ -1,0 +1,24 @@
+[0.533s] Invoking command in '/ros2_ws/build/champ_config': AMENT_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_base/lib:/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/champ_config -- -j8 -l8
+[1.205s] Invoked command in '/ros2_ws/build/champ_config' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_base/lib:/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/champ_config -- -j8 -l8
+[1.207s] Invoking command in '/ros2_ws/build/champ_config': AMENT_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_base/lib:/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/champ_config
+[1.229s] -- Install configuration: "Release"
+[1.232s] -- Execute custom install script
+[1.233s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/config/gait/gait.yaml
+[1.234s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/config/joints/joints.yaml
+[1.236s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/config/links/links.yaml
+[1.236s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/ament_index/resource_index/package_run_dependencies/champ_config
+[1.236s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/ament_index/resource_index/parent_prefix_path/champ_config
+[1.236s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.sh
+[1.236s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.dsv
+[1.237s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/environment/path.sh
+[1.237s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/environment/path.dsv
+[1.238s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/local_setup.bash
+[1.238s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/local_setup.sh
+[1.238s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/local_setup.zsh
+[1.239s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/local_setup.dsv
+[1.239s] -- Symlinking: /ros2_ws/install/champ_config/share/champ_config/package.dsv
+[1.258s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/ament_index/resource_index/packages/champ_config
+[1.259s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig.cmake
+[1.259s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig-version.cmake
+[1.259s] -- Up-to-date symlink: /ros2_ws/install/champ_config/share/champ_config/package.xml
+[1.342s] Invoked command in '/ros2_ws/build/champ_config' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/champ_base:/ros2_ws/install/champ_msgs:/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/champ_base/lib:/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/champ_config

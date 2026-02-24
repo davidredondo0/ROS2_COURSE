@@ -1,0 +1,10 @@
+setup.py
+as2_core/__init__.py
+as2_core/declare_launch_arguments_from_config_file.py
+as2_core/launch_configuration_from_config_file.py
+as2_core/launch_param_utils.py
+as2_core/launch_plugin_utils.py
+as2_core.egg-info/PKG-INFO
+as2_core.egg-info/SOURCES.txt
+as2_core.egg-info/dependency_links.txt
+as2_core.egg-info/top_level.txt

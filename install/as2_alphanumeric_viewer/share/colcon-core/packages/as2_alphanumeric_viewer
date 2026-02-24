@@ -1,0 +1,1 @@
+ament_cmake:as2_core:as2_msgs:eigen:geometry_msgs:libncurses-dev:rclcpp:sensor_msgs:std_msgs:std_srvs

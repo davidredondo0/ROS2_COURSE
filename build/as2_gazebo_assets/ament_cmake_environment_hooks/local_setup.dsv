@@ -1,0 +1,5 @@
+source;share/as2_gazebo_assets/environment/ament_prefix_path.sh
+source;share/as2_gazebo_assets/environment/path.sh
+source;share/as2_gazebo_assets/environment/pythonpath.sh
+source;share/as2_gazebo_assets/environment/resource_paths.sh
+source;share/as2_gazebo_assets/environment/resource_paths.dsv

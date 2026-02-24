@@ -1,0 +1,102 @@
+[0.095s] Invoking command in '/ros2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_realsense_interface
+[1.097s] -- The C compiler identification is GNU 11.4.0
+[1.098s] -- The CXX compiler identification is GNU 11.4.0
+[1.098s] -- Detecting C compiler ABI info
+[1.098s] -- Detecting C compiler ABI info - done
+[1.098s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.098s] -- Detecting C compile features
+[1.098s] -- Detecting C compile features - done
+[1.099s] -- Detecting CXX compiler ABI info
+[1.298s] -- Detecting CXX compiler ABI info - done
+[1.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.322s] -- Detecting CXX compile features
+[1.324s] -- Detecting CXX compile features - done
+[1.337s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.014s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.159s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.324s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.346s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.378s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.658s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.734s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.770s] -- Looking for pthread.h
+[2.959s] -- Looking for pthread.h - found
+[2.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.138s] -- Found Threads: TRUE  
+[3.313s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[3.325s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[3.330s] -- Created GeographicLib::GeographicLib target from legacy variables
+[3.823s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.827s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.827s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.336s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.582s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.601s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.605s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/include;/ros2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/include/as2_realsense_interface
+[4.605s] -- Configured cppcheck exclude dirs and/or files: 
+[4.608s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.608s] -- Configured cpplint exclude dirs and/or files: 
+[4.608s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.610s] -- Added test 'lint_cmake' to check CMake code style
+[4.611s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.613s] -- Added test 'uncrustify' to check C / C++ code style
+[4.614s] -- Configured uncrustify additional arguments: 
+[4.615s] -- Added test 'xmllint' to check XML markup files
+[4.617s] -- Configuring done
+[4.681s] -- Generating done
+[4.702s] -- Build files have been written to: /ros2_ws/build/as2_realsense_interface
+[4.756s] Invoked command in '/ros2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_realsense_interface
+[4.757s] Invoking command in '/ros2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_realsense_interface -- -j8 -l8
+[4.838s] [  9%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface_node.dir/src/as2_realsense_interface_node.cpp.o[0m
+[19.952s] [ 18%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface_node.dir/src/as2_realsense_interface.cpp.o[0m
+[44.187s] [ 27%] [32m[1mLinking CXX executable as2_realsense_interface_node[0m
+[45.633s] [ 27%] Built target as2_realsense_interface_node
+[45.679s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[59.966s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[60.084s] [ 45%] Built target gtest
+[60.123s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[61.825s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[61.872s] [ 63%] Built target gtest_main
+[61.899s] [ 72%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o[0m
+[85.837s] [ 81%] [32m[1mLinking CXX static library libas2_realsense_interface.a[0m
+[85.967s] [ 81%] Built target as2_realsense_interface
+[86.011s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_realsense_interface_as2_realsense_interface_gtest.dir/as2_realsense_interface_gtest.cpp.o[0m
+[102.968s] [100%] [32m[1mLinking CXX executable as2_realsense_interface_as2_realsense_interface_gtest[0m
+[104.171s] [100%] Built target as2_realsense_interface_as2_realsense_interface_gtest
+[104.238s] Invoked command in '/ros2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_realsense_interface -- -j8 -l8
+[104.238s] Invoking command in '/ros2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_realsense_interface
+[294.791s] -- Install configuration: "Release"
+[294.791s] -- Execute custom install script
+[294.791s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/include/as2_realsense_interface/as2_realsense_interface.hpp
+[294.791s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/lib/as2_realsense_interface/as2_realsense_interface_node
+[294.791s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_launch.py
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_t265_launch.py
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/params.yaml
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/tf_sensors.yaml
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/params.yaml
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/tf_sensors.yaml
+[294.792s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/d435i.yaml
+[294.793s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/t265.yaml
+[294.793s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/package_run_dependencies/as2_realsense_interface
+[294.793s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/parent_prefix_path/as2_realsense_interface
+[294.793s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.sh
+[294.793s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.dsv
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.sh
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.dsv
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.bash
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.sh
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.zsh
+[294.794s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.dsv
+[294.795s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.dsv
+[294.795s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/ament_index/resource_index/packages/as2_realsense_interface
+[294.795s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig.cmake
+[294.795s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig-version.cmake
+[294.795s] -- Symlinking: /ros2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.xml
+[294.795s] -- Installing: /ros2_ws/install/as2_realsense_interface/lib/libas2_realsense_interface.a
+[294.846s] Invoked command in '/ros2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_realsense_interface

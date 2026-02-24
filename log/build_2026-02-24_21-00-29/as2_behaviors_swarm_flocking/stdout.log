@@ -1,0 +1,54 @@
+[  2%] Built target generate-cpp
+[  2%] Built target generate-fortran
+[35m[1mConsolidate compiler generated dependencies of target nlopt[0m
+[ 70%] Built target nlopt
+[35m[1mConsolidate compiler generated dependencies of target mav_trajectory_generation[0m
+[ 86%] Built target mav_trajectory_generation
+[35m[1mConsolidate compiler generated dependencies of target dynamic_trajectory_generator[0m
+[35m[1mConsolidate compiler generated dependencies of target test_polynomial[0m
+[ 88%] Built target test_polynomial
+[ 93%] Built target dynamic_trajectory_generator
+[35m[1mConsolidate compiler generated dependencies of target as2_behaviors_swarm_flocking[0m
+[ 97%] Built target as2_behaviors_swarm_flocking
+[35m[1mConsolidate compiler generated dependencies of target swarm_flocking_behavior_node[0m
+[100%] Built target swarm_flocking_behavior_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/drone_swarm.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/swarm_flocking_behavior.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/config/config_default.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/launch/swarm_flocking_behavior.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_swarm_flocking
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_swarm_flocking
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/packages/as2_behaviors_swarm_flocking
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.xml
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/pkgconfig/nlopt.pc
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.h
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.hpp
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.f
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfig.cmake
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt.3
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize.3
+-- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize_constrained.3

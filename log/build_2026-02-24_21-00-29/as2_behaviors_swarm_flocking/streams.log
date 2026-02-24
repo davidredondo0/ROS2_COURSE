@@ -1,0 +1,58 @@
+[0.610s] Invoking command in '/ros2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[0.744s] [  2%] Built target generate-cpp
+[0.744s] [  2%] Built target generate-fortran
+[0.782s] [35m[1mConsolidate compiler generated dependencies of target nlopt[0m
+[0.854s] [ 70%] Built target nlopt
+[0.895s] [35m[1mConsolidate compiler generated dependencies of target mav_trajectory_generation[0m
+[1.000s] [ 86%] Built target mav_trajectory_generation
+[1.016s] [35m[1mConsolidate compiler generated dependencies of target dynamic_trajectory_generator[0m
+[1.018s] [35m[1mConsolidate compiler generated dependencies of target test_polynomial[0m
+[1.046s] [ 88%] Built target test_polynomial
+[1.048s] [ 93%] Built target dynamic_trajectory_generator
+[1.072s] [35m[1mConsolidate compiler generated dependencies of target as2_behaviors_swarm_flocking[0m
+[1.111s] [ 97%] Built target as2_behaviors_swarm_flocking
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target swarm_flocking_behavior_node[0m
+[1.167s] [100%] Built target swarm_flocking_behavior_node
+[1.187s] Invoked command in '/ros2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[1.189s] Invoking command in '/ros2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_swarm_flocking
+[1.199s] -- Install configuration: "Release"
+[1.199s] -- Execute custom install script
+[1.200s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/drone_swarm.hpp
+[1.200s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/swarm_flocking_behavior.hpp
+[1.200s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/config/config_default.yaml
+[1.207s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/launch/swarm_flocking_behavior.launch.py
+[1.207s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node
+[1.207s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_swarm_flocking
+[1.207s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_swarm_flocking
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.sh
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.dsv
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.sh
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.dsv
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.bash
+[1.208s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.sh
+[1.209s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.zsh
+[1.209s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.dsv
+[1.209s] -- Symlinking: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.dsv
+[1.219s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/packages/as2_behaviors_swarm_flocking
+[1.219s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.220s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.220s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig.cmake
+[1.220s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig-version.cmake
+[1.220s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.xml
+[1.220s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so
+[1.221s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so
+[1.222s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/pkgconfig/nlopt.pc
+[1.222s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.h
+[1.222s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.hpp
+[1.222s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.f
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[1.223s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfig.cmake
+[1.224s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[1.224s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt.3
+[1.224s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize.3
+[1.224s] -- Up-to-date: /ros2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize_constrained.3
+[1.227s] Invoked command in '/ros2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_swarm_flocking

@@ -1,0 +1,114 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/ros2srrc_moveit
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ompl_planning.yaml
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.rviz
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.srdf
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/package_run_dependencies/ros2srrc_moveit
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/parent_prefix_path/ros2srrc_moveit
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.sh
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.bash
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.sh
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.zsh
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/package.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/packages/ros2srrc_moveit
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig.cmake
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig-version.cmake
+-- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/package.xml

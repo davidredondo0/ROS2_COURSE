@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/as2_rviz_plugins/libas2_rviz_plugins.so" "TARGETS" "as2_rviz_plugins" "ARCHIVE_DESTINATION" "lib/as2_rviz_plugins" "LIBRARY_DESTINATION" "lib/as2_rviz_plugins" "RUNTIME_DESTINATION" "lib/as2_rviz_plugins")

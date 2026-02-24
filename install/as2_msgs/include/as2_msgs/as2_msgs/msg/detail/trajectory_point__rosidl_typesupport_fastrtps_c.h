@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_msgs/rosidl_typesupport_fastrtps_c/as2_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h

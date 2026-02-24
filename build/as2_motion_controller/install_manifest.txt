@@ -1,0 +1,4 @@
+/ros2_ws/install/as2_motion_controller/lib/libas2_motion_controller.so
+/ros2_ws/install/as2_motion_controller/lib/libas2_motion_controller_plugin_base.so
+/ros2_ws/install/as2_motion_controller/lib/libdifferential_flatness_controller.so
+/ros2_ws/install/as2_motion_controller/lib/libpid_speed_controller.so

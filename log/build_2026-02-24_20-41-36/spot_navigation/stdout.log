@@ -1,0 +1,38 @@
+running develop
+running egg_info
+creating spot_navigation.egg-info
+writing spot_navigation.egg-info/PKG-INFO
+writing dependency_links to spot_navigation.egg-info/dependency_links.txt
+writing entry points to spot_navigation.egg-info/entry_points.txt
+writing requirements to spot_navigation.egg-info/requires.txt
+writing top-level names to spot_navigation.egg-info/top_level.txt
+writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+reading manifest file 'spot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+
+Installed /ros2_ws/build/spot_navigation
+running symlink_data
+creating /ros2_ws/install/spot_navigation/share/ament_index
+creating /ros2_ws/install/spot_navigation/share/ament_index/resource_index
+creating /ros2_ws/install/spot_navigation/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/spot_navigation/resource/spot_navigation -> /ros2_ws/install/spot_navigation/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/spot_navigation/package.xml -> /ros2_ws/install/spot_navigation/share/spot_navigation
+creating /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/planner.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/local_planner.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/spot.navigation.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/dlo.mapping.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/dlo.localization.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/dlo.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /ros2_ws/build/spot_navigation/launch/far_planner.launch.py -> /ros2_ws/install/spot_navigation/share/spot_navigation/launch
+creating /ros2_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /ros2_ws/build/spot_navigation/config/localization.yaml -> /ros2_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /ros2_ws/build/spot_navigation/config/dlo.yaml -> /ros2_ws/install/spot_navigation/share/spot_navigation/config
+creating /ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+symbolically linking /ros2_ws/build/spot_navigation/rviz/dlo.rviz -> /ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+symbolically linking /ros2_ws/build/spot_navigation/rviz/far_planner.rviz -> /ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+symbolically linking /ros2_ws/build/spot_navigation/rviz/dlo_localization.rviz -> /ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+creating /ros2_ws/install/spot_navigation/share/spot_navigation/maps
+symbolically linking /ros2_ws/build/spot_navigation/maps/simple_tunnel.pcd -> /ros2_ws/install/spot_navigation/share/spot_navigation/maps

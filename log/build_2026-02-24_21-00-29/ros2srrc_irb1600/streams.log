@@ -1,0 +1,23 @@
+[0.099s] Invoking command in '/ros2_ws/build/ros2srrc_irb1600': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_irb1600 -- -j8 -l8
+[0.213s] Invoked command in '/ros2_ws/build/ros2srrc_irb1600' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_irb1600 -- -j8 -l8
+[0.216s] Invoking command in '/ros2_ws/build/ros2srrc_irb1600': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_irb1600
+[0.229s] -- Install configuration: "Release"
+[0.229s] -- Execute custom install script
+[0.230s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/config/configurations.yaml
+[0.231s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/urdf/irb1600.urdf.xacro
+[0.231s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb1600
+[0.232s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb1600
+[0.235s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/ament_prefix_path.dsv
+[0.236s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/path.sh
+[0.236s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/environment/path.dsv
+[0.237s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.bash
+[0.238s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.sh
+[0.238s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.zsh
+[0.239s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/local_setup.dsv
+[0.240s] -- Symlinking: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/package.dsv
+[0.254s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ament_index/resource_index/packages/ros2srrc_irb1600
+[0.255s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/cmake/ros2srrc_irb1600Config.cmake
+[0.255s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/cmake/ros2srrc_irb1600Config-version.cmake
+[0.256s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb1600/share/ros2srrc_irb1600/package.xml
+[0.315s] Invoked command in '/ros2_ws/build/ros2srrc_irb1600' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_irb1600

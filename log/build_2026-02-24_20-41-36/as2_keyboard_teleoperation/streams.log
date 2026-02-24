@@ -1,0 +1,32 @@
+[2.373s] Invoking command in '/ros2_ws/build/as2_keyboard_teleoperation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_python_api:/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} AS2_MODULES_PATH=/ros2_ws/install/as2_python_api/share/as2_python_api/modules CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs LD_LIBRARY_PATH=/ros2_ws/install/as2_python_api/lib:/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/build/as2_keyboard_teleoperation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/as2_keyboard_teleoperation/lib/python3.10/site-packages:/ros2_ws/build/as2_python_api:/ros2_ws/install/as2_python_api/lib/python3.10/site-packages:/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/as2_keyboard_teleoperation/build --no-deps symlink_data
+[37.996s] running develop
+[37.997s] running egg_info
+[37.997s] creating as2_keyboard_teleoperation.egg-info
+[37.999s] writing as2_keyboard_teleoperation.egg-info/PKG-INFO
+[38.002s] writing dependency_links to as2_keyboard_teleoperation.egg-info/dependency_links.txt
+[38.002s] writing requirements to as2_keyboard_teleoperation.egg-info/requires.txt
+[38.002s] writing top-level names to as2_keyboard_teleoperation.egg-info/top_level.txt
+[38.003s] writing manifest file 'as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[38.003s] reading manifest file 'as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[38.003s] writing manifest file 'as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[38.004s] running build_ext
+[38.005s] Creating /ros2_ws/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2-keyboard-teleoperation.egg-link (link to .)
+[38.005s] 
+[38.005s] Installed /ros2_ws/build/as2_keyboard_teleoperation
+[38.006s] running symlink_data
+[38.006s] creating /ros2_ws/install/as2_keyboard_teleoperation/share/ament_index
+[38.007s] creating /ros2_ws/install/as2_keyboard_teleoperation/share/ament_index/resource_index
+[38.008s] creating /ros2_ws/install/as2_keyboard_teleoperation/share/ament_index/resource_index/packages
+[38.009s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/resource/as2_keyboard_teleoperation -> /ros2_ws/install/as2_keyboard_teleoperation/share/ament_index/resource_index/packages
+[38.009s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/package.xml -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.009s] creating /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/launch
+[38.010s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/launch/as2_keyboard_teleoperation_launch.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/launch
+[38.010s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/keyboard_teleoperation.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.010s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/drone_manager.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.011s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/main_window.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.011s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/settings_window.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.011s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/localization_window.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.012s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/as2_keyboard_teleoperation/config_values.py -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[38.012s] creating /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/config
+[38.012s] symbolically linking /ros2_ws/build/as2_keyboard_teleoperation/config/teleop_values_config.yaml -> /ros2_ws/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/config
+[38.040s] Invoked command in '/ros2_ws/build/as2_keyboard_teleoperation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_python_api:/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} AS2_MODULES_PATH=/ros2_ws/install/as2_python_api/share/as2_python_api/modules CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs LD_LIBRARY_PATH=/ros2_ws/install/as2_python_api/lib:/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/build/as2_keyboard_teleoperation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/as2_keyboard_teleoperation/lib/python3.10/site-packages:/ros2_ws/build/as2_python_api:/ros2_ws/install/as2_python_api/lib/python3.10/site-packages:/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/as2_keyboard_teleoperation/build --no-deps symlink_data

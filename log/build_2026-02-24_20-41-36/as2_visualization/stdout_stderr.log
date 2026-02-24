@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating as2_visualization.egg-info
+writing as2_visualization.egg-info/PKG-INFO
+writing dependency_links to as2_visualization.egg-info/dependency_links.txt
+writing entry points to as2_visualization.egg-info/entry_points.txt
+writing requirements to as2_visualization.egg-info/requires.txt
+writing top-level names to as2_visualization.egg-info/top_level.txt
+writing manifest file 'as2_visualization.egg-info/SOURCES.txt'
+reading manifest file 'as2_visualization.egg-info/SOURCES.txt'
+writing manifest file 'as2_visualization.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/as2_visualization/lib/python3.10/site-packages/as2-visualization.egg-link (link to .)
+Installing cfg_generator script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing gate_publisher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing marker_publisher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+Installing viz_launcher script to /ros2_ws/install/as2_visualization/lib/as2_visualization
+
+Installed /ros2_ws/build/as2_visualization
+running symlink_data
+creating /ros2_ws/install/as2_visualization/share/ament_index
+creating /ros2_ws/install/as2_visualization/share/ament_index/resource_index
+creating /ros2_ws/install/as2_visualization/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/as2_visualization/resource/as2_visualization -> /ros2_ws/install/as2_visualization/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/as2_visualization/package.xml -> /ros2_ws/install/as2_visualization/share/as2_visualization
+creating /ros2_ws/install/as2_visualization/share/as2_visualization/launch
+symbolically linking /ros2_ws/build/as2_visualization/launch/swarm_viz.launch.py -> /ros2_ws/install/as2_visualization/share/as2_visualization/launch
+symbolically linking /ros2_ws/build/as2_visualization/launch/as2_visualization.launch.py -> /ros2_ws/install/as2_visualization/share/as2_visualization/launch
+creating /ros2_ws/install/as2_visualization/share/as2_visualization/config
+symbolically linking /ros2_ws/build/as2_visualization/config/as2_default.rviz -> /ros2_ws/install/as2_visualization/share/as2_visualization/config

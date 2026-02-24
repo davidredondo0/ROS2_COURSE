@@ -1,0 +1,26 @@
+[0.171s] Invoking command in '/ros2_ws/build/ros2srrc_irb120': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_irb120 -- -j8 -l8
+[0.285s] Invoked command in '/ros2_ws/build/ros2srrc_irb120' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_irb120 -- -j8 -l8
+[0.288s] Invoking command in '/ros2_ws/build/ros2srrc_irb120': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_irb120
+[0.302s] -- Install configuration: "Release"
+[0.307s] -- Execute custom install script
+[0.308s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/config/configurations.yaml
+[0.312s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120.urdf.xacro
+[0.312s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_egp64.urdf.xacro
+[0.313s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_egp64v2.urdf.xacro
+[0.314s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_ls_vgr.urdf.xacro
+[0.315s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb120
+[0.316s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb120
+[0.319s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/ament_prefix_path.sh
+[0.319s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/ament_prefix_path.dsv
+[0.319s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/path.sh
+[0.320s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/path.dsv
+[0.320s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.bash
+[0.321s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.sh
+[0.321s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.zsh
+[0.321s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.dsv
+[0.322s] -- Symlinking: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/package.dsv
+[0.325s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/packages/ros2srrc_irb120
+[0.326s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/cmake/ros2srrc_irb120Config.cmake
+[0.326s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/cmake/ros2srrc_irb120Config-version.cmake
+[0.327s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/package.xml
+[0.371s] Invoked command in '/ros2_ws/build/ros2srrc_irb120' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_irb120

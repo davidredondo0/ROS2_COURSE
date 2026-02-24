@@ -1,0 +1,4 @@
+source;share/as2_state_estimator/local_setup.bash
+source;share/as2_state_estimator/local_setup.dsv
+source;share/as2_state_estimator/local_setup.sh
+source;share/as2_state_estimator/local_setup.zsh

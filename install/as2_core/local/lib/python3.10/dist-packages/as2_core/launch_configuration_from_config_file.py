@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_core/as2_core/launch_configuration_from_config_file.py

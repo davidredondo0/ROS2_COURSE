@@ -1,0 +1,1 @@
+/ros2_ws/src/aerostack2/as2_aerial_platforms/as2_platform_gazebo/launch/platform_gazebo_launch.py

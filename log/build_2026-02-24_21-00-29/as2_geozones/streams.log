@@ -1,0 +1,38 @@
+[0.064s] Invoking command in '/ros2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_geozones -- -j8 -l8
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target as2_geozones_node[0m
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target as2_geozones[0m
+[0.344s] [ 18%] Built target gtest_main
+[0.348s] [ 45%] Built target as2_geozones_node
+[0.357s] [ 63%] Built target gtest
+[0.363s] [ 81%] Built target as2_geozones
+[0.386s] [35m[1mConsolidate compiler generated dependencies of target as2_geozones_as2_geozones_gtest[0m
+[0.434s] [100%] Built target as2_geozones_as2_geozones_gtest
+[0.481s] Invoked command in '/ros2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_geozones -- -j8 -l8
+[0.482s] Invoking command in '/ros2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_geozones
+[0.545s] -- Install configuration: "Release"
+[0.547s] -- Execute custom install script
+[0.547s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/include/as2_geozones/as2_geozones.hpp
+[0.547s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/include/as2_geozones/pnpoly.hpp
+[0.547s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/launch/as2_geozones_launch.py
+[0.547s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/config/geozones.yaml
+[0.548s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/lib/as2_geozones/as2_geozones_node
+[0.548s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/package_run_dependencies/as2_geozones
+[0.548s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/parent_prefix_path/as2_geozones
+[0.548s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.sh
+[0.548s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.dsv
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/path.sh
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/path.dsv
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.bash
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.sh
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.zsh
+[0.549s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.dsv
+[0.550s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/package.dsv
+[0.550s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/packages/as2_geozones
+[0.550s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.550s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig.cmake
+[0.550s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig-version.cmake
+[0.551s] -- Up-to-date symlink: /ros2_ws/install/as2_geozones/share/as2_geozones/package.xml
+[0.551s] -- Up-to-date: /ros2_ws/install/as2_geozones/lib/libas2_geozones.a
+[0.591s] Invoked command in '/ros2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_geozones

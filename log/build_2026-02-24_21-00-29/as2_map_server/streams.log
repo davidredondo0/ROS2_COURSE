@@ -1,0 +1,61 @@
+[0.104s] Invoking command in '/ros2_ws/build/as2_map_server': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_map_server -- -j8 -l8
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target as2_map_server[0m
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.340s] [ 21%] Built target as2_map_server
+[0.340s] [ 28%] Built target as2_map_server_base
+[0.343s] [ 42%] Built target gtest_main
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target as2_map_server_node[0m
+[0.365s] [ 57%] Built target gtest
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target scan2occ_grid[0m
+[0.410s] [ 71%] Built target as2_map_server_node
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target as2_map_server_map_server_gtest[0m
+[0.421s] [ 85%] Built target scan2occ_grid
+[0.461s] [100%] Built target as2_map_server_map_server_gtest
+[0.541s] Invoked command in '/ros2_ws/build/as2_map_server' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_map_server -- -j8 -l8
+[0.543s] Invoking command in '/ros2_ws/build/as2_map_server': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_map_server
+[0.585s] -- Install configuration: "Release"
+[0.585s] -- Execute custom install script
+[0.586s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+[0.586s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+[0.586s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.sh
+[0.586s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.dsv
+[0.587s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+[0.587s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+[0.587s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/lib/as2_map_server/as2_map_server_node
+[0.587s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/include/scan2occ_grid.hpp
+[0.587s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server//plugins.xml
+[0.588s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/map_server.launch.py
+[0.588s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/scan2occ_grid-map_server.launch.py
+[0.588s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/scan2occ_grid/config/plugin_default.yaml
+[0.588s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/depth2occ_grid-map_server.launch.py
+[0.589s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/depth2occ_grid/config/plugin_default.yaml
+[0.589s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/launch/point_cloud2occ_grid-map_server.launch.py
+[0.589s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/plugins/point_cloud2occ_grid/config/plugin_default.yaml
+[0.589s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/package_run_dependencies/as2_map_server
+[0.589s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/parent_prefix_path/as2_map_server
+[0.590s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.sh
+[0.590s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.dsv
+[0.590s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/path.sh
+[0.590s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/environment/path.dsv
+[0.591s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.bash
+[0.597s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.sh
+[0.597s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.zsh
+[0.598s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/local_setup.dsv
+[0.598s] -- Symlinking: /ros2_ws/install/as2_map_server/share/as2_map_server/package.dsv
+[0.599s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/packages/as2_map_server
+[0.599s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/ament_index/resource_index/as2_map_server__pluginlib__plugin/as2_map_server
+[0.600s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.600s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[0.600s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.600s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig.cmake
+[0.601s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig-version.cmake
+[0.601s] -- Up-to-date symlink: /ros2_ws/install/as2_map_server/share/as2_map_server/package.xml
+[0.603s] -- Up-to-date: /ros2_ws/install/as2_map_server/lib/libas2_map_server_base.so
+[0.603s] -- Up-to-date: /ros2_ws/install/as2_map_server/lib/libas2_map_server.so
+[0.603s] -- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport.cmake
+[0.604s] -- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport-release.cmake
+[0.604s] -- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport.cmake
+[0.604s] -- Up-to-date: /ros2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport-release.cmake
+[0.604s] -- Up-to-date: /ros2_ws/install/as2_map_server/lib/libscan2occ_grid.so
+[0.629s] Invoked command in '/ros2_ws/build/as2_map_server' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_map_server

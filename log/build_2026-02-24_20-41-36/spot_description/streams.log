@@ -1,0 +1,81 @@
+[0.076s] Invoking command in '/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/spot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/spot_description
+[0.666s] -- The C compiler identification is GNU 11.4.0
+[0.667s] -- The CXX compiler identification is GNU 11.4.0
+[0.668s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.164s] -- Detecting C compile features
+[1.171s] -- Detecting C compile features - done
+[1.184s] -- Detecting CXX compiler ABI info
+[1.838s] -- Detecting CXX compiler ABI info - done
+[1.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.904s] -- Detecting CXX compile features
+[1.906s] -- Detecting CXX compile features - done
+[1.942s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.187s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.713s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.049s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.389s] -- Configuring done
+[4.407s] -- Generating done
+[4.422s] -- Build files have been written to: /ros2_ws/build/spot_description
+[4.444s] Invoked command in '/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/spot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/spot_description
+[4.446s] Invoking command in '/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/spot_description -- -j8 -l8
+[6.884s] Invoked command in '/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/spot_description -- -j8 -l8
+[6.884s] Invoking command in '/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/spot_description
+[12.278s] -- Install configuration: "Release"
+[12.278s] -- Execute custom install script
+[12.279s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/README.md
+[12.279s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/PPV4_Sim_Base.STL
+[12.279s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/birdcage.STL
+[12.279s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/body.dae
+[12.279s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/body_collision.stl
+[12.280s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_hip.dae
+[12.280s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_hip_collision.stl
+[12.280s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_lower_leg.dae
+[12.280s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_lower_leg_collision.stl
+[12.280s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_upper_leg.dae
+[12.281s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_upper_leg_collision.stl
+[12.281s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_hip.dae
+[12.281s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_hip_collision.stl
+[12.281s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_lower_leg.dae
+[12.282s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_lower_leg_collision.stl
+[12.282s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_upper_leg.dae
+[12.282s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_upper_leg_collision.stl
+[12.282s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/lidar_3d_v1.dae
+[12.307s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/lidar_3d_v1.jpg
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_hip.dae
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_hip_collision.stl
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_lower_leg.dae
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_lower_leg_collision.stl
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_upper_leg.dae
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_upper_leg_collision.stl
+[12.308s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_hip.dae
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_hip_collision.stl
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_lower_leg.dae
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_lower_leg_collision.stl
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_upper_leg.dae
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_upper_leg_collision.stl
+[12.309s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/sensor_payload_link.STL
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/spot_mat.png
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/meshes/spot_payload.stl
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/model.config
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/model.sdf
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/models/spot/model.urdf
+[12.310s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/spot_description.dsv
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/spot_description.sh
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.sh
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/path.sh
+[12.311s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/environment/path.dsv
+[12.312s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/local_setup.bash
+[12.312s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/local_setup.sh
+[12.312s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/local_setup.zsh
+[12.312s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/local_setup.dsv
+[12.313s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/package.dsv
+[12.313s] -- Symlinking: /ros2_ws/install/spot_description/share/ament_index/resource_index/packages/spot_description
+[12.314s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake
+[12.314s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake
+[12.314s] -- Symlinking: /ros2_ws/install/spot_description/share/spot_description/package.xml
+[12.347s] Invoked command in '/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/spot_description

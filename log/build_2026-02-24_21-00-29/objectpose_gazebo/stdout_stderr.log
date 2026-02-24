@@ -1,0 +1,20 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/launch/objectpose.launch.py
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/worlds/objectpose.world
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/urdf/box.urdf
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/package_run_dependencies/objectpose_gazebo
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/parent_prefix_path/objectpose_gazebo
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/local_setup.dsv
+-- Symlinking: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/ament_index/resource_index/packages/objectpose_gazebo
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/cmake/objectpose_gazeboConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/cmake/objectpose_gazeboConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/objectpose_gazebo/share/objectpose_gazebo/package.xml

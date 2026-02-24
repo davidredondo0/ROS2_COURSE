@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/champ_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/champ_msgs
+Invoked command in '/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/spot_gazebo_ros2/champ_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/champ_msgs
+Invoking command in '/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/champ_msgs -- -j8 -l8
+Invoked command in '/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/champ_msgs -- -j8 -l8
+Invoking command in '/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/champ_msgs
+Invoked command in '/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/champ_msgs

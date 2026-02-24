@@ -1,0 +1,1 @@
+ros_gz_sim;ros_gz_bridge;rclcpp;as2_core;sensor_msgs;geometry_msgs;tf2_msgs;tf2_ros;ros_gz_interfaces;python3-jinja2;python3-pydantic;ament_lint_auto;ament_lint_common;python3-pytest

@@ -1,0 +1,120 @@
+[0.134s] Invoking command in '/ros2_ws/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/ros2srrc_moveit -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_moveit
+[0.323s] -- The C compiler identification is GNU 11.4.0
+[0.507s] -- The CXX compiler identification is GNU 11.4.0
+[0.533s] -- Detecting C compiler ABI info
+[0.792s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.823s] -- Detecting C compile features - done
+[0.831s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.038s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.040s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.052s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.510s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.780s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.897s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.122s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.134s] -- Added test 'lint_cmake' to check CMake code style
+[2.144s] -- Added test 'xmllint' to check XML markup files
+[2.148s] -- Configuring done
+[2.155s] -- Generating done
+[2.159s] -- Build files have been written to: /ros2_ws/build/ros2srrc_moveit
+[2.178s] Invoked command in '/ros2_ws/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ros2_SimRealRobotControl/ros2srrc_moveit -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros2srrc_moveit
+[2.178s] Invoking command in '/ros2_ws/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_moveit -- -j8 -l8
+[2.417s] Invoked command in '/ros2_ws/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_moveit -- -j8 -l8
+[2.420s] Invoking command in '/ros2_ws/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_moveit
+[2.446s] -- Install configuration: "Release"
+[2.446s] -- Execute custom install script
+[2.446s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.rviz
+[2.453s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.srdf
+[2.469s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.rviz
+[2.486s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.srdf
+[2.505s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.rviz
+[2.522s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.srdf
+[2.539s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.rviz
+[2.555s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.srdf
+[2.571s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.rviz
+[2.588s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.srdf
+[2.601s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.rviz
+[2.619s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.srdf
+[2.637s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.rviz
+[2.666s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.srdf
+[2.673s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.rviz
+[2.689s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.srdf
+[2.705s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.rviz
+[2.720s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.srdf
+[2.737s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.rviz
+[2.753s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.srdf
+[2.770s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.rviz
+[2.788s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.srdf
+[2.808s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.rviz
+[2.828s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.srdf
+[2.858s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ompl_planning.yaml
+[2.871s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.rviz
+[2.888s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.srdf
+[2.904s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.rviz
+[2.923s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.srdf
+[2.952s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.rviz
+[2.970s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.srdf
+[2.987s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.rviz
+[3.005s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.srdf
+[3.024s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.rviz
+[3.045s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.srdf
+[3.066s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.rviz
+[3.085s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.srdf
+[3.103s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.rviz
+[3.121s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.srdf
+[3.139s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.rviz
+[3.156s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.srdf
+[3.176s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.rviz
+[3.194s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.srdf
+[3.212s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.rviz
+[3.230s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.srdf
+[3.248s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.rviz
+[3.264s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.srdf
+[3.281s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.rviz
+[3.312s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.srdf
+[3.330s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.rviz
+[3.347s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.srdf
+[3.364s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.rviz
+[3.382s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.srdf
+[3.399s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.rviz
+[3.416s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.srdf
+[3.432s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.rviz
+[3.449s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.srdf
+[3.466s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.rviz
+[3.483s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.srdf
+[3.499s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.rviz
+[3.516s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.srdf
+[3.533s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.rviz
+[3.550s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.srdf
+[3.566s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.rviz
+[3.583s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.srdf
+[3.599s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.rviz
+[3.617s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.srdf
+[3.635s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.rviz
+[3.656s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.srdf
+[3.674s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.rviz
+[3.691s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.srdf
+[3.708s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.rviz
+[3.724s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.srdf
+[3.743s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.rviz
+[3.760s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.srdf
+[3.779s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/package_run_dependencies/ros2srrc_moveit
+[3.796s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/parent_prefix_path/ros2srrc_moveit
+[3.812s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.sh
+[3.828s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.dsv
+[3.846s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.sh
+[3.863s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.dsv
+[3.880s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.bash
+[3.896s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.sh
+[3.913s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.zsh
+[3.931s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.dsv
+[3.947s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/package.dsv
+[3.965s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ament_index/resource_index/packages/ros2srrc_moveit
+[3.981s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig.cmake
+[3.998s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig-version.cmake
+[4.015s] -- Symlinking: /ros2_ws/install/ros2srrc_moveit/share/ros2srrc_moveit/package.xml
+[4.052s] Invoked command in '/ros2_ws/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_moveit

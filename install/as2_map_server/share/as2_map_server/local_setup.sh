@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_map_server/ament_cmake_environment_hooks/local_setup.sh

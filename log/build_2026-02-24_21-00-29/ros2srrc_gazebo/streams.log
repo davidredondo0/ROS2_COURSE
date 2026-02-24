@@ -1,0 +1,24 @@
+[0.485s] Invoking command in '/ros2_ws/build/ros2srrc_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_gazebo -- -j8 -l8
+[0.572s] Invoked command in '/ros2_ws/build/ros2srrc_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_gazebo -- -j8 -l8
+[0.574s] Invoking command in '/ros2_ws/build/ros2srrc_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_gazebo
+[0.614s] -- Install configuration: "Release"
+[0.615s] -- Execute custom install script
+[0.616s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/worlds/empty.world
+[0.617s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/worlds/ros2srrc_gazebo.world
+[0.617s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/worlds/test.world
+[0.617s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_gazebo
+[0.617s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_gazebo
+[0.617s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/environment/ament_prefix_path.sh
+[0.618s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/environment/ament_prefix_path.dsv
+[0.618s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/environment/path.sh
+[0.619s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/environment/path.dsv
+[0.619s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/local_setup.bash
+[0.619s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/local_setup.sh
+[0.619s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/local_setup.zsh
+[0.619s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/local_setup.dsv
+[0.620s] -- Symlinking: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/package.dsv
+[0.640s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ament_index/resource_index/packages/ros2srrc_gazebo
+[0.641s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/cmake/ros2srrc_gazeboConfig.cmake
+[0.643s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/cmake/ros2srrc_gazeboConfig-version.cmake
+[0.644s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_gazebo/share/ros2srrc_gazebo/package.xml
+[0.650s] Invoked command in '/ros2_ws/build/ros2srrc_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_gazebo

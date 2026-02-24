@@ -1,0 +1,3 @@
+repository='https://github.com/miferco97/dynamic_trajectory_generator.git'
+module=''
+tag='origin'

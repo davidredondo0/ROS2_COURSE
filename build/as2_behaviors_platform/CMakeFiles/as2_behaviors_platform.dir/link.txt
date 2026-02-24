@@ -1,0 +1,2 @@
+/usr/bin/ar qc libas2_behaviors_platform.a CMakeFiles/as2_behaviors_platform.dir/src/set_arming_state_behavior_main.cpp.o CMakeFiles/as2_behaviors_platform.dir/src/set_offboard_mode_behavior_main.cpp.o
+/usr/bin/ranlib libas2_behaviors_platform.a

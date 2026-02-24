@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest.dir/as2_platform_multirotor_simulator_gtest.cpp.o"
+  "CMakeFiles/as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest.dir/as2_platform_multirotor_simulator_gtest.cpp.o.d"
+  "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest"
+  "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

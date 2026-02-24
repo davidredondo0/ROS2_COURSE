@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  --coverage -fprofile-arcs -ftest-coverage -O3 -DNDEBUG -shared -Wl,-soname,libpid_controller.so -o libpid_controller.so 

@@ -1,0 +1,116 @@
+[0.072s] Invoking command in '/ros2_ws/build/pendulum_controller': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/pendulum/pendulum_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/pendulum_controller
+[7.955s] -- The C compiler identification is GNU 11.4.0
+[7.955s] -- The CXX compiler identification is GNU 11.4.0
+[7.955s] -- Detecting C compiler ABI info
+[7.956s] -- Detecting C compiler ABI info - done
+[7.956s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.956s] -- Detecting C compile features
+[7.956s] -- Detecting C compile features - done
+[7.956s] -- Detecting CXX compiler ABI info
+[7.956s] -- Detecting CXX compiler ABI info - done
+[7.956s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.957s] -- Detecting CXX compile features
+[7.957s] -- Detecting CXX compile features - done
+[7.957s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.957s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.957s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.957s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[7.957s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.958s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.958s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.958s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.958s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[7.959s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.959s] -- Looking for pthread.h
+[7.959s] -- Looking for pthread.h - found
+[7.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.959s] -- Found Threads: TRUE  
+[7.960s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.960s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.960s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.960s] -- Found pendulum2_msgs: 0.0.1 (/ros2_ws/install/pendulum2_msgs/share/pendulum2_msgs/cmake)
+[7.960s] -- Found pendulum_utils: 0.0.1 (/ros2_ws/install/pendulum_utils/share/pendulum_utils/cmake)
+[7.960s] -- Found apex_test_tools: 0.0.2 (/opt/ros/humble/share/apex_test_tools/cmake)
+[7.960s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.961s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.961s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.961s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.961s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.961s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.961s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.961s] -- Found PythonExtra: .so  
+[7.962s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.962s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.962s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/pendulum/pendulum_controller/include>
+[7.962s] -- Configured cppcheck exclude dirs and/or files: 
+[7.962s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.962s] -- Configured cpplint exclude dirs and/or files: 
+[7.963s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.963s] -- Added test 'lint_cmake' to check CMake code style
+[7.963s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.966s] -- Added test 'uncrustify' to check C / C++ code style
+[7.966s] -- Configured uncrustify additional arguments: 
+[7.966s] -- Added test 'xmllint' to check XML markup files
+[7.966s] -- Configuring done
+[7.967s] -- Generating done
+[7.967s] -- Build files have been written to: /ros2_ws/build/pendulum_controller
+[7.980s] Invoked command in '/ros2_ws/build/pendulum_controller' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/pendulum/pendulum_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/pendulum_controller
+[7.993s] Invoking command in '/ros2_ws/build/pendulum_controller': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_controller -- -j8 -l8
+[13.685s] [  7%] [32mBuilding CXX object CMakeFiles/pendulum_controller.dir/src/pendulum_controller_node.cpp.o[0m
+[40.768s] [ 15%] [32mBuilding CXX object CMakeFiles/pendulum_controller.dir/src/pendulum_controller.cpp.o[0m
+[42.751s] [ 23%] [32m[1mLinking CXX shared library libpendulum_controller.so[0m
+[43.248s] [ 23%] Built target pendulum_controller
+[43.287s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[61.842s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[61.956s] [ 38%] Built target gtest
+[62.009s] [ 46%] [32mBuilding CXX object CMakeFiles/pendulum_controller_exe.dir/src/pendulum_controller_node_main.cpp.o[0m
+[70.632s] [ 53%] [32m[1mLinking CXX executable pendulum_controller_exe[0m
+[70.906s] [ 53%] Built target pendulum_controller_exe
+[70.934s] [ 61%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[72.562s] [ 69%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[72.630s] [ 69%] Built target gtest_main
+[72.673s] [ 76%] [32mBuilding CXX object CMakeFiles/test_pendulum_controller.dir/test/test_pendulum_controller.cpp.o[0m
+[78.939s] [ 84%] [32m[1mLinking CXX executable test_pendulum_controller[0m
+[79.277s] [ 84%] Built target test_pendulum_controller
+[79.318s] [ 92%] [32mBuilding CXX object CMakeFiles/test_pendulum_controller_node.dir/test/test_pendulum_controller_node.cpp.o[0m
+[91.990s] [100%] [32m[1mLinking CXX executable test_pendulum_controller_node[0m
+[92.434s] [100%] Built target test_pendulum_controller_node
+[92.547s] Invoked command in '/ros2_ws/build/pendulum_controller' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/pendulum_controller -- -j8 -l8
+[92.548s] Invoking command in '/ros2_ws/build/pendulum_controller': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_controller
+[93.845s] -- Install configuration: "Release"
+[93.845s] -- Execute custom install script
+[93.847s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/library_path.sh
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/library_path.dsv
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/include/pendulum_controller/pendulum_controller.hpp
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/include/pendulum_controller/pendulum_controller_node.hpp
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/include/pendulum_controller/visibility_control.hpp
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/params/test.param.yaml
+[93.848s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/ament_index/resource_index/package_run_dependencies/pendulum_controller
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/ament_index/resource_index/parent_prefix_path/pendulum_controller
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/ament_prefix_path.sh
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/ament_prefix_path.dsv
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/path.sh
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/environment/path.dsv
+[93.849s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/local_setup.bash
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/local_setup.sh
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/local_setup.zsh
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/local_setup.dsv
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/package.dsv
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/ament_index/resource_index/packages/pendulum_controller
+[93.850s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/ament_index/resource_index/rclcpp_components/pendulum_controller
+[93.851s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/ament_cmake_export_targets-extras.cmake
+[93.851s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.851s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/pendulum_controllerConfig.cmake
+[93.851s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/pendulum_controllerConfig-version.cmake
+[93.851s] -- Symlinking: /ros2_ws/install/pendulum_controller/share/pendulum_controller/package.xml
+[93.851s] -- Installing: /ros2_ws/install/pendulum_controller/lib/libpendulum_controller.so
+[93.852s] -- Set runtime path of "/ros2_ws/install/pendulum_controller/lib/libpendulum_controller.so" to ""
+[93.852s] -- Installing: /ros2_ws/install/pendulum_controller/lib/pendulum_controller/pendulum_controller_exe
+[93.852s] -- Set runtime path of "/ros2_ws/install/pendulum_controller/lib/pendulum_controller/pendulum_controller_exe" to ""
+[93.852s] -- Installing: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/export_pendulum_controllerExport.cmake
+[93.852s] -- Installing: /ros2_ws/install/pendulum_controller/share/pendulum_controller/cmake/export_pendulum_controllerExport-release.cmake
+[93.867s] Invoked command in '/ros2_ws/build/pendulum_controller' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/pendulum_utils:/ros2_ws/install/pendulum2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/pendulum_utils/lib:/ros2_ws/install/pendulum2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/pendulum2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/pendulum_controller

@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing as2_keyboard_teleoperation.egg-info/PKG-INFO
+writing dependency_links to as2_keyboard_teleoperation.egg-info/dependency_links.txt
+writing requirements to as2_keyboard_teleoperation.egg-info/requires.txt
+writing top-level names to as2_keyboard_teleoperation.egg-info/top_level.txt
+reading manifest file 'as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+writing manifest file 'as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2-keyboard-teleoperation.egg-link (link to .)
+
+Installed /ros2_ws/build/as2_keyboard_teleoperation
+running symlink_data

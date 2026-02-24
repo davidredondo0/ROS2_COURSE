@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target detect_aruco_markers_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 13%] Built target gtest_main
+[ 26%] Built target gtest
+[ 46%] Built target detect_aruco_markers_behavior_node
+[ 66%] Built target point_gimbal_behavior
+[ 86%] Built target point_gimbal_behavior_node
+[35m[1mConsolidate compiler generated dependencies of target point_gimbal_behavior_point_gimbal_gtest[0m
+[100%] Built target point_gimbal_behavior_point_gimbal_gtest
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/detect_aruco_markers_behavior/config/real_params.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/detect_aruco_markers_behavior/config/sim_params.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/detect_aruco_markers_behavior_real_launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/detect_aruco_markers_behavior_sim_launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/include/point_gimbal_behavior/point_gimbal_behavior.hpp
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/launch/point_gimbal_behavior.launch.py
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/point_gimbal_behavior/config/config_default.yaml
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/lib/as2_behaviors_perception/point_gimbal_behavior_node
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/library_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/library_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_perception
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_perception
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/local_setup.dsv
+-- Symlinking: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/ament_index/resource_index/packages/as2_behaviors_perception
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/as2_behaviors_perceptionConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/cmake/as2_behaviors_perceptionConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/as2_behaviors_perception/share/as2_behaviors_perception/package.xml
+-- Up-to-date: /ros2_ws/install/as2_behaviors_perception/lib/libpoint_gimbal_behavior.so

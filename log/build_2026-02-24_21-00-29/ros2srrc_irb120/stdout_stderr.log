@@ -1,0 +1,22 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/config/configurations.yaml
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_egp64.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_egp64v2.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/urdf/irb120_ls_vgr.urdf.xacro
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb120
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb120
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/local_setup.dsv
+-- Symlinking: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ament_index/resource_index/packages/ros2srrc_irb120
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/cmake/ros2srrc_irb120Config.cmake
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/cmake/ros2srrc_irb120Config-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/ros2srrc_irb120/share/ros2srrc_irb120/package.xml

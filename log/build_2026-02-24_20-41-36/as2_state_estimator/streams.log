@@ -1,0 +1,156 @@
+[0.038s] Invoking command in '/ros2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_state_estimator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_state_estimator
+[2.134s] -- The C compiler identification is GNU 11.4.0
+[2.135s] -- The CXX compiler identification is GNU 11.4.0
+[2.135s] -- Detecting C compiler ABI info
+[2.148s] -- Detecting C compiler ABI info - done
+[2.148s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.149s] -- Detecting C compile features
+[2.149s] -- Detecting C compile features - done
+[2.149s] -- Detecting CXX compiler ABI info
+[2.149s] -- Detecting CXX compiler ABI info - done
+[2.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.149s] -- Detecting CXX compile features
+[2.150s] -- Detecting CXX compile features - done
+[2.150s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.150s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.150s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.151s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.151s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.395s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.406s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.499s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.538s] -- Looking for pthread.h
+[2.804s] -- Looking for pthread.h - found
+[2.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.255s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.258s] -- Found Threads: TRUE  
+[3.525s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[3.632s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[3.644s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[3.649s] -- Created GeographicLib::GeographicLib target from legacy variables
+[4.235s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.239s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.240s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.800s] -- Found mocap4r2_msgs: 0.0.6 (/opt/ros/humble/share/mocap4r2_msgs/cmake)
+[4.889s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.901s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.929s] -- Found mocap4r2_msgs: 0.0.6 (/opt/ros/humble/share/mocap4r2_msgs/cmake)
+[5.007s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.010s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.033s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.356s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.377s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.390s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.391s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_state_estimator/include;/ros2_ws/src/aerostack2/as2_state_estimator/include/as2_state_estimator;$<BUILD_INTERFACE:/ros2_ws/src/aerostack2/as2_state_estimator/include>
+[5.391s] -- Configured cppcheck exclude dirs and/or files: 
+[5.409s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.410s] -- Configured cpplint exclude dirs and/or files: 
+[5.410s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.410s] -- Added test 'lint_cmake' to check CMake code style
+[5.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.421s] -- Added test 'uncrustify' to check C / C++ code style
+[5.421s] -- Configured uncrustify additional arguments: 
+[5.423s] -- Added test 'xmllint' to check XML markup files
+[5.428s] -- Configuring done
+[5.687s] -- Generating done
+[5.773s] -- Build files have been written to: /ros2_ws/build/as2_state_estimator
+[5.812s] Invoked command in '/ros2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_state_estimator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_state_estimator
+[5.824s] Invoking command in '/ros2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_state_estimator -- -j8 -l8
+[21.423s] [  4%] [32m[1mLinking CXX shared library libas2_state_estimator_plugin_base.so[0m
+[21.423s] [  4%] Built target as2_state_estimator_plugin_base
+[21.423s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[24.051s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[24.164s] [ 13%] Built target gtest
+[24.206s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[26.545s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.606s] [ 21%] Built target gtest_main
+[26.649s] [ 26%] [32mBuilding CXX object CMakeFiles/as2_state_estimator.dir/src/as2_state_estimator.cpp.o[0m
+[55.236s] [ 30%] [32m[1mLinking CXX shared library libas2_state_estimator.so[0m
+[55.625s] [ 30%] Built target as2_state_estimator
+[55.660s] [ 34%] [32mBuilding CXX object CMakeFiles/as2_state_estimator_node.dir/src/as2_state_estimator_node.cpp.o[0m
+[65.583s] [ 39%] [32m[1mLinking CXX executable as2_state_estimator_node[0m
+[65.861s] [ 39%] Built target as2_state_estimator_node
+[65.890s] [ 43%] [32mBuilding CXX object tests/CMakeFiles/as2_state_estimator_as2_state_estimator_gtest.dir/as2_state_estimator_gtest.cpp.o[0m
+[78.893s] [ 47%] [32m[1mLinking CXX executable as2_state_estimator_as2_state_estimator_gtest[0m
+[79.323s] [ 47%] Built target as2_state_estimator_as2_state_estimator_gtest
+[79.369s] [ 52%] [32mBuilding CXX object plugins/ground_truth_odometry_fuse/CMakeFiles/ground_truth_odometry_fuse.dir/src/ground_truth_odometry_fuse.cpp.o[0m
+[126.549s] [ 56%] [32m[1mLinking CXX shared library libground_truth_odometry_fuse.so[0m
+[127.314s] [ 56%] Built target ground_truth_odometry_fuse
+[127.356s] [ 60%] [32mBuilding CXX object plugins/mocap_pose/CMakeFiles/mocap_pose.dir/src/mocap_pose.cpp.o[0m
+[153.449s] [ 65%] [32m[1mLinking CXX shared library libmocap_pose.so[0m
+[154.093s] [ 65%] Built target mocap_pose
+[154.173s] [ 69%] [32mBuilding CXX object plugins/ground_truth_odometry_fuse/tests/CMakeFiles/as2_state_estimator_ground_truth_odometry_fuse_gtest.dir/ground_truth_odometry_fuse_gtest.cpp.o[0m
+[189.847s] [ 73%] [32m[1mLinking CXX executable as2_state_estimator_ground_truth_odometry_fuse_gtest[0m
+[190.426s] [ 73%] Built target as2_state_estimator_ground_truth_odometry_fuse_gtest
+[190.486s] [ 78%] [32mBuilding CXX object plugins/mocap_pose/tests/CMakeFiles/as2_state_estimator_mocap_gtest.dir/mocap_gtest.cpp.o[0m
+[215.517s] [ 82%] [32m[1mLinking CXX executable as2_state_estimator_mocap_gtest[0m
+[216.224s] [ 82%] Built target as2_state_estimator_mocap_gtest
+[216.272s] [ 86%] [32mBuilding CXX object plugins/ground_truth/CMakeFiles/ground_truth.dir/src/ground_truth.cpp.o[0m
+[262.691s] [ 91%] [32m[1mLinking CXX shared library libground_truth.so[0m
+[263.422s] [ 91%] Built target ground_truth
+[263.463s] [ 95%] [32mBuilding CXX object plugins/raw_odometry/CMakeFiles/raw_odometry.dir/src/raw_odometry.cpp.o[0m
+[324.371s] [100%] [32m[1mLinking CXX shared library libraw_odometry.so[0m
+[325.503s] [100%] Built target raw_odometry
+[325.573s] Invoked command in '/ros2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_state_estimator -- -j8 -l8
+[325.574s] Invoking command in '/ros2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_state_estimator
+[419.439s] -- Install configuration: "Release"
+[419.439s] -- Execute custom install script
+[419.439s] -- Symlinking: /ros2_ws/install/as2_state_estimator/lib/as2_state_estimator/as2_state_estimator_node
+[419.440s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/as2_state_estimator/as2_state_estimator.hpp
+[419.442s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/as2_state_estimator/plugin_base.hpp
+[419.442s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/raw_odometry.hpp
+[419.442s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[419.442s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[419.442s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/ground_truth.hpp
+[419.442s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[419.443s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[419.443s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/mocap_pose.hpp
+[419.443s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[419.443s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[419.443s] -- Symlinking: /ros2_ws/install/as2_state_estimator/include/ground_truth_odometry_fuse.hpp
+[419.443s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[419.444s] -- Up-to-date symlink: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[419.444s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator//plugins.xml
+[419.444s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/raw_odometry/config/plugin_default.yaml
+[419.444s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth/config/plugin_default.yaml
+[419.444s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/mocap_pose/config/plugin_default.yaml
+[419.444s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth_odometry_fuse/config/plugin_default.yaml
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/ground_truth_odometry_fuse_state_estimator.launch.py
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/ground_truth_state_estimator.launch.py
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/mocap_pose_state_estimator.launch.py
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/raw_odometry_state_estimator.launch.py
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/state_estimator_launch.py
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/config/state_estimator_default.yaml
+[419.445s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/ament_index/resource_index/package_run_dependencies/as2_state_estimator
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/ament_index/resource_index/parent_prefix_path/as2_state_estimator
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.sh
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.dsv
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.sh
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.dsv
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.bash
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.sh
+[419.446s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.zsh
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.dsv
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/package.dsv
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/ament_index/resource_index/packages/as2_state_estimator
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/ament_index/resource_index/as2_state_estimator__pluginlib__plugin/as2_state_estimator
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig.cmake
+[419.447s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig-version.cmake
+[419.448s] -- Symlinking: /ros2_ws/install/as2_state_estimator/share/as2_state_estimator/package.xml
+[419.448s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator.so
+[419.448s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator.so" to ""
+[419.448s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so
+[419.448s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so" to ""
+[419.450s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libraw_odometry.so
+[419.450s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libraw_odometry.so" to ""
+[419.450s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libground_truth.so
+[419.450s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libground_truth.so" to ""
+[419.450s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libmocap_pose.so
+[419.450s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libmocap_pose.so" to ""
+[419.451s] -- Installing: /ros2_ws/install/as2_state_estimator/lib/libground_truth_odometry_fuse.so
+[419.451s] -- Set runtime path of "/ros2_ws/install/as2_state_estimator/lib/libground_truth_odometry_fuse.so" to ""
+[419.471s] Invoked command in '/ros2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_state_estimator

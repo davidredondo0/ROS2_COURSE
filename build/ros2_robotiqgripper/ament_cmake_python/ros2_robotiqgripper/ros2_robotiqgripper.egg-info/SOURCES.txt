@@ -4,3 +4,5 @@ ros2_robotiqgripper.egg-info/PKG-INFO
 ros2_robotiqgripper.egg-info/SOURCES.txt
 ros2_robotiqgripper.egg-info/dependency_links.txt
 ros2_robotiqgripper.egg-info/top_level.txt
+ros2_robotiqgripper/srv/__init__.py
+ros2_robotiqgripper/srv/_robotiq_gripper.py

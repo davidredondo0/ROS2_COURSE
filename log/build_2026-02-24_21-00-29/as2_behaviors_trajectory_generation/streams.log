@@ -1,0 +1,64 @@
+[0.052s] Invoking command in '/ros2_ws/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_trajectory_generation -- -j8 -l8
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.320s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.407s] [  2%] Built target gtest
+[0.430s] [  3%] Built target generate-cpp
+[0.431s] [  5%] Built target generate-fortran
+[0.442s] [  7%] Built target gtest_main
+[0.484s] [35m[1mConsolidate compiler generated dependencies of target nlopt[0m
+[0.591s] [ 70%] Built target nlopt
+[0.635s] [35m[1mConsolidate compiler generated dependencies of target mav_trajectory_generation[0m
+[0.714s] [ 84%] Built target mav_trajectory_generation
+[0.733s] [35m[1mConsolidate compiler generated dependencies of target dynamic_trajectory_generator[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target test_polynomial[0m
+[0.770s] [ 87%] Built target test_polynomial
+[0.771s] [ 91%] Built target dynamic_trajectory_generator
+[0.791s] [35m[1mConsolidate compiler generated dependencies of target trajectory_generator_component[0m
+[0.798s] [35m[1mConsolidate compiler generated dependencies of target generate_polynomial_trajectory_behavior_node[0m
+[0.847s] [ 93%] Built target trajectory_generator_component
+[0.852s] [ 97%] Built target generate_polynomial_trajectory_behavior_node
+[0.867s] [35m[1mConsolidate compiler generated dependencies of target as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest[0m
+[0.910s] [100%] Built target as2_behaviors_trajectory_generation_generate_polynomial_trajectory_behavior_gtest
+[1.344s] Invoked command in '/ros2_ws/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_behaviors_trajectory_generation -- -j8 -l8
+[1.346s] Invoking command in '/ros2_ws/build/as2_behaviors_trajectory_generation': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_trajectory_generation
+[1.383s] -- Install configuration: "Release"
+[1.383s] -- Execute custom install script
+[1.384s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/pkgconfig/nlopt.pc
+[1.384s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.h
+[1.385s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.hpp
+[1.385s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/include/nlopt.f
+[1.385s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt.3
+[1.386s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize.3
+[1.386s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/man/man3/nlopt_minimize_constrained.3
+[1.386s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/composable_generate_polynomial_trajectory_behavior.launch.py
+[1.386s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/launch/generate_polynomial_trajectory_behavior_launch.py
+[1.387s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/config/config_default.yaml
+[1.387s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node
+[1.387s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_trajectory_generation
+[1.388s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_trajectory_generation
+[1.388s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.sh
+[1.388s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/ament_prefix_path.dsv
+[1.389s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.sh
+[1.389s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/environment/path.dsv
+[1.389s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.bash
+[1.389s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.sh
+[1.390s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.zsh
+[1.390s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/local_setup.dsv
+[1.390s] -- Symlinking: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.dsv
+[1.390s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/packages/as2_behaviors_trajectory_generation
+[1.390s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/ament_index/resource_index/rclcpp_components/as2_behaviors_trajectory_generation
+[1.391s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.391s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig.cmake
+[1.391s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/cmake/as2_behaviors_trajectory_generationConfig-version.cmake
+[1.391s] -- Up-to-date symlink: /ros2_ws/install/as2_behaviors_trajectory_generation/share/as2_behaviors_trajectory_generation/package.xml
+[1.391s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so
+[1.391s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so
+[1.392s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so
+[1.393s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1
+[1.394s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0
+[1.394s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so
+[1.394s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[1.395s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[1.395s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfig.cmake
+[1.395s] -- Up-to-date: /ros2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[1.417s] Invoked command in '/ros2_ws/build/as2_behaviors_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_motion_reference_handlers:/ros2_ws/install/as2_behavior:/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_motion_reference_handlers/lib:/ros2_ws/install/as2_behavior/lib:/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_behaviors_trajectory_generation

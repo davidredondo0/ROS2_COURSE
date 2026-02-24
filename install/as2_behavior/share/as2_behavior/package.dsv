@@ -1,0 +1,11 @@
+source;share/as2_behavior/hook/cmake_prefix_path.ps1
+source;share/as2_behavior/hook/cmake_prefix_path.dsv
+source;share/as2_behavior/hook/cmake_prefix_path.sh
+source;share/as2_behavior/hook/ld_library_path_lib.ps1
+source;share/as2_behavior/hook/ld_library_path_lib.dsv
+source;share/as2_behavior/hook/ld_library_path_lib.sh
+source;share/as2_behavior/local_setup.bash
+source;share/as2_behavior/local_setup.dsv
+source;share/as2_behavior/local_setup.ps1
+source;share/as2_behavior/local_setup.sh
+source;share/as2_behavior/local_setup.zsh

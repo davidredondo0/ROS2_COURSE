@@ -1,0 +1,1 @@
+ament_cmake;rclcpp;rclcpp_lifecycle;rclcpp_action;std_msgs;nav_msgs;sensor_msgs;as2_msgs;std_srvs;geometry_msgs;geographic_msgs;tf2;tf2_ros;tf2_geometry_msgs;image_transport;cv_bridge;geographiclib;yaml-cpp;eigen;pybind11-dev;ament_lint_auto;ament_lint_common;ament_cmake_gtest

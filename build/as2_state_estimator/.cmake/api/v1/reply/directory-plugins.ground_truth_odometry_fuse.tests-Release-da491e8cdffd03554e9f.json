@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "plugins/ground_truth_odometry_fuse/tests",
+		"source" : "plugins/ground_truth_odometry_fuse/tests"
+	}
+}

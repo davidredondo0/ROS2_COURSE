@@ -1,0 +1,25 @@
+[0.119s] Invoking command in '/ros2_ws/build/ros2srrc_ur3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur3 -- -j8 -l8
+[0.242s] Invoked command in '/ros2_ws/build/ros2srrc_ur3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ros2srrc_ur3 -- -j8 -l8
+[0.244s] Invoking command in '/ros2_ws/build/ros2srrc_ur3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur3
+[0.281s] -- Install configuration: "Release"
+[0.281s] -- Execute custom install script
+[0.282s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/config/configurations.yaml
+[0.282s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/urdf/ur3.urdf.xacro
+[0.284s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/urdf/ur3_robotiq_2f85.urdf.xacro
+[0.285s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/urdf/ur3_robotiq_hande.urdf.xacro
+[0.287s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur3
+[0.288s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur3
+[0.288s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/environment/path.sh
+[0.289s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/environment/path.dsv
+[0.290s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/local_setup.bash
+[0.290s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/local_setup.sh
+[0.291s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/local_setup.zsh
+[0.292s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/local_setup.dsv
+[0.292s] -- Symlinking: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/package.dsv
+[0.293s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ament_index/resource_index/packages/ros2srrc_ur3
+[0.293s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/cmake/ros2srrc_ur3Config.cmake
+[0.293s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/cmake/ros2srrc_ur3Config-version.cmake
+[0.294s] -- Up-to-date symlink: /ros2_ws/install/ros2srrc_ur3/share/ros2srrc_ur3/package.xml
+[0.708s] Invoked command in '/ros2_ws/build/ros2srrc_ur3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ros2srrc_ur3

@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fb572494fca4748dd969.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "plugins/a_star",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins.a_star-Release-f01c82c3eec79fc0209f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "plugins/a_star",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "plugins/voronoi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins.voronoi-Release-90fadb8d4cea99d3c956.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugins/voronoi",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "as2_behaviors_path_planning",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "a_star",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "a_star::@38d8dc5ec8d5c595b526",
+					"jsonFile" : "target-a_star-Release-a7276ac80f48deef9581.json",
+					"name" : "a_star",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_path_planning_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_path_planning_node-Release-8b97026daa607e365fa4.json",
+					"name" : "as2_behaviors_path_planning_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_path_planning_plugin_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_path_planning_plugin_base-Release-990a2e69ccbf3d031b99.json",
+					"name" : "as2_behaviors_path_planning_plugin_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_path_planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_path_planning_uninstall-Release-c6304d71f296fc6c7f7f.json",
+					"name" : "as2_behaviors_path_planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_planner_common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_planner_common-Release-2509ffcd1ce26d6e769f.json",
+					"name" : "path_planner_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_planner_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_planner_component-Release-ef404263a6457a1b656d.json",
+					"name" : "path_planner_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-69dd0dd8f1193ab19d9e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "voronoi::@92e35dd5fe970647dbd3",
+					"jsonFile" : "target-voronoi-Release-ed6fee621869c7a1f88f.json",
+					"name" : "voronoi",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/as2_behaviors_path_planning",
+		"source" : "/ros2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

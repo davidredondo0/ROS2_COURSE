@@ -1,0 +1,1 @@
+/ros2_ws/build/as2_core/ament_cmake_python/as2_core/as2_core.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+TakeoffBehavior;lib/libtakeoff_component.so
+LandBehavior;lib/libland_component.so
+GoToBehavior;lib/libgo_to_component.so
+FollowPathBehavior;lib/libfollow_path_component.so
+FollowReferenceBehavior;lib/libfollow_reference_component.so

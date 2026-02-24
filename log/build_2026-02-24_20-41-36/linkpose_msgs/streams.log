@@ -1,0 +1,203 @@
+[0.048s] Invoking command in '/ros2_ws/build/linkpose_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/IFRA_LinkPose/linkpose_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/linkpose_msgs
+[0.412s] -- The C compiler identification is GNU 11.4.0
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.586s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.745s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.934s] -- Detecting CXX compile features
+[0.934s] -- Detecting CXX compile features - done
+[0.939s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.769s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.032s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.061s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.602s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.463s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.469s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.518s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.518s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.519s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.578s] -- Found PythonExtra: .so  
+[3.651s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.653s] -- Added test 'lint_cmake' to check CMake code style
+[3.655s] -- Added test 'xmllint' to check XML markup files
+[3.667s] -- Configuring done
+[3.721s] -- Generating done
+[3.746s] -- Build files have been written to: /ros2_ws/build/linkpose_msgs
+[3.759s] Invoked command in '/ros2_ws/build/linkpose_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/IFRA_LinkPose/linkpose_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/linkpose_msgs
+[3.760s] Invoking command in '/ros2_ws/build/linkpose_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/linkpose_msgs -- -j8 -l8
+[3.867s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.936s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.981s] [  6%] Built target ament_cmake_python_symlink_linkpose_msgs
+[5.018s] [  6%] Built target linkpose_msgs__cpp
+[5.033s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.041s] [ 12%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkpose_msgs/msg/detail/link_pose__functions.c.o[0m
+[5.085s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.093s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.162s] running egg_info
+[5.165s] creating linkpose_msgs.egg-info
+[5.166s] writing linkpose_msgs.egg-info/PKG-INFO
+[5.166s] writing dependency_links to linkpose_msgs.egg-info/dependency_links.txt
+[5.166s] writing top-level names to linkpose_msgs.egg-info/top_level.txt
+[5.166s] writing manifest file 'linkpose_msgs.egg-info/SOURCES.txt'
+[5.166s] reading manifest file 'linkpose_msgs.egg-info/SOURCES.txt'
+[5.166s] writing manifest file 'linkpose_msgs.egg-info/SOURCES.txt'
+[5.322s] [ 19%] Built target ament_cmake_python_build_linkpose_msgs_egg
+[5.676s] [ 22%] [32m[1mLinking C shared library liblinkpose_msgs__rosidl_generator_c.so[0m
+[5.869s] [ 22%] Built target linkpose_msgs__rosidl_generator_c
+[5.949s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.968s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.974s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.200s] [ 35%] [32mBuilding CXX object CMakeFiles/linkpose_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkpose_msgs/msg/detail/link_pose__type_support.cpp.o[0m
+[6.491s] [ 38%] [32mBuilding CXX object CMakeFiles/linkpose_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkpose_msgs/msg/link_pose__type_support.cpp.o[0m
+[6.703s] [ 41%] [32mBuilding CXX object CMakeFiles/linkpose_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkpose_msgs/msg/detail/dds_fastrtps/link_pose__type_support.cpp.o[0m
+[7.350s] [ 45%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkpose_msgs/msg/detail/link_pose__type_support.c.o[0m
+[7.593s] [ 48%] [32m[1mLinking C shared library liblinkpose_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.677s] [ 51%] [32mBuilding CXX object CMakeFiles/linkpose_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkpose_msgs/msg/link_pose__type_support.cpp.o[0m
+[7.893s] [ 51%] Built target linkpose_msgs__rosidl_typesupport_introspection_c
+[7.909s] [ 54%] [32m[1mLinking CXX shared library liblinkpose_msgs__rosidl_typesupport_c.so[0m
+[8.058s] [ 58%] [32mBuilding CXX object CMakeFiles/linkpose_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkpose_msgs/msg/detail/link_pose__type_support_c.cpp.o[0m
+[8.230s] [ 58%] Built target linkpose_msgs__rosidl_typesupport_c
+[8.661s] [ 61%] [32m[1mLinking CXX shared library liblinkpose_msgs__rosidl_typesupport_cpp.so[0m
+[8.753s] [ 64%] [32m[1mLinking CXX shared library liblinkpose_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.901s] [ 64%] Built target linkpose_msgs__rosidl_typesupport_cpp
+[9.005s] [ 67%] [32m[1mLinking CXX shared library liblinkpose_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.172s] [ 67%] Built target linkpose_msgs__rosidl_typesupport_introspection_cpp
+[9.377s] [ 67%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_cpp
+[10.869s] [ 70%] [32m[1mLinking CXX shared library liblinkpose_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.567s] [ 70%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_c
+[11.856s] [ 70%] Built target linkpose_msgs
+[12.193s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.313s] [ 74%] Built target linkpose_msgs__py
+[15.519s] [ 77%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkpose_msgs/msg/_link_pose_s.c.o[0m
+[16.471s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/liblinkpose_msgs__rosidl_generator_py.so[0m
+[16.650s] [ 80%] Built target linkpose_msgs__rosidl_generator_py
+[16.857s] [ 83%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.881s] [ 87%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.891s] [ 90%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.426s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.722s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.792s] [ 96%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_c__pyext
+[17.974s] [ 96%] Built target linkpose_msgs__rosidl_typesupport_introspection_c__pyext
+[18.013s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.301s] [100%] Built target linkpose_msgs__rosidl_typesupport_c__pyext
+[18.369s] Invoked command in '/ros2_ws/build/linkpose_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/linkpose_msgs -- -j8 -l8
+[18.370s] Invoking command in '/ros2_ws/build/linkpose_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/linkpose_msgs
+[20.505s] -- Install configuration: "Release"
+[20.505s] -- Execute custom install script
+[20.505s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.msg
+[20.505s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/ament_index/resource_index/rosidl_interfaces/linkpose_msgs
+[20.505s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__functions.h
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__struct.h
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__type_support.h
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/link_pose.h
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/library_path.sh
+[20.506s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/library_path.dsv
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_fastrtps_c.h
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_introspection_c.h
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__builder.hpp
+[20.507s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__struct.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__traits.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__type_support.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/link_pose.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[20.508s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_introspection_cpp.hpp
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/pythonpath.sh
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/pythonpath.dsv
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.509s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/__init__.py
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_c.c
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/liblinkpose_msgs__rosidl_generator_py.so
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.510s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.511s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.511s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/__init__.py
+[20.511s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/_link_pose.py
+[20.511s] -- Symlinking: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/_link_pose_s.c
+[20.511s] -- Up-to-date symlink: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.511s] -- Up-to-date symlink: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.512s] -- Up-to-date symlink: /ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.512s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.idl
+[20.512s] -- Up-to-date symlink: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.msg
+[20.512s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/ament_index/resource_index/package_run_dependencies/linkpose_msgs
+[20.512s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/ament_index/resource_index/parent_prefix_path/linkpose_msgs
+[20.512s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/ament_prefix_path.sh
+[20.513s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/ament_prefix_path.dsv
+[20.525s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/path.sh
+[20.605s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/environment/path.dsv
+[20.658s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.bash
+[20.691s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.sh
+[20.747s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.zsh
+[20.791s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.dsv
+[20.864s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/package.dsv
+[20.902s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/ament_index/resource_index/packages/linkpose_msgs
+[20.965s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake-extras.cmake
+[21.029s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.058s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.090s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.135s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.205s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.256s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.315s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgsConfig.cmake
+[21.348s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgsConfig-version.cmake
+[21.372s] -- Symlinking: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/package.xml
+[21.419s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_c.so
+[21.420s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_c.so" to ""
+[21.421s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_c.so
+[21.422s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.423s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_c.so
+[21.424s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.424s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_c.so
+[21.425s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_c.so" to ""
+[21.426s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.427s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.428s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_cpp.so
+[21.429s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.429s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_cpp.so
+[21.431s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_cpp.so" to ""
+[21.596s] Listing '/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs'...
+[21.596s] Compiling '/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/__init__.py'...
+[21.596s] Listing '/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg'...
+[21.597s] Compiling '/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/__init__.py'...
+[21.597s] Compiling '/ros2_ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/_link_pose.py'...
+[21.623s] -- Installing: /ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_py.so
+[21.625s] -- Set runtime path of "/ros2_ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_py.so" to ""
+[21.626s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cExport.cmake
+[21.632s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cExport-release.cmake
+[21.634s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[21.636s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[21.637s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.639s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[21.640s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cExport.cmake
+[21.641s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cExport-release.cmake
+[21.642s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cppExport.cmake
+[21.643s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.643s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[21.644s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.645s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[21.646s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cppExport.cmake
+[21.647s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cppExport-release.cmake
+[21.647s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_pyExport.cmake
+[21.649s] -- Installing: /ros2_ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_pyExport-release.cmake
+[21.672s] Invoked command in '/ros2_ws/build/linkpose_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/linkpose_msgs

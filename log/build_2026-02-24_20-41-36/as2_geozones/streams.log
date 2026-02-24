@@ -1,0 +1,98 @@
+[0.039s] Invoking command in '/ros2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_utilities/as2_geozones -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_geozones
+[3.882s] -- The C compiler identification is GNU 11.4.0
+[3.882s] -- The CXX compiler identification is GNU 11.4.0
+[3.882s] -- Detecting C compiler ABI info
+[3.882s] -- Detecting C compiler ABI info - done
+[3.882s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.883s] -- Detecting C compile features
+[3.883s] -- Detecting C compile features - done
+[3.883s] -- Detecting CXX compiler ABI info
+[3.883s] -- Detecting CXX compiler ABI info - done
+[3.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.884s] -- Detecting CXX compile features
+[3.884s] -- Detecting CXX compile features - done
+[3.884s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.884s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.884s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.885s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[3.885s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.885s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.885s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.886s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.886s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.886s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.889s] -- Looking for pthread.h
+[3.890s] -- Looking for pthread.h - found
+[3.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.890s] -- Found Threads: TRUE  
+[3.890s] -- Found as2_core: 1.1.3 (/ros2_ws/install/as2_core/share/as2_core/cmake)
+[3.891s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[3.891s] -- Created GeographicLib::GeographicLib target from legacy variables
+[3.891s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.891s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.891s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.892s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.892s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.892s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.892s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.893s] -- Configured cppcheck include dirs: /ros2_ws/src/aerostack2/as2_utilities/as2_geozones/include;/ros2_ws/src/aerostack2/as2_utilities/as2_geozones/include/as2_geozones
+[3.893s] -- Configured cppcheck exclude dirs and/or files: /ros2_ws/src/aerostack2/as2_utilities/as2_geozones/include/as2_geozones/pnpoly.hpp
+[3.893s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.893s] -- Configured cpplint exclude dirs and/or files: /ros2_ws/src/aerostack2/as2_utilities/as2_geozones/include/as2_geozones/pnpoly.hpp
+[3.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.894s] -- Added test 'lint_cmake' to check CMake code style
+[3.894s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.894s] -- Added test 'uncrustify' to check C / C++ code style
+[3.894s] -- Configured uncrustify additional arguments: 
+[3.894s] -- Added test 'xmllint' to check XML markup files
+[3.894s] -- Configuring done
+[3.939s] -- Generating done
+[3.976s] -- Build files have been written to: /ros2_ws/build/as2_geozones
+[4.003s] Invoked command in '/ros2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/aerostack2/as2_utilities/as2_geozones -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/as2_geozones
+[4.004s] Invoking command in '/ros2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_geozones -- -j8 -l8
+[4.206s] [  9%] [32mBuilding CXX object CMakeFiles/as2_geozones_node.dir/src/as2_geozones_node.cpp.o[0m
+[4.226s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_geozones_node.dir/src/as2_geozones.cpp.o[0m
+[4.226s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_geozones.dir/src/as2_geozones.cpp.o[0m
+[4.250s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.267s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.001s] [ 54%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.274s] [ 54%] Built target gtest_main
+[71.452s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[71.648s] [ 63%] Built target gtest
+[94.109s] [ 72%] [32m[1mLinking CXX static library libas2_geozones.a[0m
+[94.398s] [ 72%] Built target as2_geozones
+[97.642s] [ 81%] [32m[1mLinking CXX executable as2_geozones_node[0m
+[98.395s] [ 81%] Built target as2_geozones_node
+[98.453s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_geozones_as2_geozones_gtest.dir/as2_geozones_gtest.cpp.o[0m
+[110.337s] [100%] [32m[1mLinking CXX executable as2_geozones_as2_geozones_gtest[0m
+[111.065s] [100%] Built target as2_geozones_as2_geozones_gtest
+[111.089s] Invoked command in '/ros2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/as2_geozones -- -j8 -l8
+[111.107s] Invoking command in '/ros2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_geozones
+[111.140s] -- Install configuration: "Release"
+[111.141s] -- Execute custom install script
+[111.142s] -- Symlinking: /ros2_ws/install/as2_geozones/include/as2_geozones/as2_geozones.hpp
+[111.180s] -- Symlinking: /ros2_ws/install/as2_geozones/include/as2_geozones/pnpoly.hpp
+[111.180s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/launch/as2_geozones_launch.py
+[111.199s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/config/geozones.yaml
+[111.233s] -- Symlinking: /ros2_ws/install/as2_geozones/lib/as2_geozones/as2_geozones_node
+[111.255s] -- Symlinking: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/package_run_dependencies/as2_geozones
+[111.274s] -- Symlinking: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/parent_prefix_path/as2_geozones
+[111.303s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.sh
+[111.334s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.dsv
+[111.357s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/path.sh
+[111.378s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/environment/path.dsv
+[111.399s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.bash
+[111.423s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.sh
+[111.447s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.zsh
+[111.468s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/local_setup.dsv
+[111.485s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/package.dsv
+[111.503s] -- Symlinking: /ros2_ws/install/as2_geozones/share/ament_index/resource_index/packages/as2_geozones
+[111.517s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/ament_cmake_export_dependencies-extras.cmake
+[111.532s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig.cmake
+[111.552s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig-version.cmake
+[111.565s] -- Symlinking: /ros2_ws/install/as2_geozones/share/as2_geozones/package.xml
+[111.578s] -- Installing: /ros2_ws/install/as2_geozones/lib/libas2_geozones.a
+[112.712s] Invoked command in '/ros2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/as2_core:/ros2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/as2_core/lib:/ros2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/as2_core/local/lib/python3.10/dist-packages:/ros2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/as2_geozones

@@ -1,0 +1,76 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/multirotor_simulator-build/pid_controller/libpid_controller.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"/ros2_ws/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "pid_controller::@baf56f7a0ab6ff6c3e24",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "pid_controller",
+	"nameOnDisk" : "libpid_controller.so",
+	"paths" : 
+	{
+		"build" : "_deps/multirotor_simulator-build/pid_controller",
+		"source" : "/ros2_ws/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "/ros2_ws/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller/include/pid_controller/pid.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/ros2_ws/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller/include/pid_controller/pid_1d.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
