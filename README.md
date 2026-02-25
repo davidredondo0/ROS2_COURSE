@@ -21,12 +21,17 @@ git clone https://github.com/davidredondo0/ROS2_COURSE.git
 
 Si no tienes git instalado en el PC, descarga el repositorio en formato zip y extraelo.
 
-### Construir la imagen Docker
+### Construir la imagen Docker (Recomendado)
 
 Ejecuta el siguiente comando por terminal para compilar la imagen Docker:
 
 ```bash
 docker-compose build
+```
+
+### Opcion alternativa, si no quieres compilar la imagen de ubuntu, tambien puedes decargarla ya compilada y cargar en el entorno de docker, pero sigues necesitando todos los archivos del github y compilar el workspace de ros dentro del docker. [Imagen Docker Compilada](https://drive.google.com/file/d/1ZFwlC8itu43aNYRI96lAaJlbVRG5hr8a/view?usp=drive_link)
+```bash
+docker load -i /ruta/a/tu/disco/ros2_curso.tar
 ```
 ### NOTA: Si estas ejecutando el docker en windows, puedes abrir una terminal de powershell e ir al directorio donde has extraido lo que has descargado de github.
 
